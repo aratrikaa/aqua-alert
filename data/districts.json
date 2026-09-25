@@ -1,0 +1,98 @@
+[
+  {
+    "id": "PB_LDH",
+    "name": "Ludhiana",
+    "state": "Punjab",
+    "lat": 30.901,
+    "lon": 75.8573,
+    "risk_profile": "critical"
+  },
+  {
+    "id": "PB_BTD",
+    "name": "Bathinda",
+    "state": "Punjab",
+    "lat": 30.211,
+    "lon": 74.9455,
+    "risk_profile": "critical"
+  },
+  {
+    "id": "PB_SAS",
+    "name": "SAS Nagar",
+    "state": "Punjab",
+    "lat": 30.7046,
+    "lon": 76.7179,
+    "risk_profile": "moderate"
+  },
+  {
+    "id": "PB_AMR",
+    "name": "Amritsar",
+    "state": "Punjab",
+    "lat": 31.634,
+    "lon": 74.8723,
+    "risk_profile": "critical"
+  },
+  {
+    "id": "RJ_JPR",
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "lat": 26.9124,
+    "lon": 75.7873,
+    "risk_profile": "moderate"
+  },
+  {
+    "id": "RJ_JDH",
+    "name": "Jodhpur",
+    "state": "Rajasthan",
+    "lat": 26.2389,
+    "lon": 73.0243,
+    "risk_profile": "critical"
+  },
+  {
+    "id": "RJ_AJM",
+    "name": "Ajmer",
+    "state": "Rajasthan",
+    "lat": 26.4499,
+    "lon": 74.6399,
+    "risk_profile": "moderate"
+  },
+  {
+    "id": "RJ_BKN",
+    "name": "Bikaner",
+    "state": "Rajasthan",
+    "lat": 28.0229,
+    "lon": 73.3119,
+    "risk_profile": "critical"
+  },
+  {
+    "id": "MH_PNE",
+    "name": "Pune",
+    "state": "Maharashtra",
+    "lat": 18.5204,
+    "lon": 73.8567,
+    "risk_profile": "safe"
+  },
+  {
+    "id": "MH_NGP",
+    "name": "Nagpur",
+    "state": "Maharashtra",
+    "lat": 21.1458,
+    "lon": 79.0882,
+    "risk_profile": "safe"
+  },
+  {
+    "id": "MH_LTR",
+    "name": "Latur",
+    "state": "Maharashtra",
+    "lat": 18.4088,
+    "lon": 76.5604,
+    "risk_profile": "moderate"
+  },
+  {
+    "id": "MH_AHM",
+    "name": "Ahmednagar",
+    "state": "Maharashtra",
+    "lat": 19.0952,
+    "lon": 74.7496,
+    "risk_profile": "moderate"
+  }
+]

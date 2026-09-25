@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AquaAlert — Groundwater Depletion Early-Warning System</title>
+  <meta name="description" content="AI-powered groundwater depletion risk classification and early-warning dashboard for Indian districts, powered by XGBoost and SHAP explainability." />
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ── Top Navigation ─────────────────────────────────────────────────── -->
+<header class="navbar" id="main-navbar">
+  <div class="navbar-brand">
+    <div class="brand-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
+        <path d="M12 6v6l4 2"/>
+      </svg>
+    </div>
+    <div class="brand-text">
+      <span class="brand-name">AquaAlert</span>
+      <span class="brand-tagline">Groundwater Early-Warning System</span>
+    </div>
+  </div>
+
+  <nav class="navbar-tabs">
+    <button class="tab-btn active" id="tab-map"     onclick="switchTab('map')">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
+      Map View
+    </button>
+    <button class="tab-btn" id="tab-alerts"  onclick="switchTab('alerts')">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/></svg>
+      Alerts
+      <span class="badge" id="alert-badge">–</span>
+    </button>
+    <button class="tab-btn" id="tab-about"   onclick="switchTab('about')">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4m0-4h.01"/></svg>
+      About
+    </button>
+  </nav>
+
+  <div class="navbar-status">
+    <div class="status-dot" id="status-dot"></div>
+    <span class="status-text" id="status-text">Loading…</span>
+  </div>
+</header>
+
+<!-- ── Main Content ───────────────────────────────────────────────────── -->
+<main class="main-content">
+
+  <!-- MAP TAB -->
+  <section class="tab-panel active" id="panel-map">
+    <div class="map-layout">
+
+      <!-- Left sidebar -->
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+          <h2 class="sidebar-title">Districts</h2>
+          <div class="filter-row">
+            <button class="filter-btn active" data-filter="all"      onclick="filterMarkers('all')">All</button>
+            <button class="filter-btn"        data-filter="Critical"  onclick="filterMarkers('Critical')">Critical</button>
+            <button class="filter-btn"        data-filter="Moderate"  onclick="filterMarkers('Moderate')">Moderate</button>
+            <button class="filter-btn"        data-filter="Safe"      onclick="filterMarkers('Safe')">Safe</button>
+          </div>
+        </div>
+        <div class="district-list" id="district-list">
+          <!-- Populated by JS -->
+        </div>
+      </aside>
+
+      <!-- Map -->
+      <div class="map-wrapper">
+        <div id="map"></div>
+
+        <!-- Legend overlay -->
+        <div class="map-legend">
+          <div class="legend-title">Risk Level</div>
+          <div class="legend-item"><span class="legend-dot critical"></span>Critical</div>
+          <div class="legend-item"><span class="legend-dot moderate"></span>Moderate</div>
+          <div class="legend-item"><span class="legend-dot safe"></span>Safe</div>
+        </div>
+
+        <!-- Stats bar -->
+        <div class="map-stats" id="map-stats">
+          <div class="stat-chip critical"><span id="stat-critical">–</span> Critical</div>
+          <div class="stat-chip moderate"><span id="stat-moderate">–</span> Moderate</div>
+          <div class="stat-chip safe"><span id="stat-safe">–</span> Safe</div>
+          <div class="stat-chip total"><span id="stat-total">–</span> Districts</div>
+        </div>
+      </div>
+
+      <!-- Detail panel (right) -->
+      <aside class="detail-panel" id="detail-panel">
+        <div class="detail-placeholder" id="detail-placeholder">
+          <svg viewBox="0 0 80 80" fill="none">
+            <circle cx="40" cy="40" r="38" stroke="currentColor" stroke-width="1.5" opacity="0.3"/>
+            <path d="M40 20 C28 28 24 36 28 44 C32 52 36 54 40 54 C44 54 48 52 52 44 C56 36 52 28 40 20Z" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+          </svg>
+          <p>Click a district marker<br/>to view its risk analysis</p>
+        </div>
+        <div class="detail-content hidden" id="detail-content">
+          <!-- Populated by JS -->
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ALERTS TAB -->
+  <section class="tab-panel" id="panel-alerts">
+    <div class="alerts-layout">
+      <div class="alerts-header">
+        <div>
+          <h1 class="alerts-title">⚠ Critical Alerts</h1>
+          <p class="alerts-subtitle">Districts at highest groundwater depletion risk, sorted by severity</p>
+        </div>
+        <div class="alerts-meta" id="alerts-meta">–</div>
+      </div>
+      <div class="alerts-grid" id="alerts-grid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT TAB -->
+  <section class="tab-panel" id="panel-about">
+    <div class="about-layout">
+      <div class="about-hero">
+        <h1>How AquaAlert Works</h1>
+        <p>An end-to-end AI pipeline for groundwater risk classification in India</p>
+      </div>
+      <div class="about-grid">
+
+        <div class="about-card">
+          <div class="about-icon" style="background:var(--teal-glow)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"/></svg>
+          </div>
+          <h3>Data Layer</h3>
+          <p>Monthly groundwater depth (mbgl) and rainfall (mm) for 12 districts across Punjab, Rajasthan, and Maharashtra. Data mimics CGWB/IMD seasonal patterns including monsoon recovery cycles (2019–2024).</p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-icon" style="background:var(--amber-glow)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/></svg>
+          </div>
+          <h3>Feature Engineering</h3>
+          <ul>
+            <li>Rainfall lags: 30 / 60 / 90 day</li>
+            <li>Pre-monsoon vs post-monsoon depth</li>
+            <li>Monsoon recharge recovery delta</li>
+            <li>Annual depletion trend (linear slope)</li>
+            <li>Extraction rate proxy (0–1)</li>
+            <li>Current water table depth</li>
+          </ul>
+        </div>
+
+        <div class="about-card">
+          <div class="about-icon" style="background:var(--purple-glow)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+          </div>
+          <h3>ML Classification</h3>
+          <p>Random Forest (baseline) and <strong>XGBoost</strong> classifiers are trained and cross-validated. The best model is selected automatically. Output classes: <span class="tag safe">Safe</span> <span class="tag moderate">Moderate</span> <span class="tag critical">Critical</span></p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-icon" style="background:var(--teal-glow)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"/></svg>
+          </div>
+          <h3>Explainability (SHAP)</h3>
+          <p>TreeSHAP computes per-prediction feature contributions. The top 3 driving factors are surfaced in plain language — e.g. <em>"Flagged Critical due to rapid annual depletion trend, severe pre-monsoon water table drop, and high groundwater extraction."</em></p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-icon" style="background:var(--amber-glow)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3>Connecting Real Data</h3>
+          <p>Replace <code>data/groundwater_timeseries.csv</code> with CGWB dynamic groundwater level data and IMD gridded rainfall in the same schema. Delete <code>model/aqua_model.joblib</code> to trigger re-training. See the README for details.</p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-icon" style="background:var(--purple-glow)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Tech Stack</h3>
+          <ul>
+            <li>Backend: Python · Flask</li>
+            <li>ML: scikit-learn · XGBoost</li>
+            <li>Explainability: SHAP</li>
+            <li>Maps: Leaflet.js</li>
+            <li>Charts: Chart.js</li>
+            <li>Fonts: Inter (Google Fonts)</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

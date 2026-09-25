@@ -1,0 +1,39 @@
+# ── Python ──────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ── Virtual environments ────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── Trained model binaries (auto-regenerated on first run) ──────
+model/aqua_model.joblib
+model/label_encoder.joblib
+
+# ── Auto-generated data (also regenerated on first run) ─────────
+# Uncomment the lines below if you want a truly clean repo.
+# Keep them commented to make the repo demo-ready out of the box.
+# data/groundwater_timeseries.csv
+# data/districts.json
+
+# ── OS / Editor ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Jupyter (if used for experimentation) ───────────────────────
+.ipynb_checkpoints/
+
+# ── Logs ────────────────────────────────────────────────────────
+*.log
