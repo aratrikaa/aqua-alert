@@ -1,865 +1,2161 @@
 date,district_id,district_name,state,water_depth_mbgl,rainfall_mm,extraction_rate
-2019-01-01,PB_LDH,Ludhiana,Punjab,17.461,5.21,0.85
-2019-02-01,PB_LDH,Ludhiana,Punjab,17.919,4.27,0.85
-2019-03-01,PB_LDH,Ludhiana,Punjab,17.401,1.46,0.85
-2019-04-01,PB_LDH,Ludhiana,Punjab,18.691,4.43,0.85
-2019-05-01,PB_LDH,Ludhiana,Punjab,18.515,2.71,0.85
-2019-06-01,PB_LDH,Ludhiana,Punjab,18.086,30.1,0.85
-2019-07-01,PB_LDH,Ludhiana,Punjab,16.932,114.01,0.85
-2019-08-01,PB_LDH,Ludhiana,Punjab,17.179,175.62,0.85
-2019-09-01,PB_LDH,Ludhiana,Punjab,17.572,81.21,0.85
-2019-10-01,PB_LDH,Ludhiana,Punjab,18.007,18.93,0.85
-2019-11-01,PB_LDH,Ludhiana,Punjab,17.974,20.21,0.85
-2019-12-01,PB_LDH,Ludhiana,Punjab,18.963,9.96,0.85
-2020-01-01,PB_LDH,Ludhiana,Punjab,18.447,4.67,0.85
-2020-02-01,PB_LDH,Ludhiana,Punjab,19.821,5.41,0.85
-2020-03-01,PB_LDH,Ludhiana,Punjab,19.064,5.28,0.85
-2020-04-01,PB_LDH,Ludhiana,Punjab,19.558,6.79,0.85
-2020-05-01,PB_LDH,Ludhiana,Punjab,18.998,10.86,0.85
-2020-06-01,PB_LDH,Ludhiana,Punjab,19.403,77.54,0.85
-2020-07-01,PB_LDH,Ludhiana,Punjab,16.674,157.19,0.85
-2020-08-01,PB_LDH,Ludhiana,Punjab,18.27,140.71,0.85
-2020-09-01,PB_LDH,Ludhiana,Punjab,17.438,47.33,0.85
-2020-10-01,PB_LDH,Ludhiana,Punjab,18.942,29.57,0.85
-2020-11-01,PB_LDH,Ludhiana,Punjab,18.911,10.25,0.85
-2020-12-01,PB_LDH,Ludhiana,Punjab,19.453,9.61,0.85
-2021-01-01,PB_LDH,Ludhiana,Punjab,20.865,3.56,0.85
-2021-02-01,PB_LDH,Ludhiana,Punjab,20.133,5.68,0.85
-2021-03-01,PB_LDH,Ludhiana,Punjab,20.243,5.54,0.85
-2021-04-01,PB_LDH,Ludhiana,Punjab,20.131,3.77,0.85
-2021-05-01,PB_LDH,Ludhiana,Punjab,20.194,6.57,0.85
-2021-06-01,PB_LDH,Ludhiana,Punjab,21.077,43.18,0.85
-2021-07-01,PB_LDH,Ludhiana,Punjab,19.238,112.22,0.85
-2021-08-01,PB_LDH,Ludhiana,Punjab,19.006,117.18,0.85
-2021-09-01,PB_LDH,Ludhiana,Punjab,19.148,65.22,0.85
-2021-10-01,PB_LDH,Ludhiana,Punjab,19.844,29.95,0.85
-2021-11-01,PB_LDH,Ludhiana,Punjab,21.426,17.85,0.85
-2021-12-01,PB_LDH,Ludhiana,Punjab,20.271,7.82,0.85
-2022-01-01,PB_LDH,Ludhiana,Punjab,20.813,5.34,0.85
-2022-02-01,PB_LDH,Ludhiana,Punjab,21.044,3.04,0.85
-2022-03-01,PB_LDH,Ludhiana,Punjab,21.819,4.94,0.85
-2022-04-01,PB_LDH,Ludhiana,Punjab,21.813,6.31,0.85
-2022-05-01,PB_LDH,Ludhiana,Punjab,21.742,13.08,0.85
-2022-06-01,PB_LDH,Ludhiana,Punjab,21.636,66.11,0.85
-2022-07-01,PB_LDH,Ludhiana,Punjab,20.677,112.42,0.85
-2022-08-01,PB_LDH,Ludhiana,Punjab,20.373,121.68,0.85
-2022-09-01,PB_LDH,Ludhiana,Punjab,20.123,47.93,0.85
-2022-10-01,PB_LDH,Ludhiana,Punjab,20.559,32.2,0.85
-2022-11-01,PB_LDH,Ludhiana,Punjab,21.059,11.43,0.85
-2022-12-01,PB_LDH,Ludhiana,Punjab,22.594,8.38,0.85
-2023-01-01,PB_LDH,Ludhiana,Punjab,21.808,4.11,0.85
-2023-02-01,PB_LDH,Ludhiana,Punjab,23.053,4.77,0.85
-2023-03-01,PB_LDH,Ludhiana,Punjab,23.15,3.88,0.85
-2023-04-01,PB_LDH,Ludhiana,Punjab,22.477,4.87,0.85
-2023-05-01,PB_LDH,Ludhiana,Punjab,23.507,8.61,0.85
-2023-06-01,PB_LDH,Ludhiana,Punjab,21.94,52.28,0.85
-2023-07-01,PB_LDH,Ludhiana,Punjab,22.011,110.41,0.85
-2023-08-01,PB_LDH,Ludhiana,Punjab,22.005,73.13,0.85
-2023-09-01,PB_LDH,Ludhiana,Punjab,21.436,48.66,0.85
-2023-10-01,PB_LDH,Ludhiana,Punjab,21.722,22.12,0.85
-2023-11-01,PB_LDH,Ludhiana,Punjab,23.848,13.57,0.85
-2023-12-01,PB_LDH,Ludhiana,Punjab,23.882,10.96,0.85
-2024-01-01,PB_LDH,Ludhiana,Punjab,23.558,4.13,0.85
-2024-02-01,PB_LDH,Ludhiana,Punjab,22.641,2.48,0.85
-2024-03-01,PB_LDH,Ludhiana,Punjab,24.465,5.81,0.85
-2024-04-01,PB_LDH,Ludhiana,Punjab,24.249,5.15,0.85
-2024-05-01,PB_LDH,Ludhiana,Punjab,24.699,7.19,0.85
-2024-06-01,PB_LDH,Ludhiana,Punjab,23.431,48.72,0.85
-2024-07-01,PB_LDH,Ludhiana,Punjab,22.328,112.29,0.85
-2024-08-01,PB_LDH,Ludhiana,Punjab,23.147,70.38,0.85
-2024-09-01,PB_LDH,Ludhiana,Punjab,23.603,57.08,0.85
-2024-10-01,PB_LDH,Ludhiana,Punjab,25.307,28.79,0.85
-2024-11-01,PB_LDH,Ludhiana,Punjab,23.771,8.65,0.85
-2024-12-01,PB_LDH,Ludhiana,Punjab,24.68,8.01,0.85
-2019-01-01,PB_BTD,Bathinda,Punjab,17.492,4.73,0.85
-2019-02-01,PB_BTD,Bathinda,Punjab,18.168,5.02,0.85
-2019-03-01,PB_BTD,Bathinda,Punjab,17.497,5.49,0.85
-2019-04-01,PB_BTD,Bathinda,Punjab,17.971,4.99,0.85
-2019-05-01,PB_BTD,Bathinda,Punjab,18.888,8.0,0.85
-2019-06-01,PB_BTD,Bathinda,Punjab,17.767,29.05,0.85
-2019-07-01,PB_BTD,Bathinda,Punjab,16.935,110.82,0.85
-2019-08-01,PB_BTD,Bathinda,Punjab,16.987,177.09,0.85
-2019-09-01,PB_BTD,Bathinda,Punjab,17.543,56.57,0.85
-2019-10-01,PB_BTD,Bathinda,Punjab,17.993,26.14,0.85
-2019-11-01,PB_BTD,Bathinda,Punjab,18.413,10.13,0.85
-2019-12-01,PB_BTD,Bathinda,Punjab,17.965,7.52,0.85
-2020-01-01,PB_BTD,Bathinda,Punjab,17.846,4.36,0.85
-2020-02-01,PB_BTD,Bathinda,Punjab,19.134,3.91,0.85
-2020-03-01,PB_BTD,Bathinda,Punjab,19.266,2.6,0.85
-2020-04-01,PB_BTD,Bathinda,Punjab,19.915,4.1,0.85
-2020-05-01,PB_BTD,Bathinda,Punjab,20.468,10.4,0.85
-2020-06-01,PB_BTD,Bathinda,Punjab,19.432,51.61,0.85
-2020-07-01,PB_BTD,Bathinda,Punjab,17.928,145.45,0.85
-2020-08-01,PB_BTD,Bathinda,Punjab,18.409,103.11,0.85
-2020-09-01,PB_BTD,Bathinda,Punjab,18.783,70.47,0.85
-2020-10-01,PB_BTD,Bathinda,Punjab,19.135,22.74,0.85
-2020-11-01,PB_BTD,Bathinda,Punjab,19.847,11.1,0.85
-2020-12-01,PB_BTD,Bathinda,Punjab,20.354,6.3,0.85
-2021-01-01,PB_BTD,Bathinda,Punjab,20.325,4.26,0.85
-2021-02-01,PB_BTD,Bathinda,Punjab,20.086,3.19,0.85
-2021-03-01,PB_BTD,Bathinda,Punjab,21.001,5.08,0.85
-2021-04-01,PB_BTD,Bathinda,Punjab,21.756,3.79,0.85
-2021-05-01,PB_BTD,Bathinda,Punjab,21.083,8.41,0.85
-2021-06-01,PB_BTD,Bathinda,Punjab,20.638,54.88,0.85
-2021-07-01,PB_BTD,Bathinda,Punjab,18.678,58.67,0.85
-2021-08-01,PB_BTD,Bathinda,Punjab,18.74,115.65,0.85
-2021-09-01,PB_BTD,Bathinda,Punjab,19.411,63.1,0.85
-2021-10-01,PB_BTD,Bathinda,Punjab,20.473,18.85,0.85
-2021-11-01,PB_BTD,Bathinda,Punjab,21.531,14.59,0.85
-2021-12-01,PB_BTD,Bathinda,Punjab,20.928,9.25,0.85
-2022-01-01,PB_BTD,Bathinda,Punjab,21.084,5.44,0.85
-2022-02-01,PB_BTD,Bathinda,Punjab,21.03,5.82,0.85
-2022-03-01,PB_BTD,Bathinda,Punjab,21.242,5.77,0.85
-2022-04-01,PB_BTD,Bathinda,Punjab,21.694,5.64,0.85
-2022-05-01,PB_BTD,Bathinda,Punjab,22.208,9.8,0.85
-2022-06-01,PB_BTD,Bathinda,Punjab,20.843,70.01,0.85
-2022-07-01,PB_BTD,Bathinda,Punjab,20.378,124.82,0.85
-2022-08-01,PB_BTD,Bathinda,Punjab,20.846,49.96,0.85
-2022-09-01,PB_BTD,Bathinda,Punjab,20.981,71.78,0.85
-2022-10-01,PB_BTD,Bathinda,Punjab,20.709,19.37,0.85
-2022-11-01,PB_BTD,Bathinda,Punjab,22.49,16.84,0.85
-2022-12-01,PB_BTD,Bathinda,Punjab,22.896,5.89,0.85
-2023-01-01,PB_BTD,Bathinda,Punjab,22.86,5.34,0.85
-2023-02-01,PB_BTD,Bathinda,Punjab,22.586,3.71,0.85
-2023-03-01,PB_BTD,Bathinda,Punjab,22.919,6.62,0.85
-2023-04-01,PB_BTD,Bathinda,Punjab,22.61,5.18,0.85
-2023-05-01,PB_BTD,Bathinda,Punjab,23.476,10.86,0.85
-2023-06-01,PB_BTD,Bathinda,Punjab,23.76,65.57,0.85
-2023-07-01,PB_BTD,Bathinda,Punjab,21.493,136.83,0.85
-2023-08-01,PB_BTD,Bathinda,Punjab,22.485,169.65,0.85
-2023-09-01,PB_BTD,Bathinda,Punjab,22.545,49.09,0.85
-2023-10-01,PB_BTD,Bathinda,Punjab,23.399,25.18,0.85
-2023-11-01,PB_BTD,Bathinda,Punjab,22.924,13.14,0.85
-2023-12-01,PB_BTD,Bathinda,Punjab,24.148,8.69,0.85
-2024-01-01,PB_BTD,Bathinda,Punjab,23.457,5.73,0.85
-2024-02-01,PB_BTD,Bathinda,Punjab,23.375,5.44,0.85
-2024-03-01,PB_BTD,Bathinda,Punjab,24.534,4.67,0.85
-2024-04-01,PB_BTD,Bathinda,Punjab,24.497,4.89,0.85
-2024-05-01,PB_BTD,Bathinda,Punjab,24.625,10.69,0.85
-2024-06-01,PB_BTD,Bathinda,Punjab,24.081,48.49,0.85
-2024-07-01,PB_BTD,Bathinda,Punjab,22.37,143.83,0.85
-2024-08-01,PB_BTD,Bathinda,Punjab,23.199,133.51,0.85
-2024-09-01,PB_BTD,Bathinda,Punjab,22.908,52.45,0.85
-2024-10-01,PB_BTD,Bathinda,Punjab,23.974,23.04,0.85
-2024-11-01,PB_BTD,Bathinda,Punjab,23.0,20.31,0.85
-2024-12-01,PB_BTD,Bathinda,Punjab,24.648,10.16,0.85
-2019-01-01,PB_SAS,SAS Nagar,Punjab,9.094,5.28,0.55
-2019-02-01,PB_SAS,SAS Nagar,Punjab,10.15,4.87,0.55
-2019-03-01,PB_SAS,SAS Nagar,Punjab,9.609,10.02,0.55
-2019-04-01,PB_SAS,SAS Nagar,Punjab,10.015,4.42,0.55
-2019-05-01,PB_SAS,SAS Nagar,Punjab,9.746,14.83,0.55
-2019-06-01,PB_SAS,SAS Nagar,Punjab,9.479,83.0,0.55
-2019-07-01,PB_SAS,SAS Nagar,Punjab,8.788,125.81,0.55
-2019-08-01,PB_SAS,SAS Nagar,Punjab,7.409,215.92,0.55
-2019-09-01,PB_SAS,SAS Nagar,Punjab,8.895,135.13,0.55
-2019-10-01,PB_SAS,SAS Nagar,Punjab,9.337,33.42,0.55
-2019-11-01,PB_SAS,SAS Nagar,Punjab,10.009,20.27,0.55
-2019-12-01,PB_SAS,SAS Nagar,Punjab,9.558,13.82,0.55
-2020-01-01,PB_SAS,SAS Nagar,Punjab,9.432,4.17,0.55
-2020-02-01,PB_SAS,SAS Nagar,Punjab,10.727,6.75,0.55
-2020-03-01,PB_SAS,SAS Nagar,Punjab,10.621,6.67,0.55
-2020-04-01,PB_SAS,SAS Nagar,Punjab,10.389,7.72,0.55
-2020-05-01,PB_SAS,SAS Nagar,Punjab,10.072,13.56,0.55
-2020-06-01,PB_SAS,SAS Nagar,Punjab,10.059,59.95,0.55
-2020-07-01,PB_SAS,SAS Nagar,Punjab,8.618,259.71,0.55
-2020-08-01,PB_SAS,SAS Nagar,Punjab,8.605,198.68,0.55
-2020-09-01,PB_SAS,SAS Nagar,Punjab,8.576,99.06,0.55
-2020-10-01,PB_SAS,SAS Nagar,Punjab,9.499,37.23,0.55
-2020-11-01,PB_SAS,SAS Nagar,Punjab,10.043,23.52,0.55
-2020-12-01,PB_SAS,SAS Nagar,Punjab,10.093,19.47,0.55
-2021-01-01,PB_SAS,SAS Nagar,Punjab,10.684,7.76,0.55
-2021-02-01,PB_SAS,SAS Nagar,Punjab,10.026,3.51,0.55
-2021-03-01,PB_SAS,SAS Nagar,Punjab,10.869,5.35,0.55
-2021-04-01,PB_SAS,SAS Nagar,Punjab,11.288,8.77,0.55
-2021-05-01,PB_SAS,SAS Nagar,Punjab,10.476,8.15,0.55
-2021-06-01,PB_SAS,SAS Nagar,Punjab,10.848,74.37,0.55
-2021-07-01,PB_SAS,SAS Nagar,Punjab,9.694,182.08,0.55
-2021-08-01,PB_SAS,SAS Nagar,Punjab,8.61,167.73,0.55
-2021-09-01,PB_SAS,SAS Nagar,Punjab,9.076,86.07,0.55
-2021-10-01,PB_SAS,SAS Nagar,Punjab,10.149,32.58,0.55
-2021-11-01,PB_SAS,SAS Nagar,Punjab,10.714,20.92,0.55
-2021-12-01,PB_SAS,SAS Nagar,Punjab,10.604,11.78,0.55
-2022-01-01,PB_SAS,SAS Nagar,Punjab,10.535,6.8,0.55
-2022-02-01,PB_SAS,SAS Nagar,Punjab,11.511,4.6,0.55
-2022-03-01,PB_SAS,SAS Nagar,Punjab,11.918,6.11,0.55
-2022-04-01,PB_SAS,SAS Nagar,Punjab,11.182,5.99,0.55
-2022-05-01,PB_SAS,SAS Nagar,Punjab,11.263,10.18,0.55
-2022-06-01,PB_SAS,SAS Nagar,Punjab,10.641,62.6,0.55
-2022-07-01,PB_SAS,SAS Nagar,Punjab,9.913,279.78,0.55
-2022-08-01,PB_SAS,SAS Nagar,Punjab,9.227,177.19,0.55
-2022-09-01,PB_SAS,SAS Nagar,Punjab,10.073,113.61,0.55
-2022-10-01,PB_SAS,SAS Nagar,Punjab,10.454,24.94,0.55
-2022-11-01,PB_SAS,SAS Nagar,Punjab,11.528,26.35,0.55
-2022-12-01,PB_SAS,SAS Nagar,Punjab,10.546,16.74,0.55
-2023-01-01,PB_SAS,SAS Nagar,Punjab,11.362,7.35,0.55
-2023-02-01,PB_SAS,SAS Nagar,Punjab,10.985,10.43,0.55
-2023-03-01,PB_SAS,SAS Nagar,Punjab,12.267,2.72,0.55
-2023-04-01,PB_SAS,SAS Nagar,Punjab,12.156,8.63,0.55
-2023-05-01,PB_SAS,SAS Nagar,Punjab,11.827,17.55,0.55
-2023-06-01,PB_SAS,SAS Nagar,Punjab,11.516,55.71,0.55
-2023-07-01,PB_SAS,SAS Nagar,Punjab,10.398,105.16,0.55
-2023-08-01,PB_SAS,SAS Nagar,Punjab,9.614,207.32,0.55
-2023-09-01,PB_SAS,SAS Nagar,Punjab,9.88,78.46,0.55
-2023-10-01,PB_SAS,SAS Nagar,Punjab,10.542,34.62,0.55
-2023-11-01,PB_SAS,SAS Nagar,Punjab,11.781,24.64,0.55
-2023-12-01,PB_SAS,SAS Nagar,Punjab,11.792,10.37,0.55
-2024-01-01,PB_SAS,SAS Nagar,Punjab,11.715,5.95,0.55
-2024-02-01,PB_SAS,SAS Nagar,Punjab,11.867,6.23,0.55
-2024-03-01,PB_SAS,SAS Nagar,Punjab,11.89,9.84,0.55
-2024-04-01,PB_SAS,SAS Nagar,Punjab,12.433,5.99,0.55
-2024-05-01,PB_SAS,SAS Nagar,Punjab,12.16,18.69,0.55
-2024-06-01,PB_SAS,SAS Nagar,Punjab,11.649,95.24,0.55
-2024-07-01,PB_SAS,SAS Nagar,Punjab,9.973,274.57,0.55
-2024-08-01,PB_SAS,SAS Nagar,Punjab,11.269,245.21,0.55
-2024-09-01,PB_SAS,SAS Nagar,Punjab,10.643,95.18,0.55
-2024-10-01,PB_SAS,SAS Nagar,Punjab,10.864,33.15,0.55
-2024-11-01,PB_SAS,SAS Nagar,Punjab,11.593,14.45,0.55
-2024-12-01,PB_SAS,SAS Nagar,Punjab,12.32,16.28,0.55
-2019-01-01,PB_AMR,Amritsar,Punjab,16.934,5.13,0.85
-2019-02-01,PB_AMR,Amritsar,Punjab,17.727,5.38,0.85
-2019-03-01,PB_AMR,Amritsar,Punjab,17.237,4.68,0.85
-2019-04-01,PB_AMR,Amritsar,Punjab,18.261,4.02,0.85
-2019-05-01,PB_AMR,Amritsar,Punjab,17.977,10.43,0.85
-2019-06-01,PB_AMR,Amritsar,Punjab,18.011,69.73,0.85
-2019-07-01,PB_AMR,Amritsar,Punjab,17.803,87.19,0.85
-2019-08-01,PB_AMR,Amritsar,Punjab,17.157,112.66,0.85
-2019-09-01,PB_AMR,Amritsar,Punjab,16.928,37.08,0.85
-2019-10-01,PB_AMR,Amritsar,Punjab,18.153,23.99,0.85
-2019-11-01,PB_AMR,Amritsar,Punjab,18.367,11.55,0.85
-2019-12-01,PB_AMR,Amritsar,Punjab,18.627,10.47,0.85
-2020-01-01,PB_AMR,Amritsar,Punjab,18.217,4.42,0.85
-2020-02-01,PB_AMR,Amritsar,Punjab,19.255,5.0,0.85
-2020-03-01,PB_AMR,Amritsar,Punjab,19.308,5.93,0.85
-2020-04-01,PB_AMR,Amritsar,Punjab,19.347,4.25,0.85
-2020-05-01,PB_AMR,Amritsar,Punjab,19.682,11.71,0.85
-2020-06-01,PB_AMR,Amritsar,Punjab,18.792,42.28,0.85
-2020-07-01,PB_AMR,Amritsar,Punjab,17.853,163.62,0.85
-2020-08-01,PB_AMR,Amritsar,Punjab,19.036,98.02,0.85
-2020-09-01,PB_AMR,Amritsar,Punjab,19.522,59.9,0.85
-2020-10-01,PB_AMR,Amritsar,Punjab,18.759,14.25,0.85
-2020-11-01,PB_AMR,Amritsar,Punjab,19.825,14.3,0.85
-2020-12-01,PB_AMR,Amritsar,Punjab,20.004,9.74,0.85
-2021-01-01,PB_AMR,Amritsar,Punjab,20.806,5.19,0.85
-2021-02-01,PB_AMR,Amritsar,Punjab,19.677,3.28,0.85
-2021-03-01,PB_AMR,Amritsar,Punjab,19.442,5.2,0.85
-2021-04-01,PB_AMR,Amritsar,Punjab,20.824,4.32,0.85
-2021-05-01,PB_AMR,Amritsar,Punjab,20.18,11.73,0.85
-2021-06-01,PB_AMR,Amritsar,Punjab,20.925,36.44,0.85
-2021-07-01,PB_AMR,Amritsar,Punjab,18.91,77.05,0.85
-2021-08-01,PB_AMR,Amritsar,Punjab,18.497,141.0,0.85
-2021-09-01,PB_AMR,Amritsar,Punjab,19.91,45.09,0.85
-2021-10-01,PB_AMR,Amritsar,Punjab,20.22,27.06,0.85
-2021-11-01,PB_AMR,Amritsar,Punjab,20.158,21.55,0.85
-2021-12-01,PB_AMR,Amritsar,Punjab,21.449,6.75,0.85
-2022-01-01,PB_AMR,Amritsar,Punjab,21.631,4.48,0.85
-2022-02-01,PB_AMR,Amritsar,Punjab,20.648,3.69,0.85
-2022-03-01,PB_AMR,Amritsar,Punjab,21.834,6.17,0.85
-2022-04-01,PB_AMR,Amritsar,Punjab,22.689,4.53,0.85
-2022-05-01,PB_AMR,Amritsar,Punjab,21.807,6.12,0.85
-2022-06-01,PB_AMR,Amritsar,Punjab,20.619,28.37,0.85
-2022-07-01,PB_AMR,Amritsar,Punjab,20.273,97.18,0.85
-2022-08-01,PB_AMR,Amritsar,Punjab,19.83,154.8,0.85
-2022-09-01,PB_AMR,Amritsar,Punjab,20.601,49.17,0.85
-2022-10-01,PB_AMR,Amritsar,Punjab,21.617,19.78,0.85
-2022-11-01,PB_AMR,Amritsar,Punjab,22.86,15.69,0.85
-2022-12-01,PB_AMR,Amritsar,Punjab,22.941,9.04,0.85
-2023-01-01,PB_AMR,Amritsar,Punjab,22.622,5.03,0.85
-2023-02-01,PB_AMR,Amritsar,Punjab,22.235,3.4,0.85
-2023-03-01,PB_AMR,Amritsar,Punjab,23.382,2.23,0.85
-2023-04-01,PB_AMR,Amritsar,Punjab,22.912,7.04,0.85
-2023-05-01,PB_AMR,Amritsar,Punjab,23.4,5.57,0.85
-2023-06-01,PB_AMR,Amritsar,Punjab,22.489,39.48,0.85
-2023-07-01,PB_AMR,Amritsar,Punjab,21.841,136.06,0.85
-2023-08-01,PB_AMR,Amritsar,Punjab,21.906,141.05,0.85
-2023-09-01,PB_AMR,Amritsar,Punjab,22.184,53.39,0.85
-2023-10-01,PB_AMR,Amritsar,Punjab,23.023,23.0,0.85
-2023-11-01,PB_AMR,Amritsar,Punjab,22.945,14.13,0.85
-2023-12-01,PB_AMR,Amritsar,Punjab,23.055,6.33,0.85
-2024-01-01,PB_AMR,Amritsar,Punjab,23.684,3.31,0.85
-2024-02-01,PB_AMR,Amritsar,Punjab,24.282,3.06,0.85
-2024-03-01,PB_AMR,Amritsar,Punjab,24.598,3.77,0.85
-2024-04-01,PB_AMR,Amritsar,Punjab,23.443,4.16,0.85
-2024-05-01,PB_AMR,Amritsar,Punjab,24.36,6.04,0.85
-2024-06-01,PB_AMR,Amritsar,Punjab,23.832,58.21,0.85
-2024-07-01,PB_AMR,Amritsar,Punjab,22.795,134.58,0.85
-2024-08-01,PB_AMR,Amritsar,Punjab,22.506,101.55,0.85
-2024-09-01,PB_AMR,Amritsar,Punjab,23.536,75.99,0.85
-2024-10-01,PB_AMR,Amritsar,Punjab,23.221,19.6,0.85
-2024-11-01,PB_AMR,Amritsar,Punjab,24.453,9.99,0.85
-2024-12-01,PB_AMR,Amritsar,Punjab,24.512,7.45,0.85
-2019-01-01,RJ_JPR,Jaipur,Rajasthan,9.487,6.01,0.55
-2019-02-01,RJ_JPR,Jaipur,Rajasthan,9.32,9.51,0.55
-2019-03-01,RJ_JPR,Jaipur,Rajasthan,8.849,8.67,0.55
-2019-04-01,RJ_JPR,Jaipur,Rajasthan,10.35,7.38,0.55
-2019-05-01,RJ_JPR,Jaipur,Rajasthan,9.89,10.51,0.55
-2019-06-01,RJ_JPR,Jaipur,Rajasthan,8.953,63.12,0.55
-2019-07-01,RJ_JPR,Jaipur,Rajasthan,8.03,199.05,0.55
-2019-08-01,RJ_JPR,Jaipur,Rajasthan,7.253,231.87,0.55
-2019-09-01,RJ_JPR,Jaipur,Rajasthan,7.657,76.44,0.55
-2019-10-01,RJ_JPR,Jaipur,Rajasthan,8.678,42.27,0.55
-2019-11-01,RJ_JPR,Jaipur,Rajasthan,9.641,24.7,0.55
-2019-12-01,RJ_JPR,Jaipur,Rajasthan,10.003,17.32,0.55
-2020-01-01,RJ_JPR,Jaipur,Rajasthan,9.728,8.89,0.55
-2020-02-01,RJ_JPR,Jaipur,Rajasthan,10.023,7.69,0.55
-2020-03-01,RJ_JPR,Jaipur,Rajasthan,10.12,6.54,0.55
-2020-04-01,RJ_JPR,Jaipur,Rajasthan,10.878,6.94,0.55
-2020-05-01,RJ_JPR,Jaipur,Rajasthan,11.157,16.13,0.55
-2020-06-01,RJ_JPR,Jaipur,Rajasthan,9.776,68.22,0.55
-2020-07-01,RJ_JPR,Jaipur,Rajasthan,8.263,213.2,0.55
-2020-08-01,RJ_JPR,Jaipur,Rajasthan,8.407,295.81,0.55
-2020-09-01,RJ_JPR,Jaipur,Rajasthan,9.316,110.7,0.55
-2020-10-01,RJ_JPR,Jaipur,Rajasthan,10.019,55.4,0.55
-2020-11-01,RJ_JPR,Jaipur,Rajasthan,9.813,23.76,0.55
-2020-12-01,RJ_JPR,Jaipur,Rajasthan,10.28,14.45,0.55
-2021-01-01,RJ_JPR,Jaipur,Rajasthan,9.623,4.3,0.55
-2021-02-01,RJ_JPR,Jaipur,Rajasthan,10.418,6.52,0.55
-2021-03-01,RJ_JPR,Jaipur,Rajasthan,10.914,9.05,0.55
-2021-04-01,RJ_JPR,Jaipur,Rajasthan,10.638,4.31,0.55
-2021-05-01,RJ_JPR,Jaipur,Rajasthan,10.734,11.04,0.55
-2021-06-01,RJ_JPR,Jaipur,Rajasthan,10.543,91.71,0.55
-2021-07-01,RJ_JPR,Jaipur,Rajasthan,9.138,245.91,0.55
-2021-08-01,RJ_JPR,Jaipur,Rajasthan,8.721,209.03,0.55
-2021-09-01,RJ_JPR,Jaipur,Rajasthan,9.0,72.3,0.55
-2021-10-01,RJ_JPR,Jaipur,Rajasthan,9.363,50.65,0.55
-2021-11-01,RJ_JPR,Jaipur,Rajasthan,10.19,20.29,0.55
-2021-12-01,RJ_JPR,Jaipur,Rajasthan,10.79,17.21,0.55
-2022-01-01,RJ_JPR,Jaipur,Rajasthan,11.206,8.2,0.55
-2022-02-01,RJ_JPR,Jaipur,Rajasthan,11.241,7.11,0.55
-2022-03-01,RJ_JPR,Jaipur,Rajasthan,11.262,9.44,0.55
-2022-04-01,RJ_JPR,Jaipur,Rajasthan,11.19,5.06,0.55
-2022-05-01,RJ_JPR,Jaipur,Rajasthan,11.258,8.65,0.55
-2022-06-01,RJ_JPR,Jaipur,Rajasthan,10.58,65.37,0.55
-2022-07-01,RJ_JPR,Jaipur,Rajasthan,9.624,116.18,0.55
-2022-08-01,RJ_JPR,Jaipur,Rajasthan,8.935,189.73,0.55
-2022-09-01,RJ_JPR,Jaipur,Rajasthan,9.108,49.19,0.55
-2022-10-01,RJ_JPR,Jaipur,Rajasthan,10.128,25.15,0.55
-2022-11-01,RJ_JPR,Jaipur,Rajasthan,11.044,19.7,0.55
-2022-12-01,RJ_JPR,Jaipur,Rajasthan,11.728,15.39,0.55
-2023-01-01,RJ_JPR,Jaipur,Rajasthan,10.578,8.25,0.55
-2023-02-01,RJ_JPR,Jaipur,Rajasthan,10.897,6.71,0.55
-2023-03-01,RJ_JPR,Jaipur,Rajasthan,11.751,6.23,0.55
-2023-04-01,RJ_JPR,Jaipur,Rajasthan,12.025,4.5,0.55
-2023-05-01,RJ_JPR,Jaipur,Rajasthan,11.59,14.34,0.55
-2023-06-01,RJ_JPR,Jaipur,Rajasthan,11.615,78.22,0.55
-2023-07-01,RJ_JPR,Jaipur,Rajasthan,10.295,263.27,0.55
-2023-08-01,RJ_JPR,Jaipur,Rajasthan,9.789,203.09,0.55
-2023-09-01,RJ_JPR,Jaipur,Rajasthan,10.445,142.39,0.55
-2023-10-01,RJ_JPR,Jaipur,Rajasthan,10.591,53.66,0.55
-2023-11-01,RJ_JPR,Jaipur,Rajasthan,11.399,41.79,0.55
-2023-12-01,RJ_JPR,Jaipur,Rajasthan,11.381,11.28,0.55
-2024-01-01,RJ_JPR,Jaipur,Rajasthan,11.831,8.43,0.55
-2024-02-01,RJ_JPR,Jaipur,Rajasthan,12.635,9.24,0.55
-2024-03-01,RJ_JPR,Jaipur,Rajasthan,11.497,7.16,0.55
-2024-04-01,RJ_JPR,Jaipur,Rajasthan,13.225,7.54,0.55
-2024-05-01,RJ_JPR,Jaipur,Rajasthan,11.927,13.33,0.55
-2024-06-01,RJ_JPR,Jaipur,Rajasthan,11.378,84.51,0.55
-2024-07-01,RJ_JPR,Jaipur,Rajasthan,10.31,208.28,0.55
-2024-08-01,RJ_JPR,Jaipur,Rajasthan,10.402,245.89,0.55
-2024-09-01,RJ_JPR,Jaipur,Rajasthan,10.81,36.0,0.55
-2024-10-01,RJ_JPR,Jaipur,Rajasthan,11.142,24.19,0.55
-2024-11-01,RJ_JPR,Jaipur,Rajasthan,11.677,31.68,0.55
-2024-12-01,RJ_JPR,Jaipur,Rajasthan,12.068,8.34,0.55
-2019-01-01,RJ_JDH,Jodhpur,Rajasthan,17.423,5.43,0.85
-2019-02-01,RJ_JDH,Jodhpur,Rajasthan,18.581,3.61,0.85
-2019-03-01,RJ_JDH,Jodhpur,Rajasthan,17.724,4.4,0.85
-2019-04-01,RJ_JDH,Jodhpur,Rajasthan,18.418,4.75,0.85
-2019-05-01,RJ_JDH,Jodhpur,Rajasthan,19.158,8.95,0.85
-2019-06-01,RJ_JDH,Jodhpur,Rajasthan,18.081,62.57,0.85
-2019-07-01,RJ_JDH,Jodhpur,Rajasthan,17.529,110.77,0.85
-2019-08-01,RJ_JDH,Jodhpur,Rajasthan,17.05,140.32,0.85
-2019-09-01,RJ_JDH,Jodhpur,Rajasthan,18.231,78.84,0.85
-2019-10-01,RJ_JDH,Jodhpur,Rajasthan,18.528,10.9,0.85
-2019-11-01,RJ_JDH,Jodhpur,Rajasthan,18.939,8.93,0.85
-2019-12-01,RJ_JDH,Jodhpur,Rajasthan,18.37,11.46,0.85
-2020-01-01,RJ_JDH,Jodhpur,Rajasthan,18.025,3.17,0.85
-2020-02-01,RJ_JDH,Jodhpur,Rajasthan,19.171,7.06,0.85
-2020-03-01,RJ_JDH,Jodhpur,Rajasthan,19.373,4.26,0.85
-2020-04-01,RJ_JDH,Jodhpur,Rajasthan,19.634,3.12,0.85
-2020-05-01,RJ_JDH,Jodhpur,Rajasthan,19.911,7.31,0.85
-2020-06-01,RJ_JDH,Jodhpur,Rajasthan,19.192,71.44,0.85
-2020-07-01,RJ_JDH,Jodhpur,Rajasthan,18.612,106.78,0.85
-2020-08-01,RJ_JDH,Jodhpur,Rajasthan,17.766,220.59,0.85
-2020-09-01,RJ_JDH,Jodhpur,Rajasthan,17.388,105.43,0.85
-2020-10-01,RJ_JDH,Jodhpur,Rajasthan,18.899,24.85,0.85
-2020-11-01,RJ_JDH,Jodhpur,Rajasthan,19.41,17.83,0.85
-2020-12-01,RJ_JDH,Jodhpur,Rajasthan,19.99,11.44,0.85
-2021-01-01,RJ_JDH,Jodhpur,Rajasthan,19.946,3.0,0.85
-2021-02-01,RJ_JDH,Jodhpur,Rajasthan,19.468,3.78,0.85
-2021-03-01,RJ_JDH,Jodhpur,Rajasthan,19.875,6.31,0.85
-2021-04-01,RJ_JDH,Jodhpur,Rajasthan,20.13,4.74,0.85
-2021-05-01,RJ_JDH,Jodhpur,Rajasthan,20.685,7.85,0.85
-2021-06-01,RJ_JDH,Jodhpur,Rajasthan,19.692,34.33,0.85
-2021-07-01,RJ_JDH,Jodhpur,Rajasthan,19.519,124.06,0.85
-2021-08-01,RJ_JDH,Jodhpur,Rajasthan,19.172,112.72,0.85
-2021-09-01,RJ_JDH,Jodhpur,Rajasthan,19.947,46.49,0.85
-2021-10-01,RJ_JDH,Jodhpur,Rajasthan,19.972,17.3,0.85
-2021-11-01,RJ_JDH,Jodhpur,Rajasthan,20.589,8.97,0.85
-2021-12-01,RJ_JDH,Jodhpur,Rajasthan,21.266,9.59,0.85
-2022-01-01,RJ_JDH,Jodhpur,Rajasthan,21.981,4.09,0.85
-2022-02-01,RJ_JDH,Jodhpur,Rajasthan,20.945,3.52,0.85
-2022-03-01,RJ_JDH,Jodhpur,Rajasthan,21.224,6.94,0.85
-2022-04-01,RJ_JDH,Jodhpur,Rajasthan,22.313,5.68,0.85
-2022-05-01,RJ_JDH,Jodhpur,Rajasthan,21.293,9.06,0.85
-2022-06-01,RJ_JDH,Jodhpur,Rajasthan,21.261,21.01,0.85
-2022-07-01,RJ_JDH,Jodhpur,Rajasthan,20.762,102.07,0.85
-2022-08-01,RJ_JDH,Jodhpur,Rajasthan,20.244,96.3,0.85
-2022-09-01,RJ_JDH,Jodhpur,Rajasthan,20.635,79.09,0.85
-2022-10-01,RJ_JDH,Jodhpur,Rajasthan,21.55,24.33,0.85
-2022-11-01,RJ_JDH,Jodhpur,Rajasthan,21.898,11.43,0.85
-2022-12-01,RJ_JDH,Jodhpur,Rajasthan,23.38,8.08,0.85
-2023-01-01,RJ_JDH,Jodhpur,Rajasthan,22.44,3.65,0.85
-2023-02-01,RJ_JDH,Jodhpur,Rajasthan,22.503,3.15,0.85
-2023-03-01,RJ_JDH,Jodhpur,Rajasthan,23.21,6.42,0.85
-2023-04-01,RJ_JDH,Jodhpur,Rajasthan,22.536,5.17,0.85
-2023-05-01,RJ_JDH,Jodhpur,Rajasthan,22.459,5.15,0.85
-2023-06-01,RJ_JDH,Jodhpur,Rajasthan,22.864,51.87,0.85
-2023-07-01,RJ_JDH,Jodhpur,Rajasthan,21.688,174.86,0.85
-2023-08-01,RJ_JDH,Jodhpur,Rajasthan,21.904,115.19,0.85
-2023-09-01,RJ_JDH,Jodhpur,Rajasthan,21.816,75.31,0.85
-2023-10-01,RJ_JDH,Jodhpur,Rajasthan,23.208,28.77,0.85
-2023-11-01,RJ_JDH,Jodhpur,Rajasthan,23.776,16.57,0.85
-2023-12-01,RJ_JDH,Jodhpur,Rajasthan,23.418,6.73,0.85
-2024-01-01,RJ_JDH,Jodhpur,Rajasthan,23.42,5.15,0.85
-2024-02-01,RJ_JDH,Jodhpur,Rajasthan,23.727,4.92,0.85
-2024-03-01,RJ_JDH,Jodhpur,Rajasthan,23.45,4.15,0.85
-2024-04-01,RJ_JDH,Jodhpur,Rajasthan,24.478,5.23,0.85
-2024-05-01,RJ_JDH,Jodhpur,Rajasthan,24.847,11.19,0.85
-2024-06-01,RJ_JDH,Jodhpur,Rajasthan,23.876,39.67,0.85
-2024-07-01,RJ_JDH,Jodhpur,Rajasthan,23.382,116.42,0.85
-2024-08-01,RJ_JDH,Jodhpur,Rajasthan,22.933,122.99,0.85
-2024-09-01,RJ_JDH,Jodhpur,Rajasthan,22.729,66.24,0.85
-2024-10-01,RJ_JDH,Jodhpur,Rajasthan,24.303,18.85,0.85
-2024-11-01,RJ_JDH,Jodhpur,Rajasthan,24.22,16.1,0.85
-2024-12-01,RJ_JDH,Jodhpur,Rajasthan,25.544,12.34,0.85
-2019-01-01,RJ_AJM,Ajmer,Rajasthan,9.372,6.4,0.55
-2019-02-01,RJ_AJM,Ajmer,Rajasthan,8.768,10.15,0.55
-2019-03-01,RJ_AJM,Ajmer,Rajasthan,9.603,6.16,0.55
-2019-04-01,RJ_AJM,Ajmer,Rajasthan,10.722,4.71,0.55
-2019-05-01,RJ_AJM,Ajmer,Rajasthan,10.344,11.93,0.55
-2019-06-01,RJ_AJM,Ajmer,Rajasthan,9.586,91.1,0.55
-2019-07-01,RJ_AJM,Ajmer,Rajasthan,7.467,104.4,0.55
-2019-08-01,RJ_AJM,Ajmer,Rajasthan,8.017,219.54,0.55
-2019-09-01,RJ_AJM,Ajmer,Rajasthan,7.464,71.07,0.55
-2019-10-01,RJ_AJM,Ajmer,Rajasthan,9.092,26.96,0.55
-2019-11-01,RJ_AJM,Ajmer,Rajasthan,9.291,21.65,0.55
-2019-12-01,RJ_AJM,Ajmer,Rajasthan,9.836,14.04,0.55
-2020-01-01,RJ_AJM,Ajmer,Rajasthan,10.043,6.55,0.55
-2020-02-01,RJ_AJM,Ajmer,Rajasthan,9.215,7.46,0.55
-2020-03-01,RJ_AJM,Ajmer,Rajasthan,10.637,7.15,0.55
-2020-04-01,RJ_AJM,Ajmer,Rajasthan,11.131,6.08,0.55
-2020-05-01,RJ_AJM,Ajmer,Rajasthan,9.992,13.73,0.55
-2020-06-01,RJ_AJM,Ajmer,Rajasthan,9.841,51.37,0.55
-2020-07-01,RJ_AJM,Ajmer,Rajasthan,8.528,152.0,0.55
-2020-08-01,RJ_AJM,Ajmer,Rajasthan,8.63,286.65,0.55
-2020-09-01,RJ_AJM,Ajmer,Rajasthan,8.257,117.33,0.55
-2020-10-01,RJ_AJM,Ajmer,Rajasthan,9.331,24.87,0.55
-2020-11-01,RJ_AJM,Ajmer,Rajasthan,10.147,16.81,0.55
-2020-12-01,RJ_AJM,Ajmer,Rajasthan,10.515,11.94,0.55
-2021-01-01,RJ_AJM,Ajmer,Rajasthan,10.681,5.8,0.55
-2021-02-01,RJ_AJM,Ajmer,Rajasthan,10.774,8.42,0.55
-2021-03-01,RJ_AJM,Ajmer,Rajasthan,10.55,5.16,0.55
-2021-04-01,RJ_AJM,Ajmer,Rajasthan,11.0,7.04,0.55
-2021-05-01,RJ_AJM,Ajmer,Rajasthan,11.192,14.22,0.55
-2021-06-01,RJ_AJM,Ajmer,Rajasthan,10.191,54.83,0.55
-2021-07-01,RJ_AJM,Ajmer,Rajasthan,8.551,194.72,0.55
-2021-08-01,RJ_AJM,Ajmer,Rajasthan,8.924,257.35,0.55
-2021-09-01,RJ_AJM,Ajmer,Rajasthan,9.064,93.19,0.55
-2021-10-01,RJ_AJM,Ajmer,Rajasthan,10.275,23.64,0.55
-2021-11-01,RJ_AJM,Ajmer,Rajasthan,10.341,24.4,0.55
-2021-12-01,RJ_AJM,Ajmer,Rajasthan,10.976,12.91,0.55
-2022-01-01,RJ_AJM,Ajmer,Rajasthan,10.86,6.85,0.55
-2022-02-01,RJ_AJM,Ajmer,Rajasthan,11.078,6.02,0.55
-2022-03-01,RJ_AJM,Ajmer,Rajasthan,11.394,6.48,0.55
-2022-04-01,RJ_AJM,Ajmer,Rajasthan,11.776,8.0,0.55
-2022-05-01,RJ_AJM,Ajmer,Rajasthan,11.827,13.37,0.55
-2022-06-01,RJ_AJM,Ajmer,Rajasthan,10.811,85.87,0.55
-2022-07-01,RJ_AJM,Ajmer,Rajasthan,9.915,229.23,0.55
-2022-08-01,RJ_AJM,Ajmer,Rajasthan,9.337,172.58,0.55
-2022-09-01,RJ_AJM,Ajmer,Rajasthan,9.043,104.35,0.55
-2022-10-01,RJ_AJM,Ajmer,Rajasthan,10.717,29.01,0.55
-2022-11-01,RJ_AJM,Ajmer,Rajasthan,11.303,27.85,0.55
-2022-12-01,RJ_AJM,Ajmer,Rajasthan,11.681,18.57,0.55
-2023-01-01,RJ_AJM,Ajmer,Rajasthan,11.475,10.43,0.55
-2023-02-01,RJ_AJM,Ajmer,Rajasthan,11.616,7.05,0.55
-2023-03-01,RJ_AJM,Ajmer,Rajasthan,12.082,9.71,0.55
-2023-04-01,RJ_AJM,Ajmer,Rajasthan,12.244,7.27,0.55
-2023-05-01,RJ_AJM,Ajmer,Rajasthan,11.895,17.48,0.55
-2023-06-01,RJ_AJM,Ajmer,Rajasthan,10.078,94.95,0.55
-2023-07-01,RJ_AJM,Ajmer,Rajasthan,10.478,160.99,0.55
-2023-08-01,RJ_AJM,Ajmer,Rajasthan,9.566,275.77,0.55
-2023-09-01,RJ_AJM,Ajmer,Rajasthan,11.041,78.86,0.55
-2023-10-01,RJ_AJM,Ajmer,Rajasthan,11.589,46.67,0.55
-2023-11-01,RJ_AJM,Ajmer,Rajasthan,11.651,24.66,0.55
-2023-12-01,RJ_AJM,Ajmer,Rajasthan,11.52,18.73,0.55
-2024-01-01,RJ_AJM,Ajmer,Rajasthan,12.152,7.51,0.55
-2024-02-01,RJ_AJM,Ajmer,Rajasthan,11.708,9.59,0.55
-2024-03-01,RJ_AJM,Ajmer,Rajasthan,13.021,4.64,0.55
-2024-04-01,RJ_AJM,Ajmer,Rajasthan,12.552,5.67,0.55
-2024-05-01,RJ_AJM,Ajmer,Rajasthan,11.473,15.57,0.55
-2024-06-01,RJ_AJM,Ajmer,Rajasthan,12.075,110.21,0.55
-2024-07-01,RJ_AJM,Ajmer,Rajasthan,10.872,202.32,0.55
-2024-08-01,RJ_AJM,Ajmer,Rajasthan,10.19,240.93,0.55
-2024-09-01,RJ_AJM,Ajmer,Rajasthan,10.343,133.3,0.55
-2024-10-01,RJ_AJM,Ajmer,Rajasthan,10.963,28.58,0.55
-2024-11-01,RJ_AJM,Ajmer,Rajasthan,12.33,16.28,0.55
-2024-12-01,RJ_AJM,Ajmer,Rajasthan,12.065,17.65,0.55
-2019-01-01,RJ_BKN,Bikaner,Rajasthan,17.007,4.2,0.85
-2019-02-01,RJ_BKN,Bikaner,Rajasthan,17.846,3.4,0.85
-2019-03-01,RJ_BKN,Bikaner,Rajasthan,18.47,6.17,0.85
-2019-04-01,RJ_BKN,Bikaner,Rajasthan,18.036,3.65,0.85
-2019-05-01,RJ_BKN,Bikaner,Rajasthan,17.826,9.97,0.85
-2019-06-01,RJ_BKN,Bikaner,Rajasthan,16.958,56.28,0.85
-2019-07-01,RJ_BKN,Bikaner,Rajasthan,16.694,142.4,0.85
-2019-08-01,RJ_BKN,Bikaner,Rajasthan,16.877,101.43,0.85
-2019-09-01,RJ_BKN,Bikaner,Rajasthan,17.453,69.28,0.85
-2019-10-01,RJ_BKN,Bikaner,Rajasthan,17.786,17.67,0.85
-2019-11-01,RJ_BKN,Bikaner,Rajasthan,18.539,11.46,0.85
-2019-12-01,RJ_BKN,Bikaner,Rajasthan,18.625,10.89,0.85
-2020-01-01,RJ_BKN,Bikaner,Rajasthan,17.78,5.9,0.85
-2020-02-01,RJ_BKN,Bikaner,Rajasthan,18.467,3.21,0.85
-2020-03-01,RJ_BKN,Bikaner,Rajasthan,19.422,3.09,0.85
-2020-04-01,RJ_BKN,Bikaner,Rajasthan,20.076,4.64,0.85
-2020-05-01,RJ_BKN,Bikaner,Rajasthan,19.849,8.52,0.85
-2020-06-01,RJ_BKN,Bikaner,Rajasthan,18.829,61.1,0.85
-2020-07-01,RJ_BKN,Bikaner,Rajasthan,18.449,110.96,0.85
-2020-08-01,RJ_BKN,Bikaner,Rajasthan,18.321,74.25,0.85
-2020-09-01,RJ_BKN,Bikaner,Rajasthan,17.917,76.09,0.85
-2020-10-01,RJ_BKN,Bikaner,Rajasthan,18.874,24.25,0.85
-2020-11-01,RJ_BKN,Bikaner,Rajasthan,19.382,14.52,0.85
-2020-12-01,RJ_BKN,Bikaner,Rajasthan,19.483,10.28,0.85
-2021-01-01,RJ_BKN,Bikaner,Rajasthan,19.383,2.67,0.85
-2021-02-01,RJ_BKN,Bikaner,Rajasthan,19.563,3.87,0.85
-2021-03-01,RJ_BKN,Bikaner,Rajasthan,20.357,4.65,0.85
-2021-04-01,RJ_BKN,Bikaner,Rajasthan,21.199,3.61,0.85
-2021-05-01,RJ_BKN,Bikaner,Rajasthan,21.88,4.03,0.85
-2021-06-01,RJ_BKN,Bikaner,Rajasthan,20.164,40.23,0.85
-2021-07-01,RJ_BKN,Bikaner,Rajasthan,19.175,99.14,0.85
-2021-08-01,RJ_BKN,Bikaner,Rajasthan,19.027,137.88,0.85
-2021-09-01,RJ_BKN,Bikaner,Rajasthan,19.488,56.12,0.85
-2021-10-01,RJ_BKN,Bikaner,Rajasthan,20.946,17.59,0.85
-2021-11-01,RJ_BKN,Bikaner,Rajasthan,20.489,14.98,0.85
-2021-12-01,RJ_BKN,Bikaner,Rajasthan,21.237,12.98,0.85
-2022-01-01,RJ_BKN,Bikaner,Rajasthan,21.066,3.37,0.85
-2022-02-01,RJ_BKN,Bikaner,Rajasthan,19.729,7.63,0.85
-2022-03-01,RJ_BKN,Bikaner,Rajasthan,21.807,6.19,0.85
-2022-04-01,RJ_BKN,Bikaner,Rajasthan,21.632,3.76,0.85
-2022-05-01,RJ_BKN,Bikaner,Rajasthan,20.913,10.26,0.85
-2022-06-01,RJ_BKN,Bikaner,Rajasthan,21.123,50.02,0.85
-2022-07-01,RJ_BKN,Bikaner,Rajasthan,20.879,93.57,0.85
-2022-08-01,RJ_BKN,Bikaner,Rajasthan,20.705,174.0,0.85
-2022-09-01,RJ_BKN,Bikaner,Rajasthan,20.331,50.52,0.85
-2022-10-01,RJ_BKN,Bikaner,Rajasthan,21.368,14.0,0.85
-2022-11-01,RJ_BKN,Bikaner,Rajasthan,21.735,17.47,0.85
-2022-12-01,RJ_BKN,Bikaner,Rajasthan,22.293,10.14,0.85
-2023-01-01,RJ_BKN,Bikaner,Rajasthan,22.186,3.07,0.85
-2023-02-01,RJ_BKN,Bikaner,Rajasthan,23.684,4.77,0.85
-2023-03-01,RJ_BKN,Bikaner,Rajasthan,22.333,5.53,0.85
-2023-04-01,RJ_BKN,Bikaner,Rajasthan,23.28,3.63,0.85
-2023-05-01,RJ_BKN,Bikaner,Rajasthan,22.288,4.76,0.85
-2023-06-01,RJ_BKN,Bikaner,Rajasthan,22.885,67.03,0.85
-2023-07-01,RJ_BKN,Bikaner,Rajasthan,21.522,150.78,0.85
-2023-08-01,RJ_BKN,Bikaner,Rajasthan,22.153,111.41,0.85
-2023-09-01,RJ_BKN,Bikaner,Rajasthan,20.604,73.96,0.85
-2023-10-01,RJ_BKN,Bikaner,Rajasthan,23.79,17.62,0.85
-2023-11-01,RJ_BKN,Bikaner,Rajasthan,23.061,9.86,0.85
-2023-12-01,RJ_BKN,Bikaner,Rajasthan,22.587,7.28,0.85
-2024-01-01,RJ_BKN,Bikaner,Rajasthan,23.862,3.54,0.85
-2024-02-01,RJ_BKN,Bikaner,Rajasthan,23.608,5.59,0.85
-2024-03-01,RJ_BKN,Bikaner,Rajasthan,23.969,5.63,0.85
-2024-04-01,RJ_BKN,Bikaner,Rajasthan,25.611,4.92,0.85
-2024-05-01,RJ_BKN,Bikaner,Rajasthan,25.079,8.74,0.85
-2024-06-01,RJ_BKN,Bikaner,Rajasthan,22.997,61.39,0.85
-2024-07-01,RJ_BKN,Bikaner,Rajasthan,23.838,118.96,0.85
-2024-08-01,RJ_BKN,Bikaner,Rajasthan,22.959,113.29,0.85
-2024-09-01,RJ_BKN,Bikaner,Rajasthan,22.67,81.02,0.85
-2024-10-01,RJ_BKN,Bikaner,Rajasthan,23.944,23.7,0.85
-2024-11-01,RJ_BKN,Bikaner,Rajasthan,24.737,19.0,0.85
-2024-12-01,RJ_BKN,Bikaner,Rajasthan,25.287,7.83,0.85
-2019-01-01,MH_PNE,Pune,Maharashtra,3.863,10.96,0.3
-2019-02-01,MH_PNE,Pune,Maharashtra,4.167,11.36,0.3
-2019-03-01,MH_PNE,Pune,Maharashtra,5.002,10.6,0.3
-2019-04-01,MH_PNE,Pune,Maharashtra,5.365,10.07,0.3
-2019-05-01,MH_PNE,Pune,Maharashtra,4.498,16.79,0.3
-2019-06-01,MH_PNE,Pune,Maharashtra,3.135,115.51,0.3
-2019-07-01,MH_PNE,Pune,Maharashtra,2.856,366.35,0.3
-2019-08-01,MH_PNE,Pune,Maharashtra,1.904,191.56,0.3
-2019-09-01,MH_PNE,Pune,Maharashtra,1.938,74.28,0.3
-2019-10-01,MH_PNE,Pune,Maharashtra,2.788,21.88,0.3
-2019-11-01,MH_PNE,Pune,Maharashtra,3.085,29.68,0.3
-2019-12-01,MH_PNE,Pune,Maharashtra,3.628,22.56,0.3
-2020-01-01,MH_PNE,Pune,Maharashtra,3.453,10.53,0.3
-2020-02-01,MH_PNE,Pune,Maharashtra,4.171,8.68,0.3
-2020-03-01,MH_PNE,Pune,Maharashtra,4.13,8.5,0.3
-2020-04-01,MH_PNE,Pune,Maharashtra,4.91,8.99,0.3
-2020-05-01,MH_PNE,Pune,Maharashtra,4.734,14.98,0.3
-2020-06-01,MH_PNE,Pune,Maharashtra,3.603,116.6,0.3
-2020-07-01,MH_PNE,Pune,Maharashtra,1.605,215.77,0.3
-2020-08-01,MH_PNE,Pune,Maharashtra,1.555,259.11,0.3
-2020-09-01,MH_PNE,Pune,Maharashtra,1.295,127.71,0.3
-2020-10-01,MH_PNE,Pune,Maharashtra,3.661,37.07,0.3
-2020-11-01,MH_PNE,Pune,Maharashtra,3.553,40.18,0.3
-2020-12-01,MH_PNE,Pune,Maharashtra,3.712,14.89,0.3
-2021-01-01,MH_PNE,Pune,Maharashtra,3.787,7.74,0.3
-2021-02-01,MH_PNE,Pune,Maharashtra,4.398,12.72,0.3
-2021-03-01,MH_PNE,Pune,Maharashtra,4.864,7.85,0.3
-2021-04-01,MH_PNE,Pune,Maharashtra,4.621,8.61,0.3
-2021-05-01,MH_PNE,Pune,Maharashtra,4.503,26.07,0.3
-2021-06-01,MH_PNE,Pune,Maharashtra,3.351,137.59,0.3
-2021-07-01,MH_PNE,Pune,Maharashtra,1.61,356.5,0.3
-2021-08-01,MH_PNE,Pune,Maharashtra,1.0,285.36,0.3
-2021-09-01,MH_PNE,Pune,Maharashtra,1.378,172.04,0.3
-2021-10-01,MH_PNE,Pune,Maharashtra,2.36,44.94,0.3
-2021-11-01,MH_PNE,Pune,Maharashtra,3.253,29.57,0.3
-2021-12-01,MH_PNE,Pune,Maharashtra,3.459,16.72,0.3
-2022-01-01,MH_PNE,Pune,Maharashtra,4.373,9.38,0.3
-2022-02-01,MH_PNE,Pune,Maharashtra,4.285,9.12,0.3
-2022-03-01,MH_PNE,Pune,Maharashtra,4.132,3.99,0.3
-2022-04-01,MH_PNE,Pune,Maharashtra,4.467,6.55,0.3
-2022-05-01,MH_PNE,Pune,Maharashtra,4.861,20.58,0.3
-2022-06-01,MH_PNE,Pune,Maharashtra,3.256,117.79,0.3
-2022-07-01,MH_PNE,Pune,Maharashtra,1.429,310.71,0.3
-2022-08-01,MH_PNE,Pune,Maharashtra,1.0,385.82,0.3
-2022-09-01,MH_PNE,Pune,Maharashtra,1.133,112.41,0.3
-2022-10-01,MH_PNE,Pune,Maharashtra,2.61,44.42,0.3
-2022-11-01,MH_PNE,Pune,Maharashtra,2.771,21.16,0.3
-2022-12-01,MH_PNE,Pune,Maharashtra,3.927,18.63,0.3
-2023-01-01,MH_PNE,Pune,Maharashtra,3.119,13.68,0.3
-2023-02-01,MH_PNE,Pune,Maharashtra,3.663,10.67,0.3
-2023-03-01,MH_PNE,Pune,Maharashtra,4.266,10.57,0.3
-2023-04-01,MH_PNE,Pune,Maharashtra,4.299,4.86,0.3
-2023-05-01,MH_PNE,Pune,Maharashtra,4.215,14.46,0.3
-2023-06-01,MH_PNE,Pune,Maharashtra,3.181,149.47,0.3
-2023-07-01,MH_PNE,Pune,Maharashtra,1.671,246.89,0.3
-2023-08-01,MH_PNE,Pune,Maharashtra,1.212,313.06,0.3
-2023-09-01,MH_PNE,Pune,Maharashtra,1.348,125.36,0.3
-2023-10-01,MH_PNE,Pune,Maharashtra,2.661,63.35,0.3
-2023-11-01,MH_PNE,Pune,Maharashtra,3.147,37.25,0.3
-2023-12-01,MH_PNE,Pune,Maharashtra,3.478,19.84,0.3
-2024-01-01,MH_PNE,Pune,Maharashtra,3.248,11.8,0.3
-2024-02-01,MH_PNE,Pune,Maharashtra,4.071,11.28,0.3
-2024-03-01,MH_PNE,Pune,Maharashtra,3.497,11.66,0.3
-2024-04-01,MH_PNE,Pune,Maharashtra,4.599,12.38,0.3
-2024-05-01,MH_PNE,Pune,Maharashtra,4.509,16.68,0.3
-2024-06-01,MH_PNE,Pune,Maharashtra,3.466,144.17,0.3
-2024-07-01,MH_PNE,Pune,Maharashtra,2.008,450.03,0.3
-2024-08-01,MH_PNE,Pune,Maharashtra,1.448,321.04,0.3
-2024-09-01,MH_PNE,Pune,Maharashtra,1.788,134.48,0.3
-2024-10-01,MH_PNE,Pune,Maharashtra,2.02,33.99,0.3
-2024-11-01,MH_PNE,Pune,Maharashtra,3.248,37.42,0.3
-2024-12-01,MH_PNE,Pune,Maharashtra,3.155,19.73,0.3
-2019-01-01,MH_NGP,Nagpur,Maharashtra,4.852,8.72,0.3
-2019-02-01,MH_NGP,Nagpur,Maharashtra,4.249,11.19,0.3
-2019-03-01,MH_NGP,Nagpur,Maharashtra,4.199,7.87,0.3
-2019-04-01,MH_NGP,Nagpur,Maharashtra,4.488,7.95,0.3
-2019-05-01,MH_NGP,Nagpur,Maharashtra,4.683,20.53,0.3
-2019-06-01,MH_NGP,Nagpur,Maharashtra,3.282,100.46,0.3
-2019-07-01,MH_NGP,Nagpur,Maharashtra,1.975,254.52,0.3
-2019-08-01,MH_NGP,Nagpur,Maharashtra,1.341,238.32,0.3
-2019-09-01,MH_NGP,Nagpur,Maharashtra,2.319,88.28,0.3
-2019-10-01,MH_NGP,Nagpur,Maharashtra,3.137,54.61,0.3
-2019-11-01,MH_NGP,Nagpur,Maharashtra,3.278,29.45,0.3
-2019-12-01,MH_NGP,Nagpur,Maharashtra,3.974,25.35,0.3
-2020-01-01,MH_NGP,Nagpur,Maharashtra,4.278,7.47,0.3
-2020-02-01,MH_NGP,Nagpur,Maharashtra,4.204,10.56,0.3
-2020-03-01,MH_NGP,Nagpur,Maharashtra,4.837,10.38,0.3
-2020-04-01,MH_NGP,Nagpur,Maharashtra,4.971,7.98,0.3
-2020-05-01,MH_NGP,Nagpur,Maharashtra,5.116,18.08,0.3
-2020-06-01,MH_NGP,Nagpur,Maharashtra,3.743,95.92,0.3
-2020-07-01,MH_NGP,Nagpur,Maharashtra,1.845,256.09,0.3
-2020-08-01,MH_NGP,Nagpur,Maharashtra,1.472,316.57,0.3
-2020-09-01,MH_NGP,Nagpur,Maharashtra,1.875,175.24,0.3
-2020-10-01,MH_NGP,Nagpur,Maharashtra,3.141,40.49,0.3
-2020-11-01,MH_NGP,Nagpur,Maharashtra,3.154,36.68,0.3
-2020-12-01,MH_NGP,Nagpur,Maharashtra,3.841,24.22,0.3
-2021-01-01,MH_NGP,Nagpur,Maharashtra,3.617,9.86,0.3
-2021-02-01,MH_NGP,Nagpur,Maharashtra,3.588,9.45,0.3
-2021-03-01,MH_NGP,Nagpur,Maharashtra,4.418,8.75,0.3
-2021-04-01,MH_NGP,Nagpur,Maharashtra,5.163,11.3,0.3
-2021-05-01,MH_NGP,Nagpur,Maharashtra,4.462,18.71,0.3
-2021-06-01,MH_NGP,Nagpur,Maharashtra,3.855,128.67,0.3
-2021-07-01,MH_NGP,Nagpur,Maharashtra,1.732,237.65,0.3
-2021-08-01,MH_NGP,Nagpur,Maharashtra,1.52,195.13,0.3
-2021-09-01,MH_NGP,Nagpur,Maharashtra,1.258,134.79,0.3
-2021-10-01,MH_NGP,Nagpur,Maharashtra,2.824,47.78,0.3
-2021-11-01,MH_NGP,Nagpur,Maharashtra,3.219,31.21,0.3
-2021-12-01,MH_NGP,Nagpur,Maharashtra,3.983,15.5,0.3
-2022-01-01,MH_NGP,Nagpur,Maharashtra,3.672,13.62,0.3
-2022-02-01,MH_NGP,Nagpur,Maharashtra,4.289,7.47,0.3
-2022-03-01,MH_NGP,Nagpur,Maharashtra,3.706,6.92,0.3
-2022-04-01,MH_NGP,Nagpur,Maharashtra,4.622,11.99,0.3
-2022-05-01,MH_NGP,Nagpur,Maharashtra,4.136,28.22,0.3
-2022-06-01,MH_NGP,Nagpur,Maharashtra,3.616,106.91,0.3
-2022-07-01,MH_NGP,Nagpur,Maharashtra,1.91,366.49,0.3
-2022-08-01,MH_NGP,Nagpur,Maharashtra,1.0,370.06,0.3
-2022-09-01,MH_NGP,Nagpur,Maharashtra,1.11,168.5,0.3
-2022-10-01,MH_NGP,Nagpur,Maharashtra,2.797,47.24,0.3
-2022-11-01,MH_NGP,Nagpur,Maharashtra,2.929,29.79,0.3
-2022-12-01,MH_NGP,Nagpur,Maharashtra,3.562,15.51,0.3
-2023-01-01,MH_NGP,Nagpur,Maharashtra,4.147,11.33,0.3
-2023-02-01,MH_NGP,Nagpur,Maharashtra,3.898,6.86,0.3
-2023-03-01,MH_NGP,Nagpur,Maharashtra,3.802,12.5,0.3
-2023-04-01,MH_NGP,Nagpur,Maharashtra,4.885,4.99,0.3
-2023-05-01,MH_NGP,Nagpur,Maharashtra,3.829,22.25,0.3
-2023-06-01,MH_NGP,Nagpur,Maharashtra,2.576,141.68,0.3
-2023-07-01,MH_NGP,Nagpur,Maharashtra,1.51,237.76,0.3
-2023-08-01,MH_NGP,Nagpur,Maharashtra,1.0,335.67,0.3
-2023-09-01,MH_NGP,Nagpur,Maharashtra,1.0,164.16,0.3
-2023-10-01,MH_NGP,Nagpur,Maharashtra,2.707,62.23,0.3
-2023-11-01,MH_NGP,Nagpur,Maharashtra,2.99,41.58,0.3
-2023-12-01,MH_NGP,Nagpur,Maharashtra,3.353,17.82,0.3
-2024-01-01,MH_NGP,Nagpur,Maharashtra,3.348,11.16,0.3
-2024-02-01,MH_NGP,Nagpur,Maharashtra,3.981,7.85,0.3
-2024-03-01,MH_NGP,Nagpur,Maharashtra,4.131,10.05,0.3
-2024-04-01,MH_NGP,Nagpur,Maharashtra,4.276,10.35,0.3
-2024-05-01,MH_NGP,Nagpur,Maharashtra,4.537,19.73,0.3
-2024-06-01,MH_NGP,Nagpur,Maharashtra,3.035,110.01,0.3
-2024-07-01,MH_NGP,Nagpur,Maharashtra,1.496,283.28,0.3
-2024-08-01,MH_NGP,Nagpur,Maharashtra,1.0,453.4,0.3
-2024-09-01,MH_NGP,Nagpur,Maharashtra,1.0,145.48,0.3
-2024-10-01,MH_NGP,Nagpur,Maharashtra,1.965,49.14,0.3
-2024-11-01,MH_NGP,Nagpur,Maharashtra,3.419,31.55,0.3
-2024-12-01,MH_NGP,Nagpur,Maharashtra,3.194,19.89,0.3
-2019-01-01,MH_LTR,Latur,Maharashtra,9.718,4.08,0.55
-2019-02-01,MH_LTR,Latur,Maharashtra,9.369,4.89,0.55
-2019-03-01,MH_LTR,Latur,Maharashtra,9.997,6.67,0.55
-2019-04-01,MH_LTR,Latur,Maharashtra,9.537,4.72,0.55
-2019-05-01,MH_LTR,Latur,Maharashtra,10.179,16.01,0.55
-2019-06-01,MH_LTR,Latur,Maharashtra,9.577,109.31,0.55
-2019-07-01,MH_LTR,Latur,Maharashtra,9.043,194.22,0.55
-2019-08-01,MH_LTR,Latur,Maharashtra,7.16,313.51,0.55
-2019-09-01,MH_LTR,Latur,Maharashtra,8.15,74.84,0.55
-2019-10-01,MH_LTR,Latur,Maharashtra,8.325,35.78,0.55
-2019-11-01,MH_LTR,Latur,Maharashtra,9.523,17.04,0.55
-2019-12-01,MH_LTR,Latur,Maharashtra,10.5,11.31,0.55
-2020-01-01,MH_LTR,Latur,Maharashtra,10.328,6.18,0.55
-2020-02-01,MH_LTR,Latur,Maharashtra,10.235,5.58,0.55
-2020-03-01,MH_LTR,Latur,Maharashtra,10.906,6.21,0.55
-2020-04-01,MH_LTR,Latur,Maharashtra,10.727,6.11,0.55
-2020-05-01,MH_LTR,Latur,Maharashtra,10.419,14.61,0.55
-2020-06-01,MH_LTR,Latur,Maharashtra,10.216,71.66,0.55
-2020-07-01,MH_LTR,Latur,Maharashtra,8.613,254.33,0.55
-2020-08-01,MH_LTR,Latur,Maharashtra,8.018,183.51,0.55
-2020-09-01,MH_LTR,Latur,Maharashtra,8.399,61.22,0.55
-2020-10-01,MH_LTR,Latur,Maharashtra,8.986,42.71,0.55
-2020-11-01,MH_LTR,Latur,Maharashtra,9.552,23.42,0.55
-2020-12-01,MH_LTR,Latur,Maharashtra,9.677,13.05,0.55
-2021-01-01,MH_LTR,Latur,Maharashtra,9.931,6.41,0.55
-2021-02-01,MH_LTR,Latur,Maharashtra,10.299,7.01,0.55
-2021-03-01,MH_LTR,Latur,Maharashtra,10.612,7.68,0.55
-2021-04-01,MH_LTR,Latur,Maharashtra,10.721,10.31,0.55
-2021-05-01,MH_LTR,Latur,Maharashtra,11.246,11.95,0.55
-2021-06-01,MH_LTR,Latur,Maharashtra,9.802,99.92,0.55
-2021-07-01,MH_LTR,Latur,Maharashtra,9.608,193.71,0.55
-2021-08-01,MH_LTR,Latur,Maharashtra,8.759,247.54,0.55
-2021-09-01,MH_LTR,Latur,Maharashtra,10.026,54.6,0.55
-2021-10-01,MH_LTR,Latur,Maharashtra,10.11,35.51,0.55
-2021-11-01,MH_LTR,Latur,Maharashtra,11.116,27.47,0.55
-2021-12-01,MH_LTR,Latur,Maharashtra,10.233,15.96,0.55
-2022-01-01,MH_LTR,Latur,Maharashtra,10.939,8.85,0.55
-2022-02-01,MH_LTR,Latur,Maharashtra,10.514,5.8,0.55
-2022-03-01,MH_LTR,Latur,Maharashtra,11.714,8.93,0.55
-2022-04-01,MH_LTR,Latur,Maharashtra,11.55,7.2,0.55
-2022-05-01,MH_LTR,Latur,Maharashtra,11.289,6.05,0.55
-2022-06-01,MH_LTR,Latur,Maharashtra,10.943,97.35,0.55
-2022-07-01,MH_LTR,Latur,Maharashtra,9.73,279.89,0.55
-2022-08-01,MH_LTR,Latur,Maharashtra,9.674,189.51,0.55
-2022-09-01,MH_LTR,Latur,Maharashtra,8.846,146.2,0.55
-2022-10-01,MH_LTR,Latur,Maharashtra,9.689,31.35,0.55
-2022-11-01,MH_LTR,Latur,Maharashtra,11.009,18.72,0.55
-2022-12-01,MH_LTR,Latur,Maharashtra,10.707,10.96,0.55
-2023-01-01,MH_LTR,Latur,Maharashtra,10.946,8.09,0.55
-2023-02-01,MH_LTR,Latur,Maharashtra,10.336,6.73,0.55
-2023-03-01,MH_LTR,Latur,Maharashtra,11.636,6.01,0.55
-2023-04-01,MH_LTR,Latur,Maharashtra,12.242,5.63,0.55
-2023-05-01,MH_LTR,Latur,Maharashtra,12.474,19.78,0.55
-2023-06-01,MH_LTR,Latur,Maharashtra,11.199,59.19,0.55
-2023-07-01,MH_LTR,Latur,Maharashtra,10.607,302.7,0.55
-2023-08-01,MH_LTR,Latur,Maharashtra,10.122,245.97,0.55
-2023-09-01,MH_LTR,Latur,Maharashtra,9.977,148.91,0.55
-2023-10-01,MH_LTR,Latur,Maharashtra,11.079,40.85,0.55
-2023-11-01,MH_LTR,Latur,Maharashtra,11.353,25.67,0.55
-2023-12-01,MH_LTR,Latur,Maharashtra,11.324,16.26,0.55
-2024-01-01,MH_LTR,Latur,Maharashtra,11.122,8.34,0.55
-2024-02-01,MH_LTR,Latur,Maharashtra,12.251,5.3,0.55
-2024-03-01,MH_LTR,Latur,Maharashtra,12.534,3.76,0.55
-2024-04-01,MH_LTR,Latur,Maharashtra,12.932,8.32,0.55
-2024-05-01,MH_LTR,Latur,Maharashtra,12.422,10.78,0.55
-2024-06-01,MH_LTR,Latur,Maharashtra,10.746,91.72,0.55
-2024-07-01,MH_LTR,Latur,Maharashtra,10.946,197.51,0.55
-2024-08-01,MH_LTR,Latur,Maharashtra,9.635,184.49,0.55
-2024-09-01,MH_LTR,Latur,Maharashtra,9.956,137.71,0.55
-2024-10-01,MH_LTR,Latur,Maharashtra,10.895,27.07,0.55
-2024-11-01,MH_LTR,Latur,Maharashtra,12.215,16.86,0.55
-2024-12-01,MH_LTR,Latur,Maharashtra,12.185,8.91,0.55
-2019-01-01,MH_AHM,Ahmednagar,Maharashtra,8.993,6.25,0.55
-2019-02-01,MH_AHM,Ahmednagar,Maharashtra,9.276,6.53,0.55
-2019-03-01,MH_AHM,Ahmednagar,Maharashtra,9.72,5.52,0.55
-2019-04-01,MH_AHM,Ahmednagar,Maharashtra,9.998,5.66,0.55
-2019-05-01,MH_AHM,Ahmednagar,Maharashtra,10.199,17.39,0.55
-2019-06-01,MH_AHM,Ahmednagar,Maharashtra,9.224,85.81,0.55
-2019-07-01,MH_AHM,Ahmednagar,Maharashtra,8.764,180.13,0.55
-2019-08-01,MH_AHM,Ahmednagar,Maharashtra,7.508,211.61,0.55
-2019-09-01,MH_AHM,Ahmednagar,Maharashtra,7.566,61.49,0.55
-2019-10-01,MH_AHM,Ahmednagar,Maharashtra,9.376,40.95,0.55
-2019-11-01,MH_AHM,Ahmednagar,Maharashtra,9.266,25.59,0.55
-2019-12-01,MH_AHM,Ahmednagar,Maharashtra,9.558,13.15,0.55
-2020-01-01,MH_AHM,Ahmednagar,Maharashtra,9.698,6.78,0.55
-2020-02-01,MH_AHM,Ahmednagar,Maharashtra,10.307,3.26,0.55
-2020-03-01,MH_AHM,Ahmednagar,Maharashtra,10.037,9.87,0.55
-2020-04-01,MH_AHM,Ahmednagar,Maharashtra,10.96,6.88,0.55
-2020-05-01,MH_AHM,Ahmednagar,Maharashtra,9.83,14.64,0.55
-2020-06-01,MH_AHM,Ahmednagar,Maharashtra,10.47,66.35,0.55
-2020-07-01,MH_AHM,Ahmednagar,Maharashtra,8.659,173.36,0.55
-2020-08-01,MH_AHM,Ahmednagar,Maharashtra,8.036,235.6,0.55
-2020-09-01,MH_AHM,Ahmednagar,Maharashtra,9.275,106.78,0.55
-2020-10-01,MH_AHM,Ahmednagar,Maharashtra,9.192,53.97,0.55
-2020-11-01,MH_AHM,Ahmednagar,Maharashtra,9.556,22.33,0.55
-2020-12-01,MH_AHM,Ahmednagar,Maharashtra,10.188,7.53,0.55
-2021-01-01,MH_AHM,Ahmednagar,Maharashtra,10.353,8.7,0.55
-2021-02-01,MH_AHM,Ahmednagar,Maharashtra,10.477,9.92,0.55
-2021-03-01,MH_AHM,Ahmednagar,Maharashtra,10.472,9.72,0.55
-2021-04-01,MH_AHM,Ahmednagar,Maharashtra,11.204,9.32,0.55
-2021-05-01,MH_AHM,Ahmednagar,Maharashtra,10.444,11.0,0.55
-2021-06-01,MH_AHM,Ahmednagar,Maharashtra,9.144,72.15,0.55
-2021-07-01,MH_AHM,Ahmednagar,Maharashtra,9.776,327.28,0.55
-2021-08-01,MH_AHM,Ahmednagar,Maharashtra,9.122,153.4,0.55
-2021-09-01,MH_AHM,Ahmednagar,Maharashtra,9.465,109.42,0.55
-2021-10-01,MH_AHM,Ahmednagar,Maharashtra,10.729,41.06,0.55
-2021-11-01,MH_AHM,Ahmednagar,Maharashtra,9.662,14.82,0.55
-2021-12-01,MH_AHM,Ahmednagar,Maharashtra,11.092,13.19,0.55
-2022-01-01,MH_AHM,Ahmednagar,Maharashtra,10.875,8.06,0.55
-2022-02-01,MH_AHM,Ahmednagar,Maharashtra,10.603,8.2,0.55
-2022-03-01,MH_AHM,Ahmednagar,Maharashtra,11.393,8.0,0.55
-2022-04-01,MH_AHM,Ahmednagar,Maharashtra,11.859,4.41,0.55
-2022-05-01,MH_AHM,Ahmednagar,Maharashtra,11.869,16.38,0.55
-2022-06-01,MH_AHM,Ahmednagar,Maharashtra,10.349,92.49,0.55
-2022-07-01,MH_AHM,Ahmednagar,Maharashtra,9.168,226.24,0.55
-2022-08-01,MH_AHM,Ahmednagar,Maharashtra,9.51,240.21,0.55
-2022-09-01,MH_AHM,Ahmednagar,Maharashtra,9.479,116.69,0.55
-2022-10-01,MH_AHM,Ahmednagar,Maharashtra,9.393,36.29,0.55
-2022-11-01,MH_AHM,Ahmednagar,Maharashtra,10.681,26.56,0.55
-2022-12-01,MH_AHM,Ahmednagar,Maharashtra,10.706,14.23,0.55
-2023-01-01,MH_AHM,Ahmednagar,Maharashtra,11.264,5.89,0.55
-2023-02-01,MH_AHM,Ahmednagar,Maharashtra,11.863,7.5,0.55
-2023-03-01,MH_AHM,Ahmednagar,Maharashtra,11.769,5.75,0.55
-2023-04-01,MH_AHM,Ahmednagar,Maharashtra,12.524,6.37,0.55
-2023-05-01,MH_AHM,Ahmednagar,Maharashtra,11.57,16.42,0.55
-2023-06-01,MH_AHM,Ahmednagar,Maharashtra,11.924,117.68,0.55
-2023-07-01,MH_AHM,Ahmednagar,Maharashtra,10.317,155.99,0.55
-2023-08-01,MH_AHM,Ahmednagar,Maharashtra,9.794,197.11,0.55
-2023-09-01,MH_AHM,Ahmednagar,Maharashtra,9.81,113.57,0.55
-2023-10-01,MH_AHM,Ahmednagar,Maharashtra,10.705,39.95,0.55
-2023-11-01,MH_AHM,Ahmednagar,Maharashtra,11.196,14.36,0.55
-2023-12-01,MH_AHM,Ahmednagar,Maharashtra,11.033,14.13,0.55
-2024-01-01,MH_AHM,Ahmednagar,Maharashtra,11.825,9.66,0.55
-2024-02-01,MH_AHM,Ahmednagar,Maharashtra,12.147,5.54,0.55
-2024-03-01,MH_AHM,Ahmednagar,Maharashtra,12.465,6.87,0.55
-2024-04-01,MH_AHM,Ahmednagar,Maharashtra,13.293,7.27,0.55
-2024-05-01,MH_AHM,Ahmednagar,Maharashtra,12.697,12.1,0.55
-2024-06-01,MH_AHM,Ahmednagar,Maharashtra,11.488,108.34,0.55
-2024-07-01,MH_AHM,Ahmednagar,Maharashtra,10.629,172.06,0.55
-2024-08-01,MH_AHM,Ahmednagar,Maharashtra,10.303,296.13,0.55
-2024-09-01,MH_AHM,Ahmednagar,Maharashtra,9.7,134.18,0.55
-2024-10-01,MH_AHM,Ahmednagar,Maharashtra,11.889,44.27,0.55
-2024-11-01,MH_AHM,Ahmednagar,Maharashtra,12.478,20.49,0.55
-2024-12-01,MH_AHM,Ahmednagar,Maharashtra,12.162,12.67,0.55
+2019-01-01,PB_LDH,Ludhiana,Punjab,18.165,2.17,0.85
+2019-02-01,PB_LDH,Ludhiana,Punjab,17.997,4.13,0.85
+2019-03-01,PB_LDH,Ludhiana,Punjab,18.487,3.66,0.85
+2019-04-01,PB_LDH,Ludhiana,Punjab,18.466,3.98,0.85
+2019-05-01,PB_LDH,Ludhiana,Punjab,17.239,7.85,0.85
+2019-06-01,PB_LDH,Ludhiana,Punjab,17.9,40.76,0.85
+2019-07-01,PB_LDH,Ludhiana,Punjab,16.524,160.14,0.85
+2019-08-01,PB_LDH,Ludhiana,Punjab,16.713,126.55,0.85
+2019-09-01,PB_LDH,Ludhiana,Punjab,17.757,54.72,0.85
+2019-10-01,PB_LDH,Ludhiana,Punjab,17.614,21.77,0.85
+2019-11-01,PB_LDH,Ludhiana,Punjab,18.753,13.02,0.85
+2019-12-01,PB_LDH,Ludhiana,Punjab,18.706,10.63,0.85
+2020-01-01,PB_LDH,Ludhiana,Punjab,18.756,2.94,0.85
+2020-02-01,PB_LDH,Ludhiana,Punjab,19.04,6.38,0.85
+2020-03-01,PB_LDH,Ludhiana,Punjab,19.297,6.1,0.85
+2020-04-01,PB_LDH,Ludhiana,Punjab,19.711,4.19,0.85
+2020-05-01,PB_LDH,Ludhiana,Punjab,19.279,4.61,0.85
+2020-06-01,PB_LDH,Ludhiana,Punjab,18.808,54.58,0.85
+2020-07-01,PB_LDH,Ludhiana,Punjab,17.255,128.28,0.85
+2020-08-01,PB_LDH,Ludhiana,Punjab,18.669,162.14,0.85
+2020-09-01,PB_LDH,Ludhiana,Punjab,18.157,28.62,0.85
+2020-10-01,PB_LDH,Ludhiana,Punjab,18.867,14.19,0.85
+2020-11-01,PB_LDH,Ludhiana,Punjab,19.391,12.34,0.85
+2020-12-01,PB_LDH,Ludhiana,Punjab,21.048,9.14,0.85
+2021-01-01,PB_LDH,Ludhiana,Punjab,20.532,4.23,0.85
+2021-02-01,PB_LDH,Ludhiana,Punjab,19.895,4.79,0.85
+2021-03-01,PB_LDH,Ludhiana,Punjab,21.052,6.54,0.85
+2021-04-01,PB_LDH,Ludhiana,Punjab,20.955,5.65,0.85
+2021-05-01,PB_LDH,Ludhiana,Punjab,20.284,4.18,0.85
+2021-06-01,PB_LDH,Ludhiana,Punjab,19.949,68.07,0.85
+2021-07-01,PB_LDH,Ludhiana,Punjab,19.663,117.98,0.85
+2021-08-01,PB_LDH,Ludhiana,Punjab,19.98,166.5,0.85
+2021-09-01,PB_LDH,Ludhiana,Punjab,19.355,81.91,0.85
+2021-10-01,PB_LDH,Ludhiana,Punjab,19.983,28.61,0.85
+2021-11-01,PB_LDH,Ludhiana,Punjab,21.554,16.54,0.85
+2021-12-01,PB_LDH,Ludhiana,Punjab,20.692,4.25,0.85
+2022-01-01,PB_LDH,Ludhiana,Punjab,21.318,2.68,0.85
+2022-02-01,PB_LDH,Ludhiana,Punjab,21.902,3.63,0.85
+2022-03-01,PB_LDH,Ludhiana,Punjab,21.718,3.46,0.85
+2022-04-01,PB_LDH,Ludhiana,Punjab,21.778,2.95,0.85
+2022-05-01,PB_LDH,Ludhiana,Punjab,22.144,9.61,0.85
+2022-06-01,PB_LDH,Ludhiana,Punjab,21.29,36.35,0.85
+2022-07-01,PB_LDH,Ludhiana,Punjab,21.172,108.2,0.85
+2022-08-01,PB_LDH,Ludhiana,Punjab,20.33,77.13,0.85
+2022-09-01,PB_LDH,Ludhiana,Punjab,21.296,75.05,0.85
+2022-10-01,PB_LDH,Ludhiana,Punjab,21.591,25.19,0.85
+2022-11-01,PB_LDH,Ludhiana,Punjab,21.872,14.78,0.85
+2022-12-01,PB_LDH,Ludhiana,Punjab,22.042,9.03,0.85
+2023-01-01,PB_LDH,Ludhiana,Punjab,22.702,3.89,0.85
+2023-02-01,PB_LDH,Ludhiana,Punjab,23.192,3.86,0.85
+2023-03-01,PB_LDH,Ludhiana,Punjab,22.608,4.43,0.85
+2023-04-01,PB_LDH,Ludhiana,Punjab,23.655,3.37,0.85
+2023-05-01,PB_LDH,Ludhiana,Punjab,24.044,10.48,0.85
+2023-06-01,PB_LDH,Ludhiana,Punjab,21.765,67.29,0.85
+2023-07-01,PB_LDH,Ludhiana,Punjab,21.988,90.58,0.85
+2023-08-01,PB_LDH,Ludhiana,Punjab,20.614,125.32,0.85
+2023-09-01,PB_LDH,Ludhiana,Punjab,20.982,88.07,0.85
+2023-10-01,PB_LDH,Ludhiana,Punjab,22.649,16.88,0.85
+2023-11-01,PB_LDH,Ludhiana,Punjab,23.669,17.15,0.85
+2023-12-01,PB_LDH,Ludhiana,Punjab,24.204,4.53,0.85
+2024-01-01,PB_LDH,Ludhiana,Punjab,23.617,4.67,0.85
+2024-02-01,PB_LDH,Ludhiana,Punjab,23.805,4.28,0.85
+2024-03-01,PB_LDH,Ludhiana,Punjab,23.734,3.62,0.85
+2024-04-01,PB_LDH,Ludhiana,Punjab,24.449,4.93,0.85
+2024-05-01,PB_LDH,Ludhiana,Punjab,23.414,7.92,0.85
+2024-06-01,PB_LDH,Ludhiana,Punjab,24.076,42.84,0.85
+2024-07-01,PB_LDH,Ludhiana,Punjab,23.89,88.74,0.85
+2024-08-01,PB_LDH,Ludhiana,Punjab,22.7,124.85,0.85
+2024-09-01,PB_LDH,Ludhiana,Punjab,22.774,47.6,0.85
+2024-10-01,PB_LDH,Ludhiana,Punjab,23.884,27.93,0.85
+2024-11-01,PB_LDH,Ludhiana,Punjab,24.416,15.74,0.85
+2024-12-01,PB_LDH,Ludhiana,Punjab,23.903,7.08,0.85
+2019-01-01,PB_BTD,Bathinda,Punjab,18.74,4.24,0.85
+2019-02-01,PB_BTD,Bathinda,Punjab,18.206,4.76,0.85
+2019-03-01,PB_BTD,Bathinda,Punjab,18.25,6.31,0.85
+2019-04-01,PB_BTD,Bathinda,Punjab,18.081,3.08,0.85
+2019-05-01,PB_BTD,Bathinda,Punjab,18.562,10.31,0.85
+2019-06-01,PB_BTD,Bathinda,Punjab,18.091,71.33,0.85
+2019-07-01,PB_BTD,Bathinda,Punjab,17.418,154.48,0.85
+2019-08-01,PB_BTD,Bathinda,Punjab,16.748,93.52,0.85
+2019-09-01,PB_BTD,Bathinda,Punjab,16.049,61.25,0.85
+2019-10-01,PB_BTD,Bathinda,Punjab,18.151,25.2,0.85
+2019-11-01,PB_BTD,Bathinda,Punjab,18.699,16.85,0.85
+2019-12-01,PB_BTD,Bathinda,Punjab,18.116,7.5,0.85
+2020-01-01,PB_BTD,Bathinda,Punjab,18.904,4.62,0.85
+2020-02-01,PB_BTD,Bathinda,Punjab,18.411,6.34,0.85
+2020-03-01,PB_BTD,Bathinda,Punjab,19.607,6.05,0.85
+2020-04-01,PB_BTD,Bathinda,Punjab,19.365,5.22,0.85
+2020-05-01,PB_BTD,Bathinda,Punjab,20.09,6.77,0.85
+2020-06-01,PB_BTD,Bathinda,Punjab,18.985,52.91,0.85
+2020-07-01,PB_BTD,Bathinda,Punjab,17.766,156.49,0.85
+2020-08-01,PB_BTD,Bathinda,Punjab,17.936,135.87,0.85
+2020-09-01,PB_BTD,Bathinda,Punjab,18.426,81.05,0.85
+2020-10-01,PB_BTD,Bathinda,Punjab,19.657,17.34,0.85
+2020-11-01,PB_BTD,Bathinda,Punjab,19.427,14.25,0.85
+2020-12-01,PB_BTD,Bathinda,Punjab,19.647,9.88,0.85
+2021-01-01,PB_BTD,Bathinda,Punjab,20.068,5.1,0.85
+2021-02-01,PB_BTD,Bathinda,Punjab,19.191,4.62,0.85
+2021-03-01,PB_BTD,Bathinda,Punjab,19.686,5.01,0.85
+2021-04-01,PB_BTD,Bathinda,Punjab,21.25,5.23,0.85
+2021-05-01,PB_BTD,Bathinda,Punjab,20.419,7.28,0.85
+2021-06-01,PB_BTD,Bathinda,Punjab,20.004,76.58,0.85
+2021-07-01,PB_BTD,Bathinda,Punjab,19.815,143.03,0.85
+2021-08-01,PB_BTD,Bathinda,Punjab,19.553,105.56,0.85
+2021-09-01,PB_BTD,Bathinda,Punjab,19.376,64.74,0.85
+2021-10-01,PB_BTD,Bathinda,Punjab,20.467,27.2,0.85
+2021-11-01,PB_BTD,Bathinda,Punjab,21.432,11.3,0.85
+2021-12-01,PB_BTD,Bathinda,Punjab,21.098,9.99,0.85
+2022-01-01,PB_BTD,Bathinda,Punjab,21.728,3.63,0.85
+2022-02-01,PB_BTD,Bathinda,Punjab,21.314,5.15,0.85
+2022-03-01,PB_BTD,Bathinda,Punjab,21.16,3.82,0.85
+2022-04-01,PB_BTD,Bathinda,Punjab,22.129,5.52,0.85
+2022-05-01,PB_BTD,Bathinda,Punjab,20.32,10.44,0.85
+2022-06-01,PB_BTD,Bathinda,Punjab,21.451,50.52,0.85
+2022-07-01,PB_BTD,Bathinda,Punjab,20.994,120.17,0.85
+2022-08-01,PB_BTD,Bathinda,Punjab,20.572,126.56,0.85
+2022-09-01,PB_BTD,Bathinda,Punjab,20.761,69.75,0.85
+2022-10-01,PB_BTD,Bathinda,Punjab,22.089,25.58,0.85
+2022-11-01,PB_BTD,Bathinda,Punjab,21.555,13.43,0.85
+2022-12-01,PB_BTD,Bathinda,Punjab,22.34,10.79,0.85
+2023-01-01,PB_BTD,Bathinda,Punjab,21.765,4.49,0.85
+2023-02-01,PB_BTD,Bathinda,Punjab,22.711,6.03,0.85
+2023-03-01,PB_BTD,Bathinda,Punjab,22.652,4.96,0.85
+2023-04-01,PB_BTD,Bathinda,Punjab,22.691,2.57,0.85
+2023-05-01,PB_BTD,Bathinda,Punjab,23.493,9.44,0.85
+2023-06-01,PB_BTD,Bathinda,Punjab,23.326,49.38,0.85
+2023-07-01,PB_BTD,Bathinda,Punjab,21.85,124.65,0.85
+2023-08-01,PB_BTD,Bathinda,Punjab,22.426,112.65,0.85
+2023-09-01,PB_BTD,Bathinda,Punjab,22.664,36.2,0.85
+2023-10-01,PB_BTD,Bathinda,Punjab,23.335,21.82,0.85
+2023-11-01,PB_BTD,Bathinda,Punjab,22.828,10.94,0.85
+2023-12-01,PB_BTD,Bathinda,Punjab,23.162,8.72,0.85
+2024-01-01,PB_BTD,Bathinda,Punjab,22.72,5.08,0.85
+2024-02-01,PB_BTD,Bathinda,Punjab,23.57,6.07,0.85
+2024-03-01,PB_BTD,Bathinda,Punjab,23.85,4.5,0.85
+2024-04-01,PB_BTD,Bathinda,Punjab,25.253,3.59,0.85
+2024-05-01,PB_BTD,Bathinda,Punjab,24.055,6.55,0.85
+2024-06-01,PB_BTD,Bathinda,Punjab,23.334,75.71,0.85
+2024-07-01,PB_BTD,Bathinda,Punjab,22.594,137.92,0.85
+2024-08-01,PB_BTD,Bathinda,Punjab,22.146,99.5,0.85
+2024-09-01,PB_BTD,Bathinda,Punjab,23.42,80.5,0.85
+2024-10-01,PB_BTD,Bathinda,Punjab,23.889,24.66,0.85
+2024-11-01,PB_BTD,Bathinda,Punjab,24.189,13.32,0.85
+2024-12-01,PB_BTD,Bathinda,Punjab,24.99,7.86,0.85
+2019-01-01,PB_SAS,SAS Nagar,Punjab,8.515,6.93,0.55
+2019-02-01,PB_SAS,SAS Nagar,Punjab,9.65,7.7,0.55
+2019-03-01,PB_SAS,SAS Nagar,Punjab,9.83,8.88,0.55
+2019-04-01,PB_SAS,SAS Nagar,Punjab,9.52,7.78,0.55
+2019-05-01,PB_SAS,SAS Nagar,Punjab,10.58,21.31,0.55
+2019-06-01,PB_SAS,SAS Nagar,Punjab,9.06,110.93,0.55
+2019-07-01,PB_SAS,SAS Nagar,Punjab,8.148,132.1,0.55
+2019-08-01,PB_SAS,SAS Nagar,Punjab,7.549,196.95,0.55
+2019-09-01,PB_SAS,SAS Nagar,Punjab,8.463,107.81,0.55
+2019-10-01,PB_SAS,SAS Nagar,Punjab,9.218,41.55,0.55
+2019-11-01,PB_SAS,SAS Nagar,Punjab,9.943,15.12,0.55
+2019-12-01,PB_SAS,SAS Nagar,Punjab,10.05,13.13,0.55
+2020-01-01,PB_SAS,SAS Nagar,Punjab,9.783,4.49,0.55
+2020-02-01,PB_SAS,SAS Nagar,Punjab,9.715,8.65,0.55
+2020-03-01,PB_SAS,SAS Nagar,Punjab,10.633,8.2,0.55
+2020-04-01,PB_SAS,SAS Nagar,Punjab,11.466,9.43,0.55
+2020-05-01,PB_SAS,SAS Nagar,Punjab,10.369,11.33,0.55
+2020-06-01,PB_SAS,SAS Nagar,Punjab,10.128,94.43,0.55
+2020-07-01,PB_SAS,SAS Nagar,Punjab,8.509,209.63,0.55
+2020-08-01,PB_SAS,SAS Nagar,Punjab,8.906,172.23,0.55
+2020-09-01,PB_SAS,SAS Nagar,Punjab,8.656,87.23,0.55
+2020-10-01,PB_SAS,SAS Nagar,Punjab,8.898,35.07,0.55
+2020-11-01,PB_SAS,SAS Nagar,Punjab,10.87,13.68,0.55
+2020-12-01,PB_SAS,SAS Nagar,Punjab,10.745,7.23,0.55
+2021-01-01,PB_SAS,SAS Nagar,Punjab,10.118,4.85,0.55
+2021-02-01,PB_SAS,SAS Nagar,Punjab,11.258,8.58,0.55
+2021-03-01,PB_SAS,SAS Nagar,Punjab,11.474,7.81,0.55
+2021-04-01,PB_SAS,SAS Nagar,Punjab,11.666,8.59,0.55
+2021-05-01,PB_SAS,SAS Nagar,Punjab,10.64,11.52,0.55
+2021-06-01,PB_SAS,SAS Nagar,Punjab,10.414,67.46,0.55
+2021-07-01,PB_SAS,SAS Nagar,Punjab,8.338,193.24,0.55
+2021-08-01,PB_SAS,SAS Nagar,Punjab,7.953,269.78,0.55
+2021-09-01,PB_SAS,SAS Nagar,Punjab,8.271,111.25,0.55
+2021-10-01,PB_SAS,SAS Nagar,Punjab,9.652,54.19,0.55
+2021-11-01,PB_SAS,SAS Nagar,Punjab,10.486,21.4,0.55
+2021-12-01,PB_SAS,SAS Nagar,Punjab,10.907,14.56,0.55
+2022-01-01,PB_SAS,SAS Nagar,Punjab,11.439,8.73,0.55
+2022-02-01,PB_SAS,SAS Nagar,Punjab,11.621,3.69,0.55
+2022-03-01,PB_SAS,SAS Nagar,Punjab,10.464,9.4,0.55
+2022-04-01,PB_SAS,SAS Nagar,Punjab,11.866,6.36,0.55
+2022-05-01,PB_SAS,SAS Nagar,Punjab,11.669,15.32,0.55
+2022-06-01,PB_SAS,SAS Nagar,Punjab,10.992,60.72,0.55
+2022-07-01,PB_SAS,SAS Nagar,Punjab,9.433,239.38,0.55
+2022-08-01,PB_SAS,SAS Nagar,Punjab,9.738,259.32,0.55
+2022-09-01,PB_SAS,SAS Nagar,Punjab,8.829,57.44,0.55
+2022-10-01,PB_SAS,SAS Nagar,Punjab,10.754,34.06,0.55
+2022-11-01,PB_SAS,SAS Nagar,Punjab,10.688,14.61,0.55
+2022-12-01,PB_SAS,SAS Nagar,Punjab,11.445,16.43,0.55
+2023-01-01,PB_SAS,SAS Nagar,Punjab,10.86,8.45,0.55
+2023-02-01,PB_SAS,SAS Nagar,Punjab,11.206,5.38,0.55
+2023-03-01,PB_SAS,SAS Nagar,Punjab,11.25,6.56,0.55
+2023-04-01,PB_SAS,SAS Nagar,Punjab,12.263,10.41,0.55
+2023-05-01,PB_SAS,SAS Nagar,Punjab,12.349,8.64,0.55
+2023-06-01,PB_SAS,SAS Nagar,Punjab,11.706,48.21,0.55
+2023-07-01,PB_SAS,SAS Nagar,Punjab,10.236,185.59,0.55
+2023-08-01,PB_SAS,SAS Nagar,Punjab,9.843,184.29,0.55
+2023-09-01,PB_SAS,SAS Nagar,Punjab,9.744,84.05,0.55
+2023-10-01,PB_SAS,SAS Nagar,Punjab,10.871,20.61,0.55
+2023-11-01,PB_SAS,SAS Nagar,Punjab,11.092,22.28,0.55
+2023-12-01,PB_SAS,SAS Nagar,Punjab,12.56,7.07,0.55
+2024-01-01,PB_SAS,SAS Nagar,Punjab,12.31,5.89,0.55
+2024-02-01,PB_SAS,SAS Nagar,Punjab,11.805,10.15,0.55
+2024-03-01,PB_SAS,SAS Nagar,Punjab,12.857,8.24,0.55
+2024-04-01,PB_SAS,SAS Nagar,Punjab,12.881,5.95,0.55
+2024-05-01,PB_SAS,SAS Nagar,Punjab,12.272,17.57,0.55
+2024-06-01,PB_SAS,SAS Nagar,Punjab,11.185,99.96,0.55
+2024-07-01,PB_SAS,SAS Nagar,Punjab,9.799,156.71,0.55
+2024-08-01,PB_SAS,SAS Nagar,Punjab,10.263,138.33,0.55
+2024-09-01,PB_SAS,SAS Nagar,Punjab,10.287,126.44,0.55
+2024-10-01,PB_SAS,SAS Nagar,Punjab,11.226,24.37,0.55
+2024-11-01,PB_SAS,SAS Nagar,Punjab,11.677,29.83,0.55
+2024-12-01,PB_SAS,SAS Nagar,Punjab,12.364,11.68,0.55
+2019-01-01,PB_AMR,Amritsar,Punjab,17.797,4.89,0.85
+2019-02-01,PB_AMR,Amritsar,Punjab,17.642,3.88,0.85
+2019-03-01,PB_AMR,Amritsar,Punjab,18.316,5.52,0.85
+2019-04-01,PB_AMR,Amritsar,Punjab,18.136,6.15,0.85
+2019-05-01,PB_AMR,Amritsar,Punjab,18.566,7.87,0.85
+2019-06-01,PB_AMR,Amritsar,Punjab,17.838,60.93,0.85
+2019-07-01,PB_AMR,Amritsar,Punjab,17.529,138.79,0.85
+2019-08-01,PB_AMR,Amritsar,Punjab,17.198,115.41,0.85
+2019-09-01,PB_AMR,Amritsar,Punjab,17.059,81.39,0.85
+2019-10-01,PB_AMR,Amritsar,Punjab,17.693,18.81,0.85
+2019-11-01,PB_AMR,Amritsar,Punjab,18.673,11.1,0.85
+2019-12-01,PB_AMR,Amritsar,Punjab,18.991,9.84,0.85
+2020-01-01,PB_AMR,Amritsar,Punjab,18.338,3.91,0.85
+2020-02-01,PB_AMR,Amritsar,Punjab,19.763,3.89,0.85
+2020-03-01,PB_AMR,Amritsar,Punjab,19.693,4.6,0.85
+2020-04-01,PB_AMR,Amritsar,Punjab,19.139,3.24,0.85
+2020-05-01,PB_AMR,Amritsar,Punjab,19.582,12.3,0.85
+2020-06-01,PB_AMR,Amritsar,Punjab,19.494,52.47,0.85
+2020-07-01,PB_AMR,Amritsar,Punjab,17.796,129.95,0.85
+2020-08-01,PB_AMR,Amritsar,Punjab,18.325,138.2,0.85
+2020-09-01,PB_AMR,Amritsar,Punjab,18.412,77.91,0.85
+2020-10-01,PB_AMR,Amritsar,Punjab,19.645,15.69,0.85
+2020-11-01,PB_AMR,Amritsar,Punjab,18.925,12.44,0.85
+2020-12-01,PB_AMR,Amritsar,Punjab,19.957,9.61,0.85
+2021-01-01,PB_AMR,Amritsar,Punjab,18.725,4.31,0.85
+2021-02-01,PB_AMR,Amritsar,Punjab,18.99,6.9,0.85
+2021-03-01,PB_AMR,Amritsar,Punjab,19.823,3.02,0.85
+2021-04-01,PB_AMR,Amritsar,Punjab,20.62,2.31,0.85
+2021-05-01,PB_AMR,Amritsar,Punjab,20.608,9.1,0.85
+2021-06-01,PB_AMR,Amritsar,Punjab,20.169,53.69,0.85
+2021-07-01,PB_AMR,Amritsar,Punjab,18.707,135.93,0.85
+2021-08-01,PB_AMR,Amritsar,Punjab,18.935,168.81,0.85
+2021-09-01,PB_AMR,Amritsar,Punjab,20.156,82.04,0.85
+2021-10-01,PB_AMR,Amritsar,Punjab,20.014,15.73,0.85
+2021-11-01,PB_AMR,Amritsar,Punjab,21.355,16.97,0.85
+2021-12-01,PB_AMR,Amritsar,Punjab,20.617,4.98,0.85
+2022-01-01,PB_AMR,Amritsar,Punjab,21.512,3.7,0.85
+2022-02-01,PB_AMR,Amritsar,Punjab,21.425,3.01,0.85
+2022-03-01,PB_AMR,Amritsar,Punjab,21.765,3.88,0.85
+2022-04-01,PB_AMR,Amritsar,Punjab,22.035,4.6,0.85
+2022-05-01,PB_AMR,Amritsar,Punjab,20.961,7.96,0.85
+2022-06-01,PB_AMR,Amritsar,Punjab,20.874,68.02,0.85
+2022-07-01,PB_AMR,Amritsar,Punjab,20.411,134.15,0.85
+2022-08-01,PB_AMR,Amritsar,Punjab,20.084,204.99,0.85
+2022-09-01,PB_AMR,Amritsar,Punjab,19.829,80.57,0.85
+2022-10-01,PB_AMR,Amritsar,Punjab,21.42,22.92,0.85
+2022-11-01,PB_AMR,Amritsar,Punjab,21.616,11.16,0.85
+2022-12-01,PB_AMR,Amritsar,Punjab,21.264,11.32,0.85
+2023-01-01,PB_AMR,Amritsar,Punjab,21.763,3.88,0.85
+2023-02-01,PB_AMR,Amritsar,Punjab,22.656,5.93,0.85
+2023-03-01,PB_AMR,Amritsar,Punjab,22.792,4.87,0.85
+2023-04-01,PB_AMR,Amritsar,Punjab,23.267,3.42,0.85
+2023-05-01,PB_AMR,Amritsar,Punjab,22.354,8.08,0.85
+2023-06-01,PB_AMR,Amritsar,Punjab,22.787,70.13,0.85
+2023-07-01,PB_AMR,Amritsar,Punjab,21.796,101.12,0.85
+2023-08-01,PB_AMR,Amritsar,Punjab,21.631,137.84,0.85
+2023-09-01,PB_AMR,Amritsar,Punjab,22.578,56.27,0.85
+2023-10-01,PB_AMR,Amritsar,Punjab,23.492,17.86,0.85
+2023-11-01,PB_AMR,Amritsar,Punjab,23.069,11.14,0.85
+2023-12-01,PB_AMR,Amritsar,Punjab,23.637,7.44,0.85
+2024-01-01,PB_AMR,Amritsar,Punjab,23.43,3.09,0.85
+2024-02-01,PB_AMR,Amritsar,Punjab,23.677,5.82,0.85
+2024-03-01,PB_AMR,Amritsar,Punjab,24.26,2.9,0.85
+2024-04-01,PB_AMR,Amritsar,Punjab,24.653,3.78,0.85
+2024-05-01,PB_AMR,Amritsar,Punjab,25.241,11.56,0.85
+2024-06-01,PB_AMR,Amritsar,Punjab,24.102,35.6,0.85
+2024-07-01,PB_AMR,Amritsar,Punjab,23.276,122.83,0.85
+2024-08-01,PB_AMR,Amritsar,Punjab,23.088,174.61,0.85
+2024-09-01,PB_AMR,Amritsar,Punjab,22.971,53.03,0.85
+2024-10-01,PB_AMR,Amritsar,Punjab,24.618,15.97,0.85
+2024-11-01,PB_AMR,Amritsar,Punjab,24.4,14.57,0.85
+2024-12-01,PB_AMR,Amritsar,Punjab,24.168,8.4,0.85
+2019-01-01,PB_FZR,Fazilka,Punjab,17.57,3.36,0.85
+2019-02-01,PB_FZR,Fazilka,Punjab,18.563,3.33,0.85
+2019-03-01,PB_FZR,Fazilka,Punjab,18.682,4.29,0.85
+2019-04-01,PB_FZR,Fazilka,Punjab,18.577,4.06,0.85
+2019-05-01,PB_FZR,Fazilka,Punjab,18.911,13.32,0.85
+2019-06-01,PB_FZR,Fazilka,Punjab,17.764,58.91,0.85
+2019-07-01,PB_FZR,Fazilka,Punjab,17.6,131.1,0.85
+2019-08-01,PB_FZR,Fazilka,Punjab,16.789,137.38,0.85
+2019-09-01,PB_FZR,Fazilka,Punjab,17.777,64.82,0.85
+2019-10-01,PB_FZR,Fazilka,Punjab,17.858,13.71,0.85
+2019-11-01,PB_FZR,Fazilka,Punjab,18.178,16.46,0.85
+2019-12-01,PB_FZR,Fazilka,Punjab,18.91,4.29,0.85
+2020-01-01,PB_FZR,Fazilka,Punjab,18.622,4.1,0.85
+2020-02-01,PB_FZR,Fazilka,Punjab,18.886,6.28,0.85
+2020-03-01,PB_FZR,Fazilka,Punjab,19.293,5.99,0.85
+2020-04-01,PB_FZR,Fazilka,Punjab,18.089,4.68,0.85
+2020-05-01,PB_FZR,Fazilka,Punjab,19.248,7.96,0.85
+2020-06-01,PB_FZR,Fazilka,Punjab,18.65,39.56,0.85
+2020-07-01,PB_FZR,Fazilka,Punjab,18.917,125.34,0.85
+2020-08-01,PB_FZR,Fazilka,Punjab,18.343,122.88,0.85
+2020-09-01,PB_FZR,Fazilka,Punjab,18.515,44.55,0.85
+2020-10-01,PB_FZR,Fazilka,Punjab,19.143,26.45,0.85
+2020-11-01,PB_FZR,Fazilka,Punjab,20.195,13.47,0.85
+2020-12-01,PB_FZR,Fazilka,Punjab,20.412,9.12,0.85
+2021-01-01,PB_FZR,Fazilka,Punjab,20.511,4.49,0.85
+2021-02-01,PB_FZR,Fazilka,Punjab,20.466,3.62,0.85
+2021-03-01,PB_FZR,Fazilka,Punjab,20.808,5.96,0.85
+2021-04-01,PB_FZR,Fazilka,Punjab,21.596,4.77,0.85
+2021-05-01,PB_FZR,Fazilka,Punjab,20.965,9.94,0.85
+2021-06-01,PB_FZR,Fazilka,Punjab,20.285,52.62,0.85
+2021-07-01,PB_FZR,Fazilka,Punjab,19.174,139.2,0.85
+2021-08-01,PB_FZR,Fazilka,Punjab,19.023,151.55,0.85
+2021-09-01,PB_FZR,Fazilka,Punjab,19.276,97.97,0.85
+2021-10-01,PB_FZR,Fazilka,Punjab,20.261,24.26,0.85
+2021-11-01,PB_FZR,Fazilka,Punjab,20.888,15.86,0.85
+2021-12-01,PB_FZR,Fazilka,Punjab,21.148,8.23,0.85
+2022-01-01,PB_FZR,Fazilka,Punjab,20.363,2.99,0.85
+2022-02-01,PB_FZR,Fazilka,Punjab,21.337,3.45,0.85
+2022-03-01,PB_FZR,Fazilka,Punjab,21.31,5.65,0.85
+2022-04-01,PB_FZR,Fazilka,Punjab,22.137,4.43,0.85
+2022-05-01,PB_FZR,Fazilka,Punjab,22.215,11.36,0.85
+2022-06-01,PB_FZR,Fazilka,Punjab,21.392,56.7,0.85
+2022-07-01,PB_FZR,Fazilka,Punjab,20.321,153.98,0.85
+2022-08-01,PB_FZR,Fazilka,Punjab,21.267,115.73,0.85
+2022-09-01,PB_FZR,Fazilka,Punjab,21.249,49.17,0.85
+2022-10-01,PB_FZR,Fazilka,Punjab,21.808,23.85,0.85
+2022-11-01,PB_FZR,Fazilka,Punjab,22.424,15.35,0.85
+2022-12-01,PB_FZR,Fazilka,Punjab,22.669,4.7,0.85
+2023-01-01,PB_FZR,Fazilka,Punjab,21.812,6.8,0.85
+2023-02-01,PB_FZR,Fazilka,Punjab,22.257,3.52,0.85
+2023-03-01,PB_FZR,Fazilka,Punjab,22.124,4.79,0.85
+2023-04-01,PB_FZR,Fazilka,Punjab,22.757,3.98,0.85
+2023-05-01,PB_FZR,Fazilka,Punjab,23.497,7.8,0.85
+2023-06-01,PB_FZR,Fazilka,Punjab,23.492,69.31,0.85
+2023-07-01,PB_FZR,Fazilka,Punjab,21.057,154.92,0.85
+2023-08-01,PB_FZR,Fazilka,Punjab,21.775,62.93,0.85
+2023-09-01,PB_FZR,Fazilka,Punjab,21.943,75.83,0.85
+2023-10-01,PB_FZR,Fazilka,Punjab,22.437,25.27,0.85
+2023-11-01,PB_FZR,Fazilka,Punjab,23.465,17.92,0.85
+2023-12-01,PB_FZR,Fazilka,Punjab,22.359,9.83,0.85
+2024-01-01,PB_FZR,Fazilka,Punjab,23.429,4.08,0.85
+2024-02-01,PB_FZR,Fazilka,Punjab,23.643,4.29,0.85
+2024-03-01,PB_FZR,Fazilka,Punjab,24.127,5.25,0.85
+2024-04-01,PB_FZR,Fazilka,Punjab,24.801,3.52,0.85
+2024-05-01,PB_FZR,Fazilka,Punjab,23.983,9.57,0.85
+2024-06-01,PB_FZR,Fazilka,Punjab,23.044,53.33,0.85
+2024-07-01,PB_FZR,Fazilka,Punjab,23.012,185.99,0.85
+2024-08-01,PB_FZR,Fazilka,Punjab,22.892,121.13,0.85
+2024-09-01,PB_FZR,Fazilka,Punjab,22.506,58.79,0.85
+2024-10-01,PB_FZR,Fazilka,Punjab,25.094,26.41,0.85
+2024-11-01,PB_FZR,Fazilka,Punjab,24.52,15.68,0.85
+2024-12-01,PB_FZR,Fazilka,Punjab,24.047,12.61,0.85
+2019-01-01,HR_KRN,Karnal,Haryana,17.848,4.8,0.85
+2019-02-01,HR_KRN,Karnal,Haryana,17.621,4.56,0.85
+2019-03-01,HR_KRN,Karnal,Haryana,18.013,5.35,0.85
+2019-04-01,HR_KRN,Karnal,Haryana,18.192,5.22,0.85
+2019-05-01,HR_KRN,Karnal,Haryana,18.148,9.88,0.85
+2019-06-01,HR_KRN,Karnal,Haryana,17.583,60.7,0.85
+2019-07-01,HR_KRN,Karnal,Haryana,17.252,87.05,0.85
+2019-08-01,HR_KRN,Karnal,Haryana,16.749,119.18,0.85
+2019-09-01,HR_KRN,Karnal,Haryana,17.493,68.05,0.85
+2019-10-01,HR_KRN,Karnal,Haryana,18.573,22.17,0.85
+2019-11-01,HR_KRN,Karnal,Haryana,17.616,12.79,0.85
+2019-12-01,HR_KRN,Karnal,Haryana,18.457,12.06,0.85
+2020-01-01,HR_KRN,Karnal,Haryana,18.985,4.62,0.85
+2020-02-01,HR_KRN,Karnal,Haryana,18.606,2.79,0.85
+2020-03-01,HR_KRN,Karnal,Haryana,19.173,3.88,0.85
+2020-04-01,HR_KRN,Karnal,Haryana,19.169,3.48,0.85
+2020-05-01,HR_KRN,Karnal,Haryana,20.345,10.67,0.85
+2020-06-01,HR_KRN,Karnal,Haryana,19.711,54.42,0.85
+2020-07-01,HR_KRN,Karnal,Haryana,18.116,164.33,0.85
+2020-08-01,HR_KRN,Karnal,Haryana,18.078,156.81,0.85
+2020-09-01,HR_KRN,Karnal,Haryana,18.693,30.84,0.85
+2020-10-01,HR_KRN,Karnal,Haryana,19.422,27.35,0.85
+2020-11-01,HR_KRN,Karnal,Haryana,19.169,16.52,0.85
+2020-12-01,HR_KRN,Karnal,Haryana,19.645,4.85,0.85
+2021-01-01,HR_KRN,Karnal,Haryana,20.385,4.87,0.85
+2021-02-01,HR_KRN,Karnal,Haryana,19.171,3.95,0.85
+2021-03-01,HR_KRN,Karnal,Haryana,20.628,6.77,0.85
+2021-04-01,HR_KRN,Karnal,Haryana,21.097,5.08,0.85
+2021-05-01,HR_KRN,Karnal,Haryana,21.05,10.63,0.85
+2021-06-01,HR_KRN,Karnal,Haryana,20.309,69.03,0.85
+2021-07-01,HR_KRN,Karnal,Haryana,19.725,146.11,0.85
+2021-08-01,HR_KRN,Karnal,Haryana,18.976,169.49,0.85
+2021-09-01,HR_KRN,Karnal,Haryana,19.751,70.18,0.85
+2021-10-01,HR_KRN,Karnal,Haryana,19.819,14.76,0.85
+2021-11-01,HR_KRN,Karnal,Haryana,21.001,10.15,0.85
+2021-12-01,HR_KRN,Karnal,Haryana,20.267,10.39,0.85
+2022-01-01,HR_KRN,Karnal,Haryana,20.987,3.77,0.85
+2022-02-01,HR_KRN,Karnal,Haryana,21.016,4.16,0.85
+2022-03-01,HR_KRN,Karnal,Haryana,21.138,6.6,0.85
+2022-04-01,HR_KRN,Karnal,Haryana,21.466,7.53,0.85
+2022-05-01,HR_KRN,Karnal,Haryana,21.83,8.31,0.85
+2022-06-01,HR_KRN,Karnal,Haryana,21.444,42.65,0.85
+2022-07-01,HR_KRN,Karnal,Haryana,21.209,126.07,0.85
+2022-08-01,HR_KRN,Karnal,Haryana,20.206,164.01,0.85
+2022-09-01,HR_KRN,Karnal,Haryana,19.796,42.87,0.85
+2022-10-01,HR_KRN,Karnal,Haryana,21.811,28.36,0.85
+2022-11-01,HR_KRN,Karnal,Haryana,22.455,11.84,0.85
+2022-12-01,HR_KRN,Karnal,Haryana,21.544,6.84,0.85
+2023-01-01,HR_KRN,Karnal,Haryana,22.539,3.21,0.85
+2023-02-01,HR_KRN,Karnal,Haryana,21.409,7.04,0.85
+2023-03-01,HR_KRN,Karnal,Haryana,22.444,4.7,0.85
+2023-04-01,HR_KRN,Karnal,Haryana,21.966,3.14,0.85
+2023-05-01,HR_KRN,Karnal,Haryana,23.463,9.52,0.85
+2023-06-01,HR_KRN,Karnal,Haryana,23.069,77.09,0.85
+2023-07-01,HR_KRN,Karnal,Haryana,20.659,121.6,0.85
+2023-08-01,HR_KRN,Karnal,Haryana,21.093,137.56,0.85
+2023-09-01,HR_KRN,Karnal,Haryana,20.978,83.46,0.85
+2023-10-01,HR_KRN,Karnal,Haryana,22.471,18.68,0.85
+2023-11-01,HR_KRN,Karnal,Haryana,22.887,14.57,0.85
+2023-12-01,HR_KRN,Karnal,Haryana,22.47,10.88,0.85
+2024-01-01,HR_KRN,Karnal,Haryana,23.195,3.97,0.85
+2024-02-01,HR_KRN,Karnal,Haryana,23.863,3.28,0.85
+2024-03-01,HR_KRN,Karnal,Haryana,24.457,2.84,0.85
+2024-04-01,HR_KRN,Karnal,Haryana,23.713,3.18,0.85
+2024-05-01,HR_KRN,Karnal,Haryana,24.121,4.7,0.85
+2024-06-01,HR_KRN,Karnal,Haryana,23.148,54.95,0.85
+2024-07-01,HR_KRN,Karnal,Haryana,22.775,105.96,0.85
+2024-08-01,HR_KRN,Karnal,Haryana,23.55,155.57,0.85
+2024-09-01,HR_KRN,Karnal,Haryana,23.203,63.68,0.85
+2024-10-01,HR_KRN,Karnal,Haryana,24.728,28.36,0.85
+2024-11-01,HR_KRN,Karnal,Haryana,24.532,12.26,0.85
+2024-12-01,HR_KRN,Karnal,Haryana,24.92,9.12,0.85
+2019-01-01,HR_KTL,Kaithal,Haryana,17.987,2.42,0.85
+2019-02-01,HR_KTL,Kaithal,Haryana,17.261,6.12,0.85
+2019-03-01,HR_KTL,Kaithal,Haryana,18.625,3.87,0.85
+2019-04-01,HR_KTL,Kaithal,Haryana,18.762,4.14,0.85
+2019-05-01,HR_KTL,Kaithal,Haryana,17.906,11.89,0.85
+2019-06-01,HR_KTL,Kaithal,Haryana,17.443,30.65,0.85
+2019-07-01,HR_KTL,Kaithal,Haryana,17.395,169.46,0.85
+2019-08-01,HR_KTL,Kaithal,Haryana,16.022,127.64,0.85
+2019-09-01,HR_KTL,Kaithal,Haryana,18.188,50.67,0.85
+2019-10-01,HR_KTL,Kaithal,Haryana,17.775,12.97,0.85
+2019-11-01,HR_KTL,Kaithal,Haryana,18.204,9.36,0.85
+2019-12-01,HR_KTL,Kaithal,Haryana,19.008,8.06,0.85
+2020-01-01,HR_KTL,Kaithal,Haryana,19.501,4.61,0.85
+2020-02-01,HR_KTL,Kaithal,Haryana,19.247,5.13,0.85
+2020-03-01,HR_KTL,Kaithal,Haryana,18.686,5.44,0.85
+2020-04-01,HR_KTL,Kaithal,Haryana,19.558,5.04,0.85
+2020-05-01,HR_KTL,Kaithal,Haryana,19.854,8.58,0.85
+2020-06-01,HR_KTL,Kaithal,Haryana,19.695,50.74,0.85
+2020-07-01,HR_KTL,Kaithal,Haryana,19.079,86.68,0.85
+2020-08-01,HR_KTL,Kaithal,Haryana,18.943,155.98,0.85
+2020-09-01,HR_KTL,Kaithal,Haryana,17.749,52.89,0.85
+2020-10-01,HR_KTL,Kaithal,Haryana,18.84,17.52,0.85
+2020-11-01,HR_KTL,Kaithal,Haryana,19.973,14.23,0.85
+2020-12-01,HR_KTL,Kaithal,Haryana,19.904,9.56,0.85
+2021-01-01,HR_KTL,Kaithal,Haryana,20.376,3.74,0.85
+2021-02-01,HR_KTL,Kaithal,Haryana,20.029,2.37,0.85
+2021-03-01,HR_KTL,Kaithal,Haryana,20.41,5.43,0.85
+2021-04-01,HR_KTL,Kaithal,Haryana,20.351,3.74,0.85
+2021-05-01,HR_KTL,Kaithal,Haryana,21.851,11.91,0.85
+2021-06-01,HR_KTL,Kaithal,Haryana,19.872,44.98,0.85
+2021-07-01,HR_KTL,Kaithal,Haryana,19.662,118.61,0.85
+2021-08-01,HR_KTL,Kaithal,Haryana,19.265,141.54,0.85
+2021-09-01,HR_KTL,Kaithal,Haryana,19.136,54.65,0.85
+2021-10-01,HR_KTL,Kaithal,Haryana,20.339,21.05,0.85
+2021-11-01,HR_KTL,Kaithal,Haryana,20.173,9.81,0.85
+2021-12-01,HR_KTL,Kaithal,Haryana,20.567,12.94,0.85
+2022-01-01,HR_KTL,Kaithal,Haryana,21.106,4.13,0.85
+2022-02-01,HR_KTL,Kaithal,Haryana,21.17,5.85,0.85
+2022-03-01,HR_KTL,Kaithal,Haryana,21.492,4.42,0.85
+2022-04-01,HR_KTL,Kaithal,Haryana,21.924,4.07,0.85
+2022-05-01,HR_KTL,Kaithal,Haryana,22.119,9.41,0.85
+2022-06-01,HR_KTL,Kaithal,Haryana,22.423,57.75,0.85
+2022-07-01,HR_KTL,Kaithal,Haryana,20.778,129.12,0.85
+2022-08-01,HR_KTL,Kaithal,Haryana,20.544,47.4,0.85
+2022-09-01,HR_KTL,Kaithal,Haryana,20.733,66.87,0.85
+2022-10-01,HR_KTL,Kaithal,Haryana,21.393,16.96,0.85
+2022-11-01,HR_KTL,Kaithal,Haryana,21.328,9.01,0.85
+2022-12-01,HR_KTL,Kaithal,Haryana,22.487,8.33,0.85
+2023-01-01,HR_KTL,Kaithal,Haryana,21.775,1.57,0.85
+2023-02-01,HR_KTL,Kaithal,Haryana,22.727,5.06,0.85
+2023-03-01,HR_KTL,Kaithal,Haryana,22.699,4.43,0.85
+2023-04-01,HR_KTL,Kaithal,Haryana,23.443,2.66,0.85
+2023-05-01,HR_KTL,Kaithal,Haryana,22.438,8.29,0.85
+2023-06-01,HR_KTL,Kaithal,Haryana,22.752,68.8,0.85
+2023-07-01,HR_KTL,Kaithal,Haryana,21.831,93.22,0.85
+2023-08-01,HR_KTL,Kaithal,Haryana,20.728,198.66,0.85
+2023-09-01,HR_KTL,Kaithal,Haryana,22.6,52.98,0.85
+2023-10-01,HR_KTL,Kaithal,Haryana,22.894,6.05,0.85
+2023-11-01,HR_KTL,Kaithal,Haryana,22.999,15.07,0.85
+2023-12-01,HR_KTL,Kaithal,Haryana,23.663,7.07,0.85
+2024-01-01,HR_KTL,Kaithal,Haryana,24.868,6.11,0.85
+2024-02-01,HR_KTL,Kaithal,Haryana,22.927,5.12,0.85
+2024-03-01,HR_KTL,Kaithal,Haryana,23.865,6.21,0.85
+2024-04-01,HR_KTL,Kaithal,Haryana,24.793,4.68,0.85
+2024-05-01,HR_KTL,Kaithal,Haryana,24.624,7.16,0.85
+2024-06-01,HR_KTL,Kaithal,Haryana,23.819,83.24,0.85
+2024-07-01,HR_KTL,Kaithal,Haryana,22.894,152.6,0.85
+2024-08-01,HR_KTL,Kaithal,Haryana,21.369,131.35,0.85
+2024-09-01,HR_KTL,Kaithal,Haryana,23.293,53.38,0.85
+2024-10-01,HR_KTL,Kaithal,Haryana,23.876,17.8,0.85
+2024-11-01,HR_KTL,Kaithal,Haryana,24.474,14.45,0.85
+2024-12-01,HR_KTL,Kaithal,Haryana,24.709,8.31,0.85
+2019-01-01,HR_AMB,Ambala,Haryana,9.241,6.92,0.55
+2019-02-01,HR_AMB,Ambala,Haryana,8.96,8.54,0.55
+2019-03-01,HR_AMB,Ambala,Haryana,9.711,3.25,0.55
+2019-04-01,HR_AMB,Ambala,Haryana,9.97,5.49,0.55
+2019-05-01,HR_AMB,Ambala,Haryana,10.267,11.24,0.55
+2019-06-01,HR_AMB,Ambala,Haryana,8.236,70.36,0.55
+2019-07-01,HR_AMB,Ambala,Haryana,7.925,208.97,0.55
+2019-08-01,HR_AMB,Ambala,Haryana,7.808,215.75,0.55
+2019-09-01,HR_AMB,Ambala,Haryana,8.67,94.04,0.55
+2019-10-01,HR_AMB,Ambala,Haryana,9.534,47.61,0.55
+2019-11-01,HR_AMB,Ambala,Haryana,9.865,29.74,0.55
+2019-12-01,HR_AMB,Ambala,Haryana,9.23,14.71,0.55
+2020-01-01,HR_AMB,Ambala,Haryana,9.532,5.09,0.55
+2020-02-01,HR_AMB,Ambala,Haryana,9.729,6.74,0.55
+2020-03-01,HR_AMB,Ambala,Haryana,10.472,6.36,0.55
+2020-04-01,HR_AMB,Ambala,Haryana,10.264,9.08,0.55
+2020-05-01,HR_AMB,Ambala,Haryana,10.639,15.54,0.55
+2020-06-01,HR_AMB,Ambala,Haryana,9.769,97.16,0.55
+2020-07-01,HR_AMB,Ambala,Haryana,9.002,210.35,0.55
+2020-08-01,HR_AMB,Ambala,Haryana,8.087,296.15,0.55
+2020-09-01,HR_AMB,Ambala,Haryana,8.921,83.76,0.55
+2020-10-01,HR_AMB,Ambala,Haryana,9.71,34.11,0.55
+2020-11-01,HR_AMB,Ambala,Haryana,10.024,16.41,0.55
+2020-12-01,HR_AMB,Ambala,Haryana,9.781,21.12,0.55
+2021-01-01,HR_AMB,Ambala,Haryana,10.476,8.08,0.55
+2021-02-01,HR_AMB,Ambala,Haryana,9.433,4.42,0.55
+2021-03-01,HR_AMB,Ambala,Haryana,10.338,6.49,0.55
+2021-04-01,HR_AMB,Ambala,Haryana,11.094,5.07,0.55
+2021-05-01,HR_AMB,Ambala,Haryana,11.155,8.41,0.55
+2021-06-01,HR_AMB,Ambala,Haryana,10.474,83.45,0.55
+2021-07-01,HR_AMB,Ambala,Haryana,9.398,260.7,0.55
+2021-08-01,HR_AMB,Ambala,Haryana,8.599,204.31,0.55
+2021-09-01,HR_AMB,Ambala,Haryana,8.637,67.28,0.55
+2021-10-01,HR_AMB,Ambala,Haryana,9.952,43.08,0.55
+2021-11-01,HR_AMB,Ambala,Haryana,9.508,20.61,0.55
+2021-12-01,HR_AMB,Ambala,Haryana,10.576,10.76,0.55
+2022-01-01,HR_AMB,Ambala,Haryana,10.655,8.93,0.55
+2022-02-01,HR_AMB,Ambala,Haryana,11.668,8.13,0.55
+2022-03-01,HR_AMB,Ambala,Haryana,11.544,6.94,0.55
+2022-04-01,HR_AMB,Ambala,Haryana,12.192,5.31,0.55
+2022-05-01,HR_AMB,Ambala,Haryana,11.503,9.95,0.55
+2022-06-01,HR_AMB,Ambala,Haryana,10.17,73.26,0.55
+2022-07-01,HR_AMB,Ambala,Haryana,9.635,251.28,0.55
+2022-08-01,HR_AMB,Ambala,Haryana,9.691,173.71,0.55
+2022-09-01,HR_AMB,Ambala,Haryana,9.831,124.68,0.55
+2022-10-01,HR_AMB,Ambala,Haryana,11.506,33.94,0.55
+2022-11-01,HR_AMB,Ambala,Haryana,10.798,27.27,0.55
+2022-12-01,HR_AMB,Ambala,Haryana,11.154,17.77,0.55
+2023-01-01,HR_AMB,Ambala,Haryana,12.069,15.15,0.55
+2023-02-01,HR_AMB,Ambala,Haryana,11.637,9.01,0.55
+2023-03-01,HR_AMB,Ambala,Haryana,11.994,6.0,0.55
+2023-04-01,HR_AMB,Ambala,Haryana,11.641,8.6,0.55
+2023-05-01,HR_AMB,Ambala,Haryana,12.068,18.92,0.55
+2023-06-01,HR_AMB,Ambala,Haryana,11.092,97.22,0.55
+2023-07-01,HR_AMB,Ambala,Haryana,9.427,161.84,0.55
+2023-08-01,HR_AMB,Ambala,Haryana,9.47,301.56,0.55
+2023-09-01,HR_AMB,Ambala,Haryana,10.386,95.61,0.55
+2023-10-01,HR_AMB,Ambala,Haryana,10.779,27.57,0.55
+2023-11-01,HR_AMB,Ambala,Haryana,10.842,21.36,0.55
+2023-12-01,HR_AMB,Ambala,Haryana,11.568,8.93,0.55
+2024-01-01,HR_AMB,Ambala,Haryana,12.353,8.67,0.55
+2024-02-01,HR_AMB,Ambala,Haryana,12.151,8.97,0.55
+2024-03-01,HR_AMB,Ambala,Haryana,12.546,5.48,0.55
+2024-04-01,HR_AMB,Ambala,Haryana,12.498,5.77,0.55
+2024-05-01,HR_AMB,Ambala,Haryana,12.515,18.74,0.55
+2024-06-01,HR_AMB,Ambala,Haryana,11.593,108.37,0.55
+2024-07-01,HR_AMB,Ambala,Haryana,10.798,261.95,0.55
+2024-08-01,HR_AMB,Ambala,Haryana,9.993,127.58,0.55
+2024-09-01,HR_AMB,Ambala,Haryana,10.501,102.76,0.55
+2024-10-01,HR_AMB,Ambala,Haryana,10.914,43.6,0.55
+2024-11-01,HR_AMB,Ambala,Haryana,12.044,17.78,0.55
+2024-12-01,HR_AMB,Ambala,Haryana,11.902,11.98,0.55
+2019-01-01,HR_FRD,Faridabad,Haryana,8.843,7.36,0.55
+2019-02-01,HR_FRD,Faridabad,Haryana,9.429,5.3,0.55
+2019-03-01,HR_FRD,Faridabad,Haryana,9.431,5.9,0.55
+2019-04-01,HR_FRD,Faridabad,Haryana,10.022,9.71,0.55
+2019-05-01,HR_FRD,Faridabad,Haryana,10.466,11.45,0.55
+2019-06-01,HR_FRD,Faridabad,Haryana,8.296,93.48,0.55
+2019-07-01,HR_FRD,Faridabad,Haryana,8.608,121.14,0.55
+2019-08-01,HR_FRD,Faridabad,Haryana,8.165,199.46,0.55
+2019-09-01,HR_FRD,Faridabad,Haryana,8.436,140.93,0.55
+2019-10-01,HR_FRD,Faridabad,Haryana,8.304,32.13,0.55
+2019-11-01,HR_FRD,Faridabad,Haryana,9.501,30.84,0.55
+2019-12-01,HR_FRD,Faridabad,Haryana,9.921,13.27,0.55
+2020-01-01,HR_FRD,Faridabad,Haryana,9.807,6.89,0.55
+2020-02-01,HR_FRD,Faridabad,Haryana,10.077,6.97,0.55
+2020-03-01,HR_FRD,Faridabad,Haryana,10.358,7.88,0.55
+2020-04-01,HR_FRD,Faridabad,Haryana,10.454,9.69,0.55
+2020-05-01,HR_FRD,Faridabad,Haryana,10.554,15.39,0.55
+2020-06-01,HR_FRD,Faridabad,Haryana,9.809,86.21,0.55
+2020-07-01,HR_FRD,Faridabad,Haryana,8.879,276.54,0.55
+2020-08-01,HR_FRD,Faridabad,Haryana,7.97,233.53,0.55
+2020-09-01,HR_FRD,Faridabad,Haryana,8.191,54.78,0.55
+2020-10-01,HR_FRD,Faridabad,Haryana,9.582,26.91,0.55
+2020-11-01,HR_FRD,Faridabad,Haryana,10.336,17.83,0.55
+2020-12-01,HR_FRD,Faridabad,Haryana,10.45,13.35,0.55
+2021-01-01,HR_FRD,Faridabad,Haryana,11.144,5.45,0.55
+2021-02-01,HR_FRD,Faridabad,Haryana,10.687,6.96,0.55
+2021-03-01,HR_FRD,Faridabad,Haryana,10.688,6.65,0.55
+2021-04-01,HR_FRD,Faridabad,Haryana,11.077,7.65,0.55
+2021-05-01,HR_FRD,Faridabad,Haryana,10.787,17.43,0.55
+2021-06-01,HR_FRD,Faridabad,Haryana,9.87,74.23,0.55
+2021-07-01,HR_FRD,Faridabad,Haryana,8.872,162.11,0.55
+2021-08-01,HR_FRD,Faridabad,Haryana,9.181,229.7,0.55
+2021-09-01,HR_FRD,Faridabad,Haryana,9.009,131.36,0.55
+2021-10-01,HR_FRD,Faridabad,Haryana,10.123,47.17,0.55
+2021-11-01,HR_FRD,Faridabad,Haryana,10.378,22.57,0.55
+2021-12-01,HR_FRD,Faridabad,Haryana,10.712,12.69,0.55
+2022-01-01,HR_FRD,Faridabad,Haryana,10.791,8.02,0.55
+2022-02-01,HR_FRD,Faridabad,Haryana,10.338,7.86,0.55
+2022-03-01,HR_FRD,Faridabad,Haryana,11.439,6.4,0.55
+2022-04-01,HR_FRD,Faridabad,Haryana,11.454,7.37,0.55
+2022-05-01,HR_FRD,Faridabad,Haryana,11.078,14.6,0.55
+2022-06-01,HR_FRD,Faridabad,Haryana,10.128,53.65,0.55
+2022-07-01,HR_FRD,Faridabad,Haryana,9.256,95.73,0.55
+2022-08-01,HR_FRD,Faridabad,Haryana,9.77,208.95,0.55
+2022-09-01,HR_FRD,Faridabad,Haryana,9.762,96.49,0.55
+2022-10-01,HR_FRD,Faridabad,Haryana,10.206,42.66,0.55
+2022-11-01,HR_FRD,Faridabad,Haryana,10.408,23.17,0.55
+2022-12-01,HR_FRD,Faridabad,Haryana,11.053,16.36,0.55
+2023-01-01,HR_FRD,Faridabad,Haryana,11.312,6.56,0.55
+2023-02-01,HR_FRD,Faridabad,Haryana,10.887,10.07,0.55
+2023-03-01,HR_FRD,Faridabad,Haryana,12.0,7.92,0.55
+2023-04-01,HR_FRD,Faridabad,Haryana,12.865,5.89,0.55
+2023-05-01,HR_FRD,Faridabad,Haryana,11.994,20.0,0.55
+2023-06-01,HR_FRD,Faridabad,Haryana,11.286,92.01,0.55
+2023-07-01,HR_FRD,Faridabad,Haryana,9.772,192.37,0.55
+2023-08-01,HR_FRD,Faridabad,Haryana,10.11,145.6,0.55
+2023-09-01,HR_FRD,Faridabad,Haryana,10.354,101.27,0.55
+2023-10-01,HR_FRD,Faridabad,Haryana,10.437,55.6,0.55
+2023-11-01,HR_FRD,Faridabad,Haryana,11.698,25.48,0.55
+2023-12-01,HR_FRD,Faridabad,Haryana,11.978,9.72,0.55
+2024-01-01,HR_FRD,Faridabad,Haryana,11.749,7.53,0.55
+2024-02-01,HR_FRD,Faridabad,Haryana,12.602,9.65,0.55
+2024-03-01,HR_FRD,Faridabad,Haryana,11.88,7.16,0.55
+2024-04-01,HR_FRD,Faridabad,Haryana,12.608,6.54,0.55
+2024-05-01,HR_FRD,Faridabad,Haryana,12.946,16.75,0.55
+2024-06-01,HR_FRD,Faridabad,Haryana,11.404,97.02,0.55
+2024-07-01,HR_FRD,Faridabad,Haryana,10.735,240.82,0.55
+2024-08-01,HR_FRD,Faridabad,Haryana,10.503,215.03,0.55
+2024-09-01,HR_FRD,Faridabad,Haryana,10.513,138.04,0.55
+2024-10-01,HR_FRD,Faridabad,Haryana,11.45,36.81,0.55
+2024-11-01,HR_FRD,Faridabad,Haryana,11.666,24.24,0.55
+2024-12-01,HR_FRD,Faridabad,Haryana,12.351,18.41,0.55
+2019-01-01,HR_MEW,Mewat,Haryana,4.514,10.1,0.3
+2019-02-01,HR_MEW,Mewat,Haryana,4.459,9.3,0.3
+2019-03-01,HR_MEW,Mewat,Haryana,5.081,9.62,0.3
+2019-04-01,HR_MEW,Mewat,Haryana,4.544,12.04,0.3
+2019-05-01,HR_MEW,Mewat,Haryana,4.634,19.67,0.3
+2019-06-01,HR_MEW,Mewat,Haryana,3.859,98.47,0.3
+2019-07-01,HR_MEW,Mewat,Haryana,2.126,255.0,0.3
+2019-08-01,HR_MEW,Mewat,Haryana,1.592,211.06,0.3
+2019-09-01,HR_MEW,Mewat,Haryana,1.713,92.54,0.3
+2019-10-01,HR_MEW,Mewat,Haryana,2.436,53.87,0.3
+2019-11-01,HR_MEW,Mewat,Haryana,3.717,35.42,0.3
+2019-12-01,HR_MEW,Mewat,Haryana,3.826,27.26,0.3
+2020-01-01,HR_MEW,Mewat,Haryana,4.082,10.01,0.3
+2020-02-01,HR_MEW,Mewat,Haryana,3.98,8.23,0.3
+2020-03-01,HR_MEW,Mewat,Haryana,4.138,12.6,0.3
+2020-04-01,HR_MEW,Mewat,Haryana,5.207,11.04,0.3
+2020-05-01,HR_MEW,Mewat,Haryana,4.597,14.42,0.3
+2020-06-01,HR_MEW,Mewat,Haryana,3.298,52.36,0.3
+2020-07-01,HR_MEW,Mewat,Haryana,1.95,322.23,0.3
+2020-08-01,HR_MEW,Mewat,Haryana,1.274,219.53,0.3
+2020-09-01,HR_MEW,Mewat,Haryana,1.614,147.27,0.3
+2020-10-01,HR_MEW,Mewat,Haryana,2.049,67.05,0.3
+2020-11-01,HR_MEW,Mewat,Haryana,3.637,34.16,0.3
+2020-12-01,HR_MEW,Mewat,Haryana,3.378,16.91,0.3
+2021-01-01,HR_MEW,Mewat,Haryana,3.87,10.57,0.3
+2021-02-01,HR_MEW,Mewat,Haryana,4.152,12.95,0.3
+2021-03-01,HR_MEW,Mewat,Haryana,3.9,9.71,0.3
+2021-04-01,HR_MEW,Mewat,Haryana,4.688,4.64,0.3
+2021-05-01,HR_MEW,Mewat,Haryana,4.887,11.62,0.3
+2021-06-01,HR_MEW,Mewat,Haryana,3.441,129.9,0.3
+2021-07-01,HR_MEW,Mewat,Haryana,1.316,271.79,0.3
+2021-08-01,HR_MEW,Mewat,Haryana,1.206,327.98,0.3
+2021-09-01,HR_MEW,Mewat,Haryana,1.808,162.91,0.3
+2021-10-01,HR_MEW,Mewat,Haryana,2.863,44.58,0.3
+2021-11-01,HR_MEW,Mewat,Haryana,3.241,25.89,0.3
+2021-12-01,HR_MEW,Mewat,Haryana,3.721,19.55,0.3
+2022-01-01,HR_MEW,Mewat,Haryana,3.409,12.68,0.3
+2022-02-01,HR_MEW,Mewat,Haryana,3.749,10.67,0.3
+2022-03-01,HR_MEW,Mewat,Haryana,4.674,11.37,0.3
+2022-04-01,HR_MEW,Mewat,Haryana,4.737,10.16,0.3
+2022-05-01,HR_MEW,Mewat,Haryana,4.215,28.85,0.3
+2022-06-01,HR_MEW,Mewat,Haryana,2.965,108.52,0.3
+2022-07-01,HR_MEW,Mewat,Haryana,1.717,300.85,0.3
+2022-08-01,HR_MEW,Mewat,Haryana,1.017,224.93,0.3
+2022-09-01,HR_MEW,Mewat,Haryana,1.0,51.7,0.3
+2022-10-01,HR_MEW,Mewat,Haryana,1.76,65.85,0.3
+2022-11-01,HR_MEW,Mewat,Haryana,3.264,26.89,0.3
+2022-12-01,HR_MEW,Mewat,Haryana,3.574,18.01,0.3
+2023-01-01,HR_MEW,Mewat,Haryana,3.206,12.69,0.3
+2023-02-01,HR_MEW,Mewat,Haryana,4.314,2.44,0.3
+2023-03-01,HR_MEW,Mewat,Haryana,4.263,12.33,0.3
+2023-04-01,HR_MEW,Mewat,Haryana,4.166,10.65,0.3
+2023-05-01,HR_MEW,Mewat,Haryana,4.495,20.04,0.3
+2023-06-01,HR_MEW,Mewat,Haryana,3.785,88.35,0.3
+2023-07-01,HR_MEW,Mewat,Haryana,1.008,170.6,0.3
+2023-08-01,HR_MEW,Mewat,Haryana,1.287,248.6,0.3
+2023-09-01,HR_MEW,Mewat,Haryana,1.938,161.32,0.3
+2023-10-01,HR_MEW,Mewat,Haryana,2.715,53.81,0.3
+2023-11-01,HR_MEW,Mewat,Haryana,3.543,35.77,0.3
+2023-12-01,HR_MEW,Mewat,Haryana,3.476,28.65,0.3
+2024-01-01,HR_MEW,Mewat,Haryana,3.421,11.92,0.3
+2024-02-01,HR_MEW,Mewat,Haryana,4.002,11.91,0.3
+2024-03-01,HR_MEW,Mewat,Haryana,5.075,8.08,0.3
+2024-04-01,HR_MEW,Mewat,Haryana,5.019,9.5,0.3
+2024-05-01,HR_MEW,Mewat,Haryana,4.272,21.25,0.3
+2024-06-01,HR_MEW,Mewat,Haryana,2.631,169.8,0.3
+2024-07-01,HR_MEW,Mewat,Haryana,2.027,330.6,0.3
+2024-08-01,HR_MEW,Mewat,Haryana,1.577,174.17,0.3
+2024-09-01,HR_MEW,Mewat,Haryana,1.484,146.6,0.3
+2024-10-01,HR_MEW,Mewat,Haryana,2.872,42.26,0.3
+2024-11-01,HR_MEW,Mewat,Haryana,2.825,40.24,0.3
+2024-12-01,HR_MEW,Mewat,Haryana,3.801,25.25,0.3
+2019-01-01,RJ_JPR,Jaipur,Rajasthan,10.604,6.07,0.55
+2019-02-01,RJ_JPR,Jaipur,Rajasthan,9.405,8.48,0.55
+2019-03-01,RJ_JPR,Jaipur,Rajasthan,9.621,7.13,0.55
+2019-04-01,RJ_JPR,Jaipur,Rajasthan,10.198,8.73,0.55
+2019-05-01,RJ_JPR,Jaipur,Rajasthan,9.833,8.42,0.55
+2019-06-01,RJ_JPR,Jaipur,Rajasthan,9.34,97.0,0.55
+2019-07-01,RJ_JPR,Jaipur,Rajasthan,8.318,168.86,0.55
+2019-08-01,RJ_JPR,Jaipur,Rajasthan,7.973,149.39,0.55
+2019-09-01,RJ_JPR,Jaipur,Rajasthan,7.786,71.61,0.55
+2019-10-01,RJ_JPR,Jaipur,Rajasthan,8.531,32.96,0.55
+2019-11-01,RJ_JPR,Jaipur,Rajasthan,9.438,28.29,0.55
+2019-12-01,RJ_JPR,Jaipur,Rajasthan,9.893,19.56,0.55
+2020-01-01,RJ_JPR,Jaipur,Rajasthan,8.947,5.74,0.55
+2020-02-01,RJ_JPR,Jaipur,Rajasthan,9.869,9.57,0.55
+2020-03-01,RJ_JPR,Jaipur,Rajasthan,10.549,6.29,0.55
+2020-04-01,RJ_JPR,Jaipur,Rajasthan,10.519,5.35,0.55
+2020-05-01,RJ_JPR,Jaipur,Rajasthan,10.827,15.64,0.55
+2020-06-01,RJ_JPR,Jaipur,Rajasthan,9.878,48.27,0.55
+2020-07-01,RJ_JPR,Jaipur,Rajasthan,8.811,221.76,0.55
+2020-08-01,RJ_JPR,Jaipur,Rajasthan,7.782,228.16,0.55
+2020-09-01,RJ_JPR,Jaipur,Rajasthan,8.417,126.06,0.55
+2020-10-01,RJ_JPR,Jaipur,Rajasthan,9.307,44.24,0.55
+2020-11-01,RJ_JPR,Jaipur,Rajasthan,10.215,26.46,0.55
+2020-12-01,RJ_JPR,Jaipur,Rajasthan,10.212,9.18,0.55
+2021-01-01,RJ_JPR,Jaipur,Rajasthan,10.236,6.06,0.55
+2021-02-01,RJ_JPR,Jaipur,Rajasthan,10.262,5.61,0.55
+2021-03-01,RJ_JPR,Jaipur,Rajasthan,9.913,7.61,0.55
+2021-04-01,RJ_JPR,Jaipur,Rajasthan,11.081,8.71,0.55
+2021-05-01,RJ_JPR,Jaipur,Rajasthan,11.279,13.95,0.55
+2021-06-01,RJ_JPR,Jaipur,Rajasthan,10.704,97.66,0.55
+2021-07-01,RJ_JPR,Jaipur,Rajasthan,8.459,238.62,0.55
+2021-08-01,RJ_JPR,Jaipur,Rajasthan,9.006,264.49,0.55
+2021-09-01,RJ_JPR,Jaipur,Rajasthan,9.14,81.95,0.55
+2021-10-01,RJ_JPR,Jaipur,Rajasthan,10.029,28.82,0.55
+2021-11-01,RJ_JPR,Jaipur,Rajasthan,10.679,20.1,0.55
+2021-12-01,RJ_JPR,Jaipur,Rajasthan,10.657,14.83,0.55
+2022-01-01,RJ_JPR,Jaipur,Rajasthan,11.157,4.32,0.55
+2022-02-01,RJ_JPR,Jaipur,Rajasthan,10.729,4.81,0.55
+2022-03-01,RJ_JPR,Jaipur,Rajasthan,11.059,8.84,0.55
+2022-04-01,RJ_JPR,Jaipur,Rajasthan,12.053,9.41,0.55
+2022-05-01,RJ_JPR,Jaipur,Rajasthan,11.295,11.53,0.55
+2022-06-01,RJ_JPR,Jaipur,Rajasthan,10.663,47.16,0.55
+2022-07-01,RJ_JPR,Jaipur,Rajasthan,9.515,175.61,0.55
+2022-08-01,RJ_JPR,Jaipur,Rajasthan,9.826,235.58,0.55
+2022-09-01,RJ_JPR,Jaipur,Rajasthan,9.656,75.6,0.55
+2022-10-01,RJ_JPR,Jaipur,Rajasthan,10.403,43.47,0.55
+2022-11-01,RJ_JPR,Jaipur,Rajasthan,10.394,29.22,0.55
+2022-12-01,RJ_JPR,Jaipur,Rajasthan,11.424,16.99,0.55
+2023-01-01,RJ_JPR,Jaipur,Rajasthan,10.477,9.04,0.55
+2023-02-01,RJ_JPR,Jaipur,Rajasthan,11.539,6.41,0.55
+2023-03-01,RJ_JPR,Jaipur,Rajasthan,12.096,9.27,0.55
+2023-04-01,RJ_JPR,Jaipur,Rajasthan,12.014,11.16,0.55
+2023-05-01,RJ_JPR,Jaipur,Rajasthan,13.027,16.95,0.55
+2023-06-01,RJ_JPR,Jaipur,Rajasthan,10.686,162.48,0.55
+2023-07-01,RJ_JPR,Jaipur,Rajasthan,9.89,146.9,0.55
+2023-08-01,RJ_JPR,Jaipur,Rajasthan,9.211,71.82,0.55
+2023-09-01,RJ_JPR,Jaipur,Rajasthan,9.997,96.58,0.55
+2023-10-01,RJ_JPR,Jaipur,Rajasthan,11.146,31.25,0.55
+2023-11-01,RJ_JPR,Jaipur,Rajasthan,11.993,16.6,0.55
+2023-12-01,RJ_JPR,Jaipur,Rajasthan,11.673,10.75,0.55
+2024-01-01,RJ_JPR,Jaipur,Rajasthan,11.734,5.94,0.55
+2024-02-01,RJ_JPR,Jaipur,Rajasthan,12.207,10.68,0.55
+2024-03-01,RJ_JPR,Jaipur,Rajasthan,11.909,6.72,0.55
+2024-04-01,RJ_JPR,Jaipur,Rajasthan,13.325,7.46,0.55
+2024-05-01,RJ_JPR,Jaipur,Rajasthan,12.151,16.24,0.55
+2024-06-01,RJ_JPR,Jaipur,Rajasthan,11.798,106.12,0.55
+2024-07-01,RJ_JPR,Jaipur,Rajasthan,10.433,202.3,0.55
+2024-08-01,RJ_JPR,Jaipur,Rajasthan,11.042,173.31,0.55
+2024-09-01,RJ_JPR,Jaipur,Rajasthan,10.281,72.48,0.55
+2024-10-01,RJ_JPR,Jaipur,Rajasthan,11.792,53.01,0.55
+2024-11-01,RJ_JPR,Jaipur,Rajasthan,12.306,15.77,0.55
+2024-12-01,RJ_JPR,Jaipur,Rajasthan,12.465,18.09,0.55
+2019-01-01,RJ_JDH,Jodhpur,Rajasthan,17.129,4.62,0.85
+2019-02-01,RJ_JDH,Jodhpur,Rajasthan,17.531,3.56,0.85
+2019-03-01,RJ_JDH,Jodhpur,Rajasthan,18.537,3.56,0.85
+2019-04-01,RJ_JDH,Jodhpur,Rajasthan,18.931,4.59,0.85
+2019-05-01,RJ_JDH,Jodhpur,Rajasthan,18.389,10.14,0.85
+2019-06-01,RJ_JDH,Jodhpur,Rajasthan,17.652,54.83,0.85
+2019-07-01,RJ_JDH,Jodhpur,Rajasthan,17.741,116.38,0.85
+2019-08-01,RJ_JDH,Jodhpur,Rajasthan,17.259,110.34,0.85
+2019-09-01,RJ_JDH,Jodhpur,Rajasthan,16.683,51.64,0.85
+2019-10-01,RJ_JDH,Jodhpur,Rajasthan,18.169,14.84,0.85
+2019-11-01,RJ_JDH,Jodhpur,Rajasthan,17.411,13.46,0.85
+2019-12-01,RJ_JDH,Jodhpur,Rajasthan,18.513,13.43,0.85
+2020-01-01,RJ_JDH,Jodhpur,Rajasthan,19.24,5.05,0.85
+2020-02-01,RJ_JDH,Jodhpur,Rajasthan,19.894,2.46,0.85
+2020-03-01,RJ_JDH,Jodhpur,Rajasthan,19.009,5.2,0.85
+2020-04-01,RJ_JDH,Jodhpur,Rajasthan,19.668,4.18,0.85
+2020-05-01,RJ_JDH,Jodhpur,Rajasthan,20.311,13.68,0.85
+2020-06-01,RJ_JDH,Jodhpur,Rajasthan,19.545,73.2,0.85
+2020-07-01,RJ_JDH,Jodhpur,Rajasthan,17.909,94.41,0.85
+2020-08-01,RJ_JDH,Jodhpur,Rajasthan,18.458,128.06,0.85
+2020-09-01,RJ_JDH,Jodhpur,Rajasthan,18.627,43.25,0.85
+2020-10-01,RJ_JDH,Jodhpur,Rajasthan,19.351,22.12,0.85
+2020-11-01,RJ_JDH,Jodhpur,Rajasthan,19.957,15.22,0.85
+2020-12-01,RJ_JDH,Jodhpur,Rajasthan,18.97,9.9,0.85
+2021-01-01,RJ_JDH,Jodhpur,Rajasthan,20.266,3.94,0.85
+2021-02-01,RJ_JDH,Jodhpur,Rajasthan,20.462,4.91,0.85
+2021-03-01,RJ_JDH,Jodhpur,Rajasthan,20.092,4.07,0.85
+2021-04-01,RJ_JDH,Jodhpur,Rajasthan,21.054,5.73,0.85
+2021-05-01,RJ_JDH,Jodhpur,Rajasthan,20.292,6.63,0.85
+2021-06-01,RJ_JDH,Jodhpur,Rajasthan,20.671,38.53,0.85
+2021-07-01,RJ_JDH,Jodhpur,Rajasthan,19.549,194.25,0.85
+2021-08-01,RJ_JDH,Jodhpur,Rajasthan,19.356,168.81,0.85
+2021-09-01,RJ_JDH,Jodhpur,Rajasthan,20.035,58.31,0.85
+2021-10-01,RJ_JDH,Jodhpur,Rajasthan,20.213,29.1,0.85
+2021-11-01,RJ_JDH,Jodhpur,Rajasthan,20.508,12.97,0.85
+2021-12-01,RJ_JDH,Jodhpur,Rajasthan,21.136,6.13,0.85
+2022-01-01,RJ_JDH,Jodhpur,Rajasthan,20.487,2.52,0.85
+2022-02-01,RJ_JDH,Jodhpur,Rajasthan,21.996,3.84,0.85
+2022-03-01,RJ_JDH,Jodhpur,Rajasthan,21.738,2.55,0.85
+2022-04-01,RJ_JDH,Jodhpur,Rajasthan,22.729,4.73,0.85
+2022-05-01,RJ_JDH,Jodhpur,Rajasthan,22.659,13.63,0.85
+2022-06-01,RJ_JDH,Jodhpur,Rajasthan,22.062,46.12,0.85
+2022-07-01,RJ_JDH,Jodhpur,Rajasthan,20.394,139.14,0.85
+2022-08-01,RJ_JDH,Jodhpur,Rajasthan,21.584,117.35,0.85
+2022-09-01,RJ_JDH,Jodhpur,Rajasthan,20.886,103.47,0.85
+2022-10-01,RJ_JDH,Jodhpur,Rajasthan,20.827,23.98,0.85
+2022-11-01,RJ_JDH,Jodhpur,Rajasthan,22.401,10.68,0.85
+2022-12-01,RJ_JDH,Jodhpur,Rajasthan,22.041,9.78,0.85
+2023-01-01,RJ_JDH,Jodhpur,Rajasthan,21.927,3.39,0.85
+2023-02-01,RJ_JDH,Jodhpur,Rajasthan,22.618,6.36,0.85
+2023-03-01,RJ_JDH,Jodhpur,Rajasthan,22.104,7.84,0.85
+2023-04-01,RJ_JDH,Jodhpur,Rajasthan,23.101,5.33,0.85
+2023-05-01,RJ_JDH,Jodhpur,Rajasthan,22.656,10.87,0.85
+2023-06-01,RJ_JDH,Jodhpur,Rajasthan,21.731,39.59,0.85
+2023-07-01,RJ_JDH,Jodhpur,Rajasthan,21.37,103.14,0.85
+2023-08-01,RJ_JDH,Jodhpur,Rajasthan,21.488,171.7,0.85
+2023-09-01,RJ_JDH,Jodhpur,Rajasthan,21.314,78.69,0.85
+2023-10-01,RJ_JDH,Jodhpur,Rajasthan,22.664,33.11,0.85
+2023-11-01,RJ_JDH,Jodhpur,Rajasthan,24.372,11.16,0.85
+2023-12-01,RJ_JDH,Jodhpur,Rajasthan,23.841,11.39,0.85
+2024-01-01,RJ_JDH,Jodhpur,Rajasthan,22.794,5.46,0.85
+2024-02-01,RJ_JDH,Jodhpur,Rajasthan,24.493,5.0,0.85
+2024-03-01,RJ_JDH,Jodhpur,Rajasthan,24.571,3.87,0.85
+2024-04-01,RJ_JDH,Jodhpur,Rajasthan,23.697,2.43,0.85
+2024-05-01,RJ_JDH,Jodhpur,Rajasthan,24.927,8.59,0.85
+2024-06-01,RJ_JDH,Jodhpur,Rajasthan,23.47,45.03,0.85
+2024-07-01,RJ_JDH,Jodhpur,Rajasthan,23.685,118.4,0.85
+2024-08-01,RJ_JDH,Jodhpur,Rajasthan,22.738,170.59,0.85
+2024-09-01,RJ_JDH,Jodhpur,Rajasthan,23.007,55.04,0.85
+2024-10-01,RJ_JDH,Jodhpur,Rajasthan,23.404,18.99,0.85
+2024-11-01,RJ_JDH,Jodhpur,Rajasthan,24.143,12.72,0.85
+2024-12-01,RJ_JDH,Jodhpur,Rajasthan,24.954,6.91,0.85
+2019-01-01,RJ_AJM,Ajmer,Rajasthan,8.913,11.32,0.55
+2019-02-01,RJ_AJM,Ajmer,Rajasthan,10.236,7.83,0.55
+2019-03-01,RJ_AJM,Ajmer,Rajasthan,9.35,5.52,0.55
+2019-04-01,RJ_AJM,Ajmer,Rajasthan,9.688,8.79,0.55
+2019-05-01,RJ_AJM,Ajmer,Rajasthan,9.716,14.13,0.55
+2019-06-01,RJ_AJM,Ajmer,Rajasthan,9.253,77.98,0.55
+2019-07-01,RJ_AJM,Ajmer,Rajasthan,8.067,184.84,0.55
+2019-08-01,RJ_AJM,Ajmer,Rajasthan,7.498,205.64,0.55
+2019-09-01,RJ_AJM,Ajmer,Rajasthan,8.462,140.65,0.55
+2019-10-01,RJ_AJM,Ajmer,Rajasthan,8.513,34.44,0.55
+2019-11-01,RJ_AJM,Ajmer,Rajasthan,9.912,22.03,0.55
+2019-12-01,RJ_AJM,Ajmer,Rajasthan,9.606,13.27,0.55
+2020-01-01,RJ_AJM,Ajmer,Rajasthan,10.191,7.19,0.55
+2020-02-01,RJ_AJM,Ajmer,Rajasthan,10.89,6.99,0.55
+2020-03-01,RJ_AJM,Ajmer,Rajasthan,10.069,6.07,0.55
+2020-04-01,RJ_AJM,Ajmer,Rajasthan,10.45,10.24,0.55
+2020-05-01,RJ_AJM,Ajmer,Rajasthan,10.834,23.47,0.55
+2020-06-01,RJ_AJM,Ajmer,Rajasthan,10.128,91.29,0.55
+2020-07-01,RJ_AJM,Ajmer,Rajasthan,9.217,229.96,0.55
+2020-08-01,RJ_AJM,Ajmer,Rajasthan,8.205,188.27,0.55
+2020-09-01,RJ_AJM,Ajmer,Rajasthan,9.111,123.08,0.55
+2020-10-01,RJ_AJM,Ajmer,Rajasthan,9.995,33.6,0.55
+2020-11-01,RJ_AJM,Ajmer,Rajasthan,9.685,20.56,0.55
+2020-12-01,RJ_AJM,Ajmer,Rajasthan,10.515,10.22,0.55
+2021-01-01,RJ_AJM,Ajmer,Rajasthan,10.631,7.11,0.55
+2021-02-01,RJ_AJM,Ajmer,Rajasthan,10.113,7.86,0.55
+2021-03-01,RJ_AJM,Ajmer,Rajasthan,11.006,7.28,0.55
+2021-04-01,RJ_AJM,Ajmer,Rajasthan,10.978,8.64,0.55
+2021-05-01,RJ_AJM,Ajmer,Rajasthan,10.967,5.25,0.55
+2021-06-01,RJ_AJM,Ajmer,Rajasthan,9.934,97.02,0.55
+2021-07-01,RJ_AJM,Ajmer,Rajasthan,8.113,215.74,0.55
+2021-08-01,RJ_AJM,Ajmer,Rajasthan,9.166,157.28,0.55
+2021-09-01,RJ_AJM,Ajmer,Rajasthan,9.037,137.91,0.55
+2021-10-01,RJ_AJM,Ajmer,Rajasthan,9.726,30.97,0.55
+2021-11-01,RJ_AJM,Ajmer,Rajasthan,11.51,23.43,0.55
+2021-12-01,RJ_AJM,Ajmer,Rajasthan,11.12,13.29,0.55
+2022-01-01,RJ_AJM,Ajmer,Rajasthan,10.802,6.76,0.55
+2022-02-01,RJ_AJM,Ajmer,Rajasthan,11.198,8.35,0.55
+2022-03-01,RJ_AJM,Ajmer,Rajasthan,11.039,5.67,0.55
+2022-04-01,RJ_AJM,Ajmer,Rajasthan,11.214,10.06,0.55
+2022-05-01,RJ_AJM,Ajmer,Rajasthan,11.836,10.52,0.55
+2022-06-01,RJ_AJM,Ajmer,Rajasthan,10.275,71.7,0.55
+2022-07-01,RJ_AJM,Ajmer,Rajasthan,10.154,100.31,0.55
+2022-08-01,RJ_AJM,Ajmer,Rajasthan,9.032,157.33,0.55
+2022-09-01,RJ_AJM,Ajmer,Rajasthan,9.692,173.21,0.55
+2022-10-01,RJ_AJM,Ajmer,Rajasthan,10.523,50.55,0.55
+2022-11-01,RJ_AJM,Ajmer,Rajasthan,10.65,23.05,0.55
+2022-12-01,RJ_AJM,Ajmer,Rajasthan,11.416,13.09,0.55
+2023-01-01,RJ_AJM,Ajmer,Rajasthan,11.046,4.72,0.55
+2023-02-01,RJ_AJM,Ajmer,Rajasthan,11.57,7.78,0.55
+2023-03-01,RJ_AJM,Ajmer,Rajasthan,11.633,7.23,0.55
+2023-04-01,RJ_AJM,Ajmer,Rajasthan,11.996,7.66,0.55
+2023-05-01,RJ_AJM,Ajmer,Rajasthan,11.529,9.56,0.55
+2023-06-01,RJ_AJM,Ajmer,Rajasthan,10.436,92.63,0.55
+2023-07-01,RJ_AJM,Ajmer,Rajasthan,9.721,157.88,0.55
+2023-08-01,RJ_AJM,Ajmer,Rajasthan,10.326,187.96,0.55
+2023-09-01,RJ_AJM,Ajmer,Rajasthan,10.008,131.24,0.55
+2023-10-01,RJ_AJM,Ajmer,Rajasthan,11.074,47.33,0.55
+2023-11-01,RJ_AJM,Ajmer,Rajasthan,11.329,17.16,0.55
+2023-12-01,RJ_AJM,Ajmer,Rajasthan,11.733,9.85,0.55
+2024-01-01,RJ_AJM,Ajmer,Rajasthan,12.554,7.59,0.55
+2024-02-01,RJ_AJM,Ajmer,Rajasthan,12.41,7.5,0.55
+2024-03-01,RJ_AJM,Ajmer,Rajasthan,12.025,5.61,0.55
+2024-04-01,RJ_AJM,Ajmer,Rajasthan,12.05,9.18,0.55
+2024-05-01,RJ_AJM,Ajmer,Rajasthan,13.394,11.46,0.55
+2024-06-01,RJ_AJM,Ajmer,Rajasthan,12.069,89.53,0.55
+2024-07-01,RJ_AJM,Ajmer,Rajasthan,10.41,131.54,0.55
+2024-08-01,RJ_AJM,Ajmer,Rajasthan,10.623,260.42,0.55
+2024-09-01,RJ_AJM,Ajmer,Rajasthan,10.186,101.48,0.55
+2024-10-01,RJ_AJM,Ajmer,Rajasthan,11.534,40.47,0.55
+2024-11-01,RJ_AJM,Ajmer,Rajasthan,12.329,26.19,0.55
+2024-12-01,RJ_AJM,Ajmer,Rajasthan,12.849,13.92,0.55
+2019-01-01,RJ_BKN,Bikaner,Rajasthan,16.627,5.27,0.85
+2019-02-01,RJ_BKN,Bikaner,Rajasthan,17.269,4.36,0.85
+2019-03-01,RJ_BKN,Bikaner,Rajasthan,18.226,3.74,0.85
+2019-04-01,RJ_BKN,Bikaner,Rajasthan,18.102,4.03,0.85
+2019-05-01,RJ_BKN,Bikaner,Rajasthan,18.053,8.84,0.85
+2019-06-01,RJ_BKN,Bikaner,Rajasthan,17.159,46.19,0.85
+2019-07-01,RJ_BKN,Bikaner,Rajasthan,16.756,129.58,0.85
+2019-08-01,RJ_BKN,Bikaner,Rajasthan,16.951,131.77,0.85
+2019-09-01,RJ_BKN,Bikaner,Rajasthan,17.59,71.63,0.85
+2019-10-01,RJ_BKN,Bikaner,Rajasthan,18.055,24.57,0.85
+2019-11-01,RJ_BKN,Bikaner,Rajasthan,18.154,15.16,0.85
+2019-12-01,RJ_BKN,Bikaner,Rajasthan,19.209,9.69,0.85
+2020-01-01,RJ_BKN,Bikaner,Rajasthan,19.368,5.19,0.85
+2020-02-01,RJ_BKN,Bikaner,Rajasthan,20.159,5.67,0.85
+2020-03-01,RJ_BKN,Bikaner,Rajasthan,18.903,5.4,0.85
+2020-04-01,RJ_BKN,Bikaner,Rajasthan,20.522,6.08,0.85
+2020-05-01,RJ_BKN,Bikaner,Rajasthan,19.641,10.79,0.85
+2020-06-01,RJ_BKN,Bikaner,Rajasthan,18.263,70.69,0.85
+2020-07-01,RJ_BKN,Bikaner,Rajasthan,18.277,139.44,0.85
+2020-08-01,RJ_BKN,Bikaner,Rajasthan,17.399,139.42,0.85
+2020-09-01,RJ_BKN,Bikaner,Rajasthan,18.108,74.05,0.85
+2020-10-01,RJ_BKN,Bikaner,Rajasthan,19.526,21.56,0.85
+2020-11-01,RJ_BKN,Bikaner,Rajasthan,20.125,15.52,0.85
+2020-12-01,RJ_BKN,Bikaner,Rajasthan,19.175,5.14,0.85
+2021-01-01,RJ_BKN,Bikaner,Rajasthan,20.322,3.43,0.85
+2021-02-01,RJ_BKN,Bikaner,Rajasthan,20.704,4.29,0.85
+2021-03-01,RJ_BKN,Bikaner,Rajasthan,20.498,7.11,0.85
+2021-04-01,RJ_BKN,Bikaner,Rajasthan,21.1,4.93,0.85
+2021-05-01,RJ_BKN,Bikaner,Rajasthan,20.655,11.34,0.85
+2021-06-01,RJ_BKN,Bikaner,Rajasthan,20.452,32.75,0.85
+2021-07-01,RJ_BKN,Bikaner,Rajasthan,19.345,149.79,0.85
+2021-08-01,RJ_BKN,Bikaner,Rajasthan,19.627,96.1,0.85
+2021-09-01,RJ_BKN,Bikaner,Rajasthan,19.977,47.59,0.85
+2021-10-01,RJ_BKN,Bikaner,Rajasthan,20.062,25.29,0.85
+2021-11-01,RJ_BKN,Bikaner,Rajasthan,20.174,14.57,0.85
+2021-12-01,RJ_BKN,Bikaner,Rajasthan,20.422,9.44,0.85
+2022-01-01,RJ_BKN,Bikaner,Rajasthan,21.175,5.46,0.85
+2022-02-01,RJ_BKN,Bikaner,Rajasthan,21.749,5.29,0.85
+2022-03-01,RJ_BKN,Bikaner,Rajasthan,21.666,4.82,0.85
+2022-04-01,RJ_BKN,Bikaner,Rajasthan,21.483,5.2,0.85
+2022-05-01,RJ_BKN,Bikaner,Rajasthan,21.451,11.88,0.85
+2022-06-01,RJ_BKN,Bikaner,Rajasthan,22.074,75.79,0.85
+2022-07-01,RJ_BKN,Bikaner,Rajasthan,20.163,97.78,0.85
+2022-08-01,RJ_BKN,Bikaner,Rajasthan,19.392,155.3,0.85
+2022-09-01,RJ_BKN,Bikaner,Rajasthan,20.964,68.41,0.85
+2022-10-01,RJ_BKN,Bikaner,Rajasthan,21.044,24.64,0.85
+2022-11-01,RJ_BKN,Bikaner,Rajasthan,21.708,7.99,0.85
+2022-12-01,RJ_BKN,Bikaner,Rajasthan,22.276,12.4,0.85
+2023-01-01,RJ_BKN,Bikaner,Rajasthan,22.094,1.86,0.85
+2023-02-01,RJ_BKN,Bikaner,Rajasthan,22.73,6.07,0.85
+2023-03-01,RJ_BKN,Bikaner,Rajasthan,22.035,3.85,0.85
+2023-04-01,RJ_BKN,Bikaner,Rajasthan,23.086,6.22,0.85
+2023-05-01,RJ_BKN,Bikaner,Rajasthan,23.199,9.21,0.85
+2023-06-01,RJ_BKN,Bikaner,Rajasthan,21.913,60.02,0.85
+2023-07-01,RJ_BKN,Bikaner,Rajasthan,21.99,115.73,0.85
+2023-08-01,RJ_BKN,Bikaner,Rajasthan,22.575,133.47,0.85
+2023-09-01,RJ_BKN,Bikaner,Rajasthan,22.544,74.13,0.85
+2023-10-01,RJ_BKN,Bikaner,Rajasthan,22.027,23.74,0.85
+2023-11-01,RJ_BKN,Bikaner,Rajasthan,23.058,15.98,0.85
+2023-12-01,RJ_BKN,Bikaner,Rajasthan,23.728,9.96,0.85
+2024-01-01,RJ_BKN,Bikaner,Rajasthan,23.425,5.15,0.85
+2024-02-01,RJ_BKN,Bikaner,Rajasthan,23.801,4.49,0.85
+2024-03-01,RJ_BKN,Bikaner,Rajasthan,23.181,4.35,0.85
+2024-04-01,RJ_BKN,Bikaner,Rajasthan,24.497,2.27,0.85
+2024-05-01,RJ_BKN,Bikaner,Rajasthan,24.168,8.74,0.85
+2024-06-01,RJ_BKN,Bikaner,Rajasthan,24.242,55.11,0.85
+2024-07-01,RJ_BKN,Bikaner,Rajasthan,22.848,106.38,0.85
+2024-08-01,RJ_BKN,Bikaner,Rajasthan,22.992,61.05,0.85
+2024-09-01,RJ_BKN,Bikaner,Rajasthan,23.561,66.74,0.85
+2024-10-01,RJ_BKN,Bikaner,Rajasthan,24.023,29.78,0.85
+2024-11-01,RJ_BKN,Bikaner,Rajasthan,23.958,15.56,0.85
+2024-12-01,RJ_BKN,Bikaner,Rajasthan,24.061,7.42,0.85
+2019-01-01,RJ_ALW,Alwar,Rajasthan,9.891,5.59,0.55
+2019-02-01,RJ_ALW,Alwar,Rajasthan,9.244,7.1,0.55
+2019-03-01,RJ_ALW,Alwar,Rajasthan,10.217,8.25,0.55
+2019-04-01,RJ_ALW,Alwar,Rajasthan,10.468,8.16,0.55
+2019-05-01,RJ_ALW,Alwar,Rajasthan,8.982,14.53,0.55
+2019-06-01,RJ_ALW,Alwar,Rajasthan,9.483,70.7,0.55
+2019-07-01,RJ_ALW,Alwar,Rajasthan,7.922,164.41,0.55
+2019-08-01,RJ_ALW,Alwar,Rajasthan,7.619,212.68,0.55
+2019-09-01,RJ_ALW,Alwar,Rajasthan,8.069,90.91,0.55
+2019-10-01,RJ_ALW,Alwar,Rajasthan,8.633,52.3,0.55
+2019-11-01,RJ_ALW,Alwar,Rajasthan,8.941,20.31,0.55
+2019-12-01,RJ_ALW,Alwar,Rajasthan,10.392,15.19,0.55
+2020-01-01,RJ_ALW,Alwar,Rajasthan,9.802,4.47,0.55
+2020-02-01,RJ_ALW,Alwar,Rajasthan,10.133,4.71,0.55
+2020-03-01,RJ_ALW,Alwar,Rajasthan,10.708,8.46,0.55
+2020-04-01,RJ_ALW,Alwar,Rajasthan,10.921,7.39,0.55
+2020-05-01,RJ_ALW,Alwar,Rajasthan,10.819,12.34,0.55
+2020-06-01,RJ_ALW,Alwar,Rajasthan,9.648,63.76,0.55
+2020-07-01,RJ_ALW,Alwar,Rajasthan,8.916,187.51,0.55
+2020-08-01,RJ_ALW,Alwar,Rajasthan,8.499,159.89,0.55
+2020-09-01,RJ_ALW,Alwar,Rajasthan,8.539,134.97,0.55
+2020-10-01,RJ_ALW,Alwar,Rajasthan,9.595,26.36,0.55
+2020-11-01,RJ_ALW,Alwar,Rajasthan,10.224,16.45,0.55
+2020-12-01,RJ_ALW,Alwar,Rajasthan,10.753,11.46,0.55
+2021-01-01,RJ_ALW,Alwar,Rajasthan,10.318,6.93,0.55
+2021-02-01,RJ_ALW,Alwar,Rajasthan,10.189,7.4,0.55
+2021-03-01,RJ_ALW,Alwar,Rajasthan,10.867,7.06,0.55
+2021-04-01,RJ_ALW,Alwar,Rajasthan,10.943,7.21,0.55
+2021-05-01,RJ_ALW,Alwar,Rajasthan,11.434,10.4,0.55
+2021-06-01,RJ_ALW,Alwar,Rajasthan,10.012,90.34,0.55
+2021-07-01,RJ_ALW,Alwar,Rajasthan,9.164,226.05,0.55
+2021-08-01,RJ_ALW,Alwar,Rajasthan,9.078,360.7,0.55
+2021-09-01,RJ_ALW,Alwar,Rajasthan,8.307,50.36,0.55
+2021-10-01,RJ_ALW,Alwar,Rajasthan,9.909,33.62,0.55
+2021-11-01,RJ_ALW,Alwar,Rajasthan,10.24,14.38,0.55
+2021-12-01,RJ_ALW,Alwar,Rajasthan,11.349,11.32,0.55
+2022-01-01,RJ_ALW,Alwar,Rajasthan,10.771,8.31,0.55
+2022-02-01,RJ_ALW,Alwar,Rajasthan,10.375,6.72,0.55
+2022-03-01,RJ_ALW,Alwar,Rajasthan,11.81,5.34,0.55
+2022-04-01,RJ_ALW,Alwar,Rajasthan,11.611,7.49,0.55
+2022-05-01,RJ_ALW,Alwar,Rajasthan,11.323,15.1,0.55
+2022-06-01,RJ_ALW,Alwar,Rajasthan,10.774,45.14,0.55
+2022-07-01,RJ_ALW,Alwar,Rajasthan,8.949,190.23,0.55
+2022-08-01,RJ_ALW,Alwar,Rajasthan,9.541,222.76,0.55
+2022-09-01,RJ_ALW,Alwar,Rajasthan,10.068,99.3,0.55
+2022-10-01,RJ_ALW,Alwar,Rajasthan,10.832,30.3,0.55
+2022-11-01,RJ_ALW,Alwar,Rajasthan,11.191,15.93,0.55
+2022-12-01,RJ_ALW,Alwar,Rajasthan,10.617,14.83,0.55
+2023-01-01,RJ_ALW,Alwar,Rajasthan,10.697,4.24,0.55
+2023-02-01,RJ_ALW,Alwar,Rajasthan,11.058,5.15,0.55
+2023-03-01,RJ_ALW,Alwar,Rajasthan,11.948,8.59,0.55
+2023-04-01,RJ_ALW,Alwar,Rajasthan,12.131,9.06,0.55
+2023-05-01,RJ_ALW,Alwar,Rajasthan,11.933,14.75,0.55
+2023-06-01,RJ_ALW,Alwar,Rajasthan,10.976,114.13,0.55
+2023-07-01,RJ_ALW,Alwar,Rajasthan,10.284,221.46,0.55
+2023-08-01,RJ_ALW,Alwar,Rajasthan,9.591,136.17,0.55
+2023-09-01,RJ_ALW,Alwar,Rajasthan,9.906,101.3,0.55
+2023-10-01,RJ_ALW,Alwar,Rajasthan,11.121,27.07,0.55
+2023-11-01,RJ_ALW,Alwar,Rajasthan,11.248,16.93,0.55
+2023-12-01,RJ_ALW,Alwar,Rajasthan,11.323,18.57,0.55
+2024-01-01,RJ_ALW,Alwar,Rajasthan,11.792,5.72,0.55
+2024-02-01,RJ_ALW,Alwar,Rajasthan,12.6,6.07,0.55
+2024-03-01,RJ_ALW,Alwar,Rajasthan,12.183,6.53,0.55
+2024-04-01,RJ_ALW,Alwar,Rajasthan,12.898,5.98,0.55
+2024-05-01,RJ_ALW,Alwar,Rajasthan,12.593,10.39,0.55
+2024-06-01,RJ_ALW,Alwar,Rajasthan,11.615,97.58,0.55
+2024-07-01,RJ_ALW,Alwar,Rajasthan,10.717,170.15,0.55
+2024-08-01,RJ_ALW,Alwar,Rajasthan,10.15,296.9,0.55
+2024-09-01,RJ_ALW,Alwar,Rajasthan,10.832,76.63,0.55
+2024-10-01,RJ_ALW,Alwar,Rajasthan,11.352,44.01,0.55
+2024-11-01,RJ_ALW,Alwar,Rajasthan,12.075,19.04,0.55
+2024-12-01,RJ_ALW,Alwar,Rajasthan,12.377,14.75,0.55
+2019-01-01,MH_PNE,Pune,Maharashtra,4.055,12.35,0.3
+2019-02-01,MH_PNE,Pune,Maharashtra,4.097,8.17,0.3
+2019-03-01,MH_PNE,Pune,Maharashtra,5.112,6.25,0.3
+2019-04-01,MH_PNE,Pune,Maharashtra,5.002,9.52,0.3
+2019-05-01,MH_PNE,Pune,Maharashtra,5.055,12.58,0.3
+2019-06-01,MH_PNE,Pune,Maharashtra,3.54,118.89,0.3
+2019-07-01,MH_PNE,Pune,Maharashtra,2.39,356.66,0.3
+2019-08-01,MH_PNE,Pune,Maharashtra,1.423,429.83,0.3
+2019-09-01,MH_PNE,Pune,Maharashtra,1.499,183.56,0.3
+2019-10-01,MH_PNE,Pune,Maharashtra,2.505,41.52,0.3
+2019-11-01,MH_PNE,Pune,Maharashtra,3.213,25.21,0.3
+2019-12-01,MH_PNE,Pune,Maharashtra,3.843,19.99,0.3
+2020-01-01,MH_PNE,Pune,Maharashtra,4.494,7.13,0.3
+2020-02-01,MH_PNE,Pune,Maharashtra,3.796,7.73,0.3
+2020-03-01,MH_PNE,Pune,Maharashtra,5.055,11.63,0.3
+2020-04-01,MH_PNE,Pune,Maharashtra,5.012,7.69,0.3
+2020-05-01,MH_PNE,Pune,Maharashtra,4.534,15.3,0.3
+2020-06-01,MH_PNE,Pune,Maharashtra,3.66,135.65,0.3
+2020-07-01,MH_PNE,Pune,Maharashtra,2.376,213.36,0.3
+2020-08-01,MH_PNE,Pune,Maharashtra,1.431,145.42,0.3
+2020-09-01,MH_PNE,Pune,Maharashtra,2.071,201.16,0.3
+2020-10-01,MH_PNE,Pune,Maharashtra,2.611,58.92,0.3
+2020-11-01,MH_PNE,Pune,Maharashtra,3.538,28.1,0.3
+2020-12-01,MH_PNE,Pune,Maharashtra,4.012,17.86,0.3
+2021-01-01,MH_PNE,Pune,Maharashtra,3.847,12.29,0.3
+2021-02-01,MH_PNE,Pune,Maharashtra,3.884,14.59,0.3
+2021-03-01,MH_PNE,Pune,Maharashtra,3.988,8.38,0.3
+2021-04-01,MH_PNE,Pune,Maharashtra,4.772,12.9,0.3
+2021-05-01,MH_PNE,Pune,Maharashtra,4.59,20.28,0.3
+2021-06-01,MH_PNE,Pune,Maharashtra,3.519,198.83,0.3
+2021-07-01,MH_PNE,Pune,Maharashtra,2.024,284.64,0.3
+2021-08-01,MH_PNE,Pune,Maharashtra,1.0,278.0,0.3
+2021-09-01,MH_PNE,Pune,Maharashtra,1.508,117.35,0.3
+2021-10-01,MH_PNE,Pune,Maharashtra,3.021,51.6,0.3
+2021-11-01,MH_PNE,Pune,Maharashtra,3.982,25.99,0.3
+2021-12-01,MH_PNE,Pune,Maharashtra,3.891,14.86,0.3
+2022-01-01,MH_PNE,Pune,Maharashtra,3.042,12.77,0.3
+2022-02-01,MH_PNE,Pune,Maharashtra,4.167,14.22,0.3
+2022-03-01,MH_PNE,Pune,Maharashtra,4.682,10.0,0.3
+2022-04-01,MH_PNE,Pune,Maharashtra,4.675,11.72,0.3
+2022-05-01,MH_PNE,Pune,Maharashtra,4.284,16.69,0.3
+2022-06-01,MH_PNE,Pune,Maharashtra,3.122,109.9,0.3
+2022-07-01,MH_PNE,Pune,Maharashtra,1.9,297.6,0.3
+2022-08-01,MH_PNE,Pune,Maharashtra,1.668,201.47,0.3
+2022-09-01,MH_PNE,Pune,Maharashtra,1.32,138.1,0.3
+2022-10-01,MH_PNE,Pune,Maharashtra,2.714,50.69,0.3
+2022-11-01,MH_PNE,Pune,Maharashtra,2.821,27.06,0.3
+2022-12-01,MH_PNE,Pune,Maharashtra,3.687,17.68,0.3
+2023-01-01,MH_PNE,Pune,Maharashtra,3.539,8.89,0.3
+2023-02-01,MH_PNE,Pune,Maharashtra,4.001,11.3,0.3
+2023-03-01,MH_PNE,Pune,Maharashtra,3.945,10.84,0.3
+2023-04-01,MH_PNE,Pune,Maharashtra,4.607,10.73,0.3
+2023-05-01,MH_PNE,Pune,Maharashtra,3.941,30.91,0.3
+2023-06-01,MH_PNE,Pune,Maharashtra,3.197,112.77,0.3
+2023-07-01,MH_PNE,Pune,Maharashtra,1.534,179.03,0.3
+2023-08-01,MH_PNE,Pune,Maharashtra,1.138,392.66,0.3
+2023-09-01,MH_PNE,Pune,Maharashtra,1.317,78.4,0.3
+2023-10-01,MH_PNE,Pune,Maharashtra,2.859,46.27,0.3
+2023-11-01,MH_PNE,Pune,Maharashtra,2.914,26.81,0.3
+2023-12-01,MH_PNE,Pune,Maharashtra,3.081,23.72,0.3
+2024-01-01,MH_PNE,Pune,Maharashtra,3.762,12.9,0.3
+2024-02-01,MH_PNE,Pune,Maharashtra,4.237,9.71,0.3
+2024-03-01,MH_PNE,Pune,Maharashtra,4.04,7.38,0.3
+2024-04-01,MH_PNE,Pune,Maharashtra,4.172,12.08,0.3
+2024-05-01,MH_PNE,Pune,Maharashtra,5.3,17.09,0.3
+2024-06-01,MH_PNE,Pune,Maharashtra,3.036,131.75,0.3
+2024-07-01,MH_PNE,Pune,Maharashtra,1.193,239.93,0.3
+2024-08-01,MH_PNE,Pune,Maharashtra,1.371,286.04,0.3
+2024-09-01,MH_PNE,Pune,Maharashtra,1.496,138.15,0.3
+2024-10-01,MH_PNE,Pune,Maharashtra,1.802,38.59,0.3
+2024-11-01,MH_PNE,Pune,Maharashtra,3.045,34.12,0.3
+2024-12-01,MH_PNE,Pune,Maharashtra,3.595,16.32,0.3
+2019-01-01,MH_NGP,Nagpur,Maharashtra,3.839,10.65,0.3
+2019-02-01,MH_NGP,Nagpur,Maharashtra,3.942,11.21,0.3
+2019-03-01,MH_NGP,Nagpur,Maharashtra,4.115,11.61,0.3
+2019-04-01,MH_NGP,Nagpur,Maharashtra,4.813,11.9,0.3
+2019-05-01,MH_NGP,Nagpur,Maharashtra,4.303,19.18,0.3
+2019-06-01,MH_NGP,Nagpur,Maharashtra,3.615,134.98,0.3
+2019-07-01,MH_NGP,Nagpur,Maharashtra,2.324,390.2,0.3
+2019-08-01,MH_NGP,Nagpur,Maharashtra,1.093,345.14,0.3
+2019-09-01,MH_NGP,Nagpur,Maharashtra,2.257,114.54,0.3
+2019-10-01,MH_NGP,Nagpur,Maharashtra,2.747,56.61,0.3
+2019-11-01,MH_NGP,Nagpur,Maharashtra,3.118,22.52,0.3
+2019-12-01,MH_NGP,Nagpur,Maharashtra,3.262,4.6,0.3
+2020-01-01,MH_NGP,Nagpur,Maharashtra,3.875,6.57,0.3
+2020-02-01,MH_NGP,Nagpur,Maharashtra,3.635,13.37,0.3
+2020-03-01,MH_NGP,Nagpur,Maharashtra,4.497,8.58,0.3
+2020-04-01,MH_NGP,Nagpur,Maharashtra,4.852,11.06,0.3
+2020-05-01,MH_NGP,Nagpur,Maharashtra,4.492,16.09,0.3
+2020-06-01,MH_NGP,Nagpur,Maharashtra,3.233,123.24,0.3
+2020-07-01,MH_NGP,Nagpur,Maharashtra,1.935,194.16,0.3
+2020-08-01,MH_NGP,Nagpur,Maharashtra,1.0,368.34,0.3
+2020-09-01,MH_NGP,Nagpur,Maharashtra,2.346,189.23,0.3
+2020-10-01,MH_NGP,Nagpur,Maharashtra,2.656,59.0,0.3
+2020-11-01,MH_NGP,Nagpur,Maharashtra,3.083,26.91,0.3
+2020-12-01,MH_NGP,Nagpur,Maharashtra,3.688,16.46,0.3
+2021-01-01,MH_NGP,Nagpur,Maharashtra,3.947,10.91,0.3
+2021-02-01,MH_NGP,Nagpur,Maharashtra,4.039,7.42,0.3
+2021-03-01,MH_NGP,Nagpur,Maharashtra,4.292,10.69,0.3
+2021-04-01,MH_NGP,Nagpur,Maharashtra,4.589,8.58,0.3
+2021-05-01,MH_NGP,Nagpur,Maharashtra,4.448,29.26,0.3
+2021-06-01,MH_NGP,Nagpur,Maharashtra,3.025,93.79,0.3
+2021-07-01,MH_NGP,Nagpur,Maharashtra,2.502,180.1,0.3
+2021-08-01,MH_NGP,Nagpur,Maharashtra,1.696,296.29,0.3
+2021-09-01,MH_NGP,Nagpur,Maharashtra,1.264,137.19,0.3
+2021-10-01,MH_NGP,Nagpur,Maharashtra,3.01,51.73,0.3
+2021-11-01,MH_NGP,Nagpur,Maharashtra,2.591,27.85,0.3
+2021-12-01,MH_NGP,Nagpur,Maharashtra,3.147,9.35,0.3
+2022-01-01,MH_NGP,Nagpur,Maharashtra,3.631,6.46,0.3
+2022-02-01,MH_NGP,Nagpur,Maharashtra,4.122,4.75,0.3
+2022-03-01,MH_NGP,Nagpur,Maharashtra,4.452,6.8,0.3
+2022-04-01,MH_NGP,Nagpur,Maharashtra,4.488,11.98,0.3
+2022-05-01,MH_NGP,Nagpur,Maharashtra,4.89,20.29,0.3
+2022-06-01,MH_NGP,Nagpur,Maharashtra,3.542,112.38,0.3
+2022-07-01,MH_NGP,Nagpur,Maharashtra,2.052,384.43,0.3
+2022-08-01,MH_NGP,Nagpur,Maharashtra,1.058,269.56,0.3
+2022-09-01,MH_NGP,Nagpur,Maharashtra,2.072,67.24,0.3
+2022-10-01,MH_NGP,Nagpur,Maharashtra,2.52,45.58,0.3
+2022-11-01,MH_NGP,Nagpur,Maharashtra,2.964,26.97,0.3
+2022-12-01,MH_NGP,Nagpur,Maharashtra,3.974,10.08,0.3
+2023-01-01,MH_NGP,Nagpur,Maharashtra,3.638,7.7,0.3
+2023-02-01,MH_NGP,Nagpur,Maharashtra,4.261,12.79,0.3
+2023-03-01,MH_NGP,Nagpur,Maharashtra,4.172,11.73,0.3
+2023-04-01,MH_NGP,Nagpur,Maharashtra,4.048,10.61,0.3
+2023-05-01,MH_NGP,Nagpur,Maharashtra,3.973,20.1,0.3
+2023-06-01,MH_NGP,Nagpur,Maharashtra,3.55,67.41,0.3
+2023-07-01,MH_NGP,Nagpur,Maharashtra,1.594,241.07,0.3
+2023-08-01,MH_NGP,Nagpur,Maharashtra,1.071,325.11,0.3
+2023-09-01,MH_NGP,Nagpur,Maharashtra,1.0,100.67,0.3
+2023-10-01,MH_NGP,Nagpur,Maharashtra,2.403,37.86,0.3
+2023-11-01,MH_NGP,Nagpur,Maharashtra,3.633,37.52,0.3
+2023-12-01,MH_NGP,Nagpur,Maharashtra,3.563,8.45,0.3
+2024-01-01,MH_NGP,Nagpur,Maharashtra,3.805,13.89,0.3
+2024-02-01,MH_NGP,Nagpur,Maharashtra,3.753,5.1,0.3
+2024-03-01,MH_NGP,Nagpur,Maharashtra,3.827,10.63,0.3
+2024-04-01,MH_NGP,Nagpur,Maharashtra,4.99,9.44,0.3
+2024-05-01,MH_NGP,Nagpur,Maharashtra,4.111,19.45,0.3
+2024-06-01,MH_NGP,Nagpur,Maharashtra,2.995,107.63,0.3
+2024-07-01,MH_NGP,Nagpur,Maharashtra,1.159,325.82,0.3
+2024-08-01,MH_NGP,Nagpur,Maharashtra,1.0,439.61,0.3
+2024-09-01,MH_NGP,Nagpur,Maharashtra,1.0,154.63,0.3
+2024-10-01,MH_NGP,Nagpur,Maharashtra,2.524,60.51,0.3
+2024-11-01,MH_NGP,Nagpur,Maharashtra,2.964,32.4,0.3
+2024-12-01,MH_NGP,Nagpur,Maharashtra,3.26,21.22,0.3
+2019-01-01,MH_LTR,Latur,Maharashtra,9.304,9.34,0.55
+2019-02-01,MH_LTR,Latur,Maharashtra,9.715,7.57,0.55
+2019-03-01,MH_LTR,Latur,Maharashtra,9.936,6.67,0.55
+2019-04-01,MH_LTR,Latur,Maharashtra,10.413,7.65,0.55
+2019-05-01,MH_LTR,Latur,Maharashtra,9.42,8.0,0.55
+2019-06-01,MH_LTR,Latur,Maharashtra,8.913,98.75,0.55
+2019-07-01,MH_LTR,Latur,Maharashtra,8.45,254.08,0.55
+2019-08-01,MH_LTR,Latur,Maharashtra,8.373,155.39,0.55
+2019-09-01,MH_LTR,Latur,Maharashtra,9.014,124.52,0.55
+2019-10-01,MH_LTR,Latur,Maharashtra,8.914,40.82,0.55
+2019-11-01,MH_LTR,Latur,Maharashtra,9.296,29.58,0.55
+2019-12-01,MH_LTR,Latur,Maharashtra,9.355,17.92,0.55
+2020-01-01,MH_LTR,Latur,Maharashtra,10.235,6.97,0.55
+2020-02-01,MH_LTR,Latur,Maharashtra,10.171,7.4,0.55
+2020-03-01,MH_LTR,Latur,Maharashtra,9.637,6.84,0.55
+2020-04-01,MH_LTR,Latur,Maharashtra,10.22,7.1,0.55
+2020-05-01,MH_LTR,Latur,Maharashtra,10.983,8.17,0.55
+2020-06-01,MH_LTR,Latur,Maharashtra,10.142,83.93,0.55
+2020-07-01,MH_LTR,Latur,Maharashtra,8.634,200.47,0.55
+2020-08-01,MH_LTR,Latur,Maharashtra,8.202,212.79,0.55
+2020-09-01,MH_LTR,Latur,Maharashtra,7.831,131.52,0.55
+2020-10-01,MH_LTR,Latur,Maharashtra,9.382,30.24,0.55
+2020-11-01,MH_LTR,Latur,Maharashtra,10.243,21.52,0.55
+2020-12-01,MH_LTR,Latur,Maharashtra,10.421,13.97,0.55
+2021-01-01,MH_LTR,Latur,Maharashtra,9.939,5.57,0.55
+2021-02-01,MH_LTR,Latur,Maharashtra,9.783,4.93,0.55
+2021-03-01,MH_LTR,Latur,Maharashtra,11.331,9.0,0.55
+2021-04-01,MH_LTR,Latur,Maharashtra,11.748,6.34,0.55
+2021-05-01,MH_LTR,Latur,Maharashtra,11.25,13.08,0.55
+2021-06-01,MH_LTR,Latur,Maharashtra,10.075,136.85,0.55
+2021-07-01,MH_LTR,Latur,Maharashtra,9.12,270.61,0.55
+2021-08-01,MH_LTR,Latur,Maharashtra,9.536,194.89,0.55
+2021-09-01,MH_LTR,Latur,Maharashtra,9.371,122.98,0.55
+2021-10-01,MH_LTR,Latur,Maharashtra,10.218,29.61,0.55
+2021-11-01,MH_LTR,Latur,Maharashtra,10.056,12.99,0.55
+2021-12-01,MH_LTR,Latur,Maharashtra,11.413,16.29,0.55
+2022-01-01,MH_LTR,Latur,Maharashtra,10.724,7.89,0.55
+2022-02-01,MH_LTR,Latur,Maharashtra,11.308,8.45,0.55
+2022-03-01,MH_LTR,Latur,Maharashtra,11.639,5.68,0.55
+2022-04-01,MH_LTR,Latur,Maharashtra,11.536,6.48,0.55
+2022-05-01,MH_LTR,Latur,Maharashtra,11.575,17.4,0.55
+2022-06-01,MH_LTR,Latur,Maharashtra,11.313,63.37,0.55
+2022-07-01,MH_LTR,Latur,Maharashtra,9.564,293.46,0.55
+2022-08-01,MH_LTR,Latur,Maharashtra,9.845,261.94,0.55
+2022-09-01,MH_LTR,Latur,Maharashtra,10.451,121.1,0.55
+2022-10-01,MH_LTR,Latur,Maharashtra,9.809,34.5,0.55
+2022-11-01,MH_LTR,Latur,Maharashtra,11.017,23.19,0.55
+2022-12-01,MH_LTR,Latur,Maharashtra,11.377,21.17,0.55
+2023-01-01,MH_LTR,Latur,Maharashtra,11.791,4.11,0.55
+2023-02-01,MH_LTR,Latur,Maharashtra,11.902,7.36,0.55
+2023-03-01,MH_LTR,Latur,Maharashtra,12.22,8.58,0.55
+2023-04-01,MH_LTR,Latur,Maharashtra,12.238,7.26,0.55
+2023-05-01,MH_LTR,Latur,Maharashtra,12.008,14.55,0.55
+2023-06-01,MH_LTR,Latur,Maharashtra,11.682,90.71,0.55
+2023-07-01,MH_LTR,Latur,Maharashtra,10.14,225.49,0.55
+2023-08-01,MH_LTR,Latur,Maharashtra,9.728,182.29,0.55
+2023-09-01,MH_LTR,Latur,Maharashtra,10.508,108.69,0.55
+2023-10-01,MH_LTR,Latur,Maharashtra,11.527,28.95,0.55
+2023-11-01,MH_LTR,Latur,Maharashtra,11.343,17.25,0.55
+2023-12-01,MH_LTR,Latur,Maharashtra,11.576,16.85,0.55
+2024-01-01,MH_LTR,Latur,Maharashtra,11.649,8.58,0.55
+2024-02-01,MH_LTR,Latur,Maharashtra,11.797,4.96,0.55
+2024-03-01,MH_LTR,Latur,Maharashtra,12.007,9.52,0.55
+2024-04-01,MH_LTR,Latur,Maharashtra,12.822,3.46,0.55
+2024-05-01,MH_LTR,Latur,Maharashtra,12.317,17.34,0.55
+2024-06-01,MH_LTR,Latur,Maharashtra,11.985,78.3,0.55
+2024-07-01,MH_LTR,Latur,Maharashtra,10.776,250.23,0.55
+2024-08-01,MH_LTR,Latur,Maharashtra,9.968,215.47,0.55
+2024-09-01,MH_LTR,Latur,Maharashtra,10.892,84.23,0.55
+2024-10-01,MH_LTR,Latur,Maharashtra,11.165,36.63,0.55
+2024-11-01,MH_LTR,Latur,Maharashtra,12.075,20.92,0.55
+2024-12-01,MH_LTR,Latur,Maharashtra,11.827,17.18,0.55
+2019-01-01,MH_AHM,Ahmednagar,Maharashtra,9.675,6.41,0.55
+2019-02-01,MH_AHM,Ahmednagar,Maharashtra,9.297,9.48,0.55
+2019-03-01,MH_AHM,Ahmednagar,Maharashtra,9.103,9.14,0.55
+2019-04-01,MH_AHM,Ahmednagar,Maharashtra,10.419,6.32,0.55
+2019-05-01,MH_AHM,Ahmednagar,Maharashtra,10.366,12.73,0.55
+2019-06-01,MH_AHM,Ahmednagar,Maharashtra,9.391,60.4,0.55
+2019-07-01,MH_AHM,Ahmednagar,Maharashtra,8.339,183.76,0.55
+2019-08-01,MH_AHM,Ahmednagar,Maharashtra,6.988,190.42,0.55
+2019-09-01,MH_AHM,Ahmednagar,Maharashtra,7.94,145.87,0.55
+2019-10-01,MH_AHM,Ahmednagar,Maharashtra,9.291,25.75,0.55
+2019-11-01,MH_AHM,Ahmednagar,Maharashtra,9.524,23.13,0.55
+2019-12-01,MH_AHM,Ahmednagar,Maharashtra,9.422,9.74,0.55
+2020-01-01,MH_AHM,Ahmednagar,Maharashtra,9.987,8.37,0.55
+2020-02-01,MH_AHM,Ahmednagar,Maharashtra,10.366,4.44,0.55
+2020-03-01,MH_AHM,Ahmednagar,Maharashtra,10.68,4.64,0.55
+2020-04-01,MH_AHM,Ahmednagar,Maharashtra,10.863,5.36,0.55
+2020-05-01,MH_AHM,Ahmednagar,Maharashtra,11.177,16.57,0.55
+2020-06-01,MH_AHM,Ahmednagar,Maharashtra,9.364,66.05,0.55
+2020-07-01,MH_AHM,Ahmednagar,Maharashtra,8.235,245.78,0.55
+2020-08-01,MH_AHM,Ahmednagar,Maharashtra,9.108,277.29,0.55
+2020-09-01,MH_AHM,Ahmednagar,Maharashtra,8.946,109.76,0.55
+2020-10-01,MH_AHM,Ahmednagar,Maharashtra,9.249,34.42,0.55
+2020-11-01,MH_AHM,Ahmednagar,Maharashtra,9.927,23.9,0.55
+2020-12-01,MH_AHM,Ahmednagar,Maharashtra,10.232,15.99,0.55
+2021-01-01,MH_AHM,Ahmednagar,Maharashtra,9.727,4.44,0.55
+2021-02-01,MH_AHM,Ahmednagar,Maharashtra,10.72,5.99,0.55
+2021-03-01,MH_AHM,Ahmednagar,Maharashtra,11.017,6.88,0.55
+2021-04-01,MH_AHM,Ahmednagar,Maharashtra,10.905,7.46,0.55
+2021-05-01,MH_AHM,Ahmednagar,Maharashtra,11.157,7.48,0.55
+2021-06-01,MH_AHM,Ahmednagar,Maharashtra,10.029,103.86,0.55
+2021-07-01,MH_AHM,Ahmednagar,Maharashtra,8.835,207.01,0.55
+2021-08-01,MH_AHM,Ahmednagar,Maharashtra,8.558,287.41,0.55
+2021-09-01,MH_AHM,Ahmednagar,Maharashtra,8.601,98.25,0.55
+2021-10-01,MH_AHM,Ahmednagar,Maharashtra,9.88,51.75,0.55
+2021-11-01,MH_AHM,Ahmednagar,Maharashtra,9.974,23.12,0.55
+2021-12-01,MH_AHM,Ahmednagar,Maharashtra,10.364,16.24,0.55
+2022-01-01,MH_AHM,Ahmednagar,Maharashtra,11.098,8.16,0.55
+2022-02-01,MH_AHM,Ahmednagar,Maharashtra,10.62,10.88,0.55
+2022-03-01,MH_AHM,Ahmednagar,Maharashtra,12.147,6.73,0.55
+2022-04-01,MH_AHM,Ahmednagar,Maharashtra,11.395,4.67,0.55
+2022-05-01,MH_AHM,Ahmednagar,Maharashtra,12.09,14.9,0.55
+2022-06-01,MH_AHM,Ahmednagar,Maharashtra,10.991,87.37,0.55
+2022-07-01,MH_AHM,Ahmednagar,Maharashtra,10.573,209.77,0.55
+2022-08-01,MH_AHM,Ahmednagar,Maharashtra,9.582,314.06,0.55
+2022-09-01,MH_AHM,Ahmednagar,Maharashtra,9.536,87.16,0.55
+2022-10-01,MH_AHM,Ahmednagar,Maharashtra,9.895,36.54,0.55
+2022-11-01,MH_AHM,Ahmednagar,Maharashtra,10.87,20.25,0.55
+2022-12-01,MH_AHM,Ahmednagar,Maharashtra,11.555,11.28,0.55
+2023-01-01,MH_AHM,Ahmednagar,Maharashtra,10.945,7.91,0.55
+2023-02-01,MH_AHM,Ahmednagar,Maharashtra,11.483,6.09,0.55
+2023-03-01,MH_AHM,Ahmednagar,Maharashtra,11.669,9.08,0.55
+2023-04-01,MH_AHM,Ahmednagar,Maharashtra,11.957,8.68,0.55
+2023-05-01,MH_AHM,Ahmednagar,Maharashtra,12.091,11.21,0.55
+2023-06-01,MH_AHM,Ahmednagar,Maharashtra,10.843,111.47,0.55
+2023-07-01,MH_AHM,Ahmednagar,Maharashtra,10.253,258.59,0.55
+2023-08-01,MH_AHM,Ahmednagar,Maharashtra,9.932,261.54,0.55
+2023-09-01,MH_AHM,Ahmednagar,Maharashtra,9.575,80.0,0.55
+2023-10-01,MH_AHM,Ahmednagar,Maharashtra,10.565,28.2,0.55
+2023-11-01,MH_AHM,Ahmednagar,Maharashtra,11.333,16.59,0.55
+2023-12-01,MH_AHM,Ahmednagar,Maharashtra,11.651,8.99,0.55
+2024-01-01,MH_AHM,Ahmednagar,Maharashtra,11.071,6.08,0.55
+2024-02-01,MH_AHM,Ahmednagar,Maharashtra,12.9,6.08,0.55
+2024-03-01,MH_AHM,Ahmednagar,Maharashtra,12.24,6.63,0.55
+2024-04-01,MH_AHM,Ahmednagar,Maharashtra,12.072,5.81,0.55
+2024-05-01,MH_AHM,Ahmednagar,Maharashtra,12.459,13.83,0.55
+2024-06-01,MH_AHM,Ahmednagar,Maharashtra,12.704,113.55,0.55
+2024-07-01,MH_AHM,Ahmednagar,Maharashtra,10.72,193.42,0.55
+2024-08-01,MH_AHM,Ahmednagar,Maharashtra,10.107,217.54,0.55
+2024-09-01,MH_AHM,Ahmednagar,Maharashtra,10.624,65.37,0.55
+2024-10-01,MH_AHM,Ahmednagar,Maharashtra,11.565,31.68,0.55
+2024-11-01,MH_AHM,Ahmednagar,Maharashtra,12.55,22.81,0.55
+2024-12-01,MH_AHM,Ahmednagar,Maharashtra,12.894,11.54,0.55
+2019-01-01,MH_OSM,Osmanabad,Maharashtra,17.175,5.54,0.85
+2019-02-01,MH_OSM,Osmanabad,Maharashtra,17.797,4.71,0.85
+2019-03-01,MH_OSM,Osmanabad,Maharashtra,17.29,3.24,0.85
+2019-04-01,MH_OSM,Osmanabad,Maharashtra,18.277,5.67,0.85
+2019-05-01,MH_OSM,Osmanabad,Maharashtra,18.856,8.27,0.85
+2019-06-01,MH_OSM,Osmanabad,Maharashtra,17.463,39.86,0.85
+2019-07-01,MH_OSM,Osmanabad,Maharashtra,16.599,154.27,0.85
+2019-08-01,MH_OSM,Osmanabad,Maharashtra,17.319,121.73,0.85
+2019-09-01,MH_OSM,Osmanabad,Maharashtra,17.308,68.51,0.85
+2019-10-01,MH_OSM,Osmanabad,Maharashtra,17.82,25.31,0.85
+2019-11-01,MH_OSM,Osmanabad,Maharashtra,18.196,8.03,0.85
+2019-12-01,MH_OSM,Osmanabad,Maharashtra,18.349,8.86,0.85
+2020-01-01,MH_OSM,Osmanabad,Maharashtra,18.37,4.83,0.85
+2020-02-01,MH_OSM,Osmanabad,Maharashtra,18.915,5.16,0.85
+2020-03-01,MH_OSM,Osmanabad,Maharashtra,19.664,4.33,0.85
+2020-04-01,MH_OSM,Osmanabad,Maharashtra,19.096,3.6,0.85
+2020-05-01,MH_OSM,Osmanabad,Maharashtra,19.175,7.25,0.85
+2020-06-01,MH_OSM,Osmanabad,Maharashtra,18.592,64.0,0.85
+2020-07-01,MH_OSM,Osmanabad,Maharashtra,17.71,114.64,0.85
+2020-08-01,MH_OSM,Osmanabad,Maharashtra,18.132,115.25,0.85
+2020-09-01,MH_OSM,Osmanabad,Maharashtra,18.17,65.5,0.85
+2020-10-01,MH_OSM,Osmanabad,Maharashtra,19.091,20.87,0.85
+2020-11-01,MH_OSM,Osmanabad,Maharashtra,19.109,14.26,0.85
+2020-12-01,MH_OSM,Osmanabad,Maharashtra,19.648,12.92,0.85
+2021-01-01,MH_OSM,Osmanabad,Maharashtra,19.739,4.97,0.85
+2021-02-01,MH_OSM,Osmanabad,Maharashtra,20.776,3.51,0.85
+2021-03-01,MH_OSM,Osmanabad,Maharashtra,20.147,4.35,0.85
+2021-04-01,MH_OSM,Osmanabad,Maharashtra,20.123,3.26,0.85
+2021-05-01,MH_OSM,Osmanabad,Maharashtra,21.065,7.6,0.85
+2021-06-01,MH_OSM,Osmanabad,Maharashtra,20.931,68.59,0.85
+2021-07-01,MH_OSM,Osmanabad,Maharashtra,19.545,101.07,0.85
+2021-08-01,MH_OSM,Osmanabad,Maharashtra,19.323,140.27,0.85
+2021-09-01,MH_OSM,Osmanabad,Maharashtra,19.683,59.53,0.85
+2021-10-01,MH_OSM,Osmanabad,Maharashtra,19.965,23.33,0.85
+2021-11-01,MH_OSM,Osmanabad,Maharashtra,21.008,15.04,0.85
+2021-12-01,MH_OSM,Osmanabad,Maharashtra,20.516,8.63,0.85
+2022-01-01,MH_OSM,Osmanabad,Maharashtra,21.161,3.64,0.85
+2022-02-01,MH_OSM,Osmanabad,Maharashtra,22.091,3.84,0.85
+2022-03-01,MH_OSM,Osmanabad,Maharashtra,21.325,4.94,0.85
+2022-04-01,MH_OSM,Osmanabad,Maharashtra,23.05,3.4,0.85
+2022-05-01,MH_OSM,Osmanabad,Maharashtra,21.69,7.23,0.85
+2022-06-01,MH_OSM,Osmanabad,Maharashtra,21.012,30.8,0.85
+2022-07-01,MH_OSM,Osmanabad,Maharashtra,21.212,125.06,0.85
+2022-08-01,MH_OSM,Osmanabad,Maharashtra,20.756,131.24,0.85
+2022-09-01,MH_OSM,Osmanabad,Maharashtra,20.669,65.12,0.85
+2022-10-01,MH_OSM,Osmanabad,Maharashtra,20.691,30.04,0.85
+2022-11-01,MH_OSM,Osmanabad,Maharashtra,22.507,14.4,0.85
+2022-12-01,MH_OSM,Osmanabad,Maharashtra,22.205,6.78,0.85
+2023-01-01,MH_OSM,Osmanabad,Maharashtra,21.577,4.43,0.85
+2023-02-01,MH_OSM,Osmanabad,Maharashtra,22.959,4.54,0.85
+2023-03-01,MH_OSM,Osmanabad,Maharashtra,23.142,4.62,0.85
+2023-04-01,MH_OSM,Osmanabad,Maharashtra,23.821,3.08,0.85
+2023-05-01,MH_OSM,Osmanabad,Maharashtra,22.05,7.96,0.85
+2023-06-01,MH_OSM,Osmanabad,Maharashtra,22.612,35.79,0.85
+2023-07-01,MH_OSM,Osmanabad,Maharashtra,21.981,162.81,0.85
+2023-08-01,MH_OSM,Osmanabad,Maharashtra,20.962,90.65,0.85
+2023-09-01,MH_OSM,Osmanabad,Maharashtra,22.744,47.48,0.85
+2023-10-01,MH_OSM,Osmanabad,Maharashtra,21.575,26.48,0.85
+2023-11-01,MH_OSM,Osmanabad,Maharashtra,22.781,14.56,0.85
+2023-12-01,MH_OSM,Osmanabad,Maharashtra,23.747,10.77,0.85
+2024-01-01,MH_OSM,Osmanabad,Maharashtra,23.347,4.67,0.85
+2024-02-01,MH_OSM,Osmanabad,Maharashtra,23.346,5.1,0.85
+2024-03-01,MH_OSM,Osmanabad,Maharashtra,23.681,2.95,0.85
+2024-04-01,MH_OSM,Osmanabad,Maharashtra,24.66,4.86,0.85
+2024-05-01,MH_OSM,Osmanabad,Maharashtra,24.714,13.0,0.85
+2024-06-01,MH_OSM,Osmanabad,Maharashtra,23.765,83.39,0.85
+2024-07-01,MH_OSM,Osmanabad,Maharashtra,23.691,108.29,0.85
+2024-08-01,MH_OSM,Osmanabad,Maharashtra,23.587,140.94,0.85
+2024-09-01,MH_OSM,Osmanabad,Maharashtra,23.013,84.78,0.85
+2024-10-01,MH_OSM,Osmanabad,Maharashtra,23.708,31.59,0.85
+2024-11-01,MH_OSM,Osmanabad,Maharashtra,24.947,13.13,0.85
+2024-12-01,MH_OSM,Osmanabad,Maharashtra,25.184,11.61,0.85
+2019-01-01,GJ_AHM,Ahmedabad,Gujarat,8.766,8.64,0.55
+2019-02-01,GJ_AHM,Ahmedabad,Gujarat,10.172,6.06,0.55
+2019-03-01,GJ_AHM,Ahmedabad,Gujarat,10.508,9.57,0.55
+2019-04-01,GJ_AHM,Ahmedabad,Gujarat,9.712,8.66,0.55
+2019-05-01,GJ_AHM,Ahmedabad,Gujarat,9.809,14.05,0.55
+2019-06-01,GJ_AHM,Ahmedabad,Gujarat,8.428,75.57,0.55
+2019-07-01,GJ_AHM,Ahmedabad,Gujarat,7.77,113.05,0.55
+2019-08-01,GJ_AHM,Ahmedabad,Gujarat,8.145,233.93,0.55
+2019-09-01,GJ_AHM,Ahmedabad,Gujarat,8.319,80.42,0.55
+2019-10-01,GJ_AHM,Ahmedabad,Gujarat,9.375,27.03,0.55
+2019-11-01,GJ_AHM,Ahmedabad,Gujarat,8.954,13.32,0.55
+2019-12-01,GJ_AHM,Ahmedabad,Gujarat,9.77,13.35,0.55
+2020-01-01,GJ_AHM,Ahmedabad,Gujarat,9.852,6.03,0.55
+2020-02-01,GJ_AHM,Ahmedabad,Gujarat,10.638,9.72,0.55
+2020-03-01,GJ_AHM,Ahmedabad,Gujarat,10.005,7.0,0.55
+2020-04-01,GJ_AHM,Ahmedabad,Gujarat,10.431,5.89,0.55
+2020-05-01,GJ_AHM,Ahmedabad,Gujarat,9.947,17.8,0.55
+2020-06-01,GJ_AHM,Ahmedabad,Gujarat,9.933,73.01,0.55
+2020-07-01,GJ_AHM,Ahmedabad,Gujarat,8.469,158.39,0.55
+2020-08-01,GJ_AHM,Ahmedabad,Gujarat,8.454,220.3,0.55
+2020-09-01,GJ_AHM,Ahmedabad,Gujarat,8.881,107.88,0.55
+2020-10-01,GJ_AHM,Ahmedabad,Gujarat,9.446,40.01,0.55
+2020-11-01,GJ_AHM,Ahmedabad,Gujarat,9.415,16.61,0.55
+2020-12-01,GJ_AHM,Ahmedabad,Gujarat,10.062,17.48,0.55
+2021-01-01,GJ_AHM,Ahmedabad,Gujarat,10.271,5.53,0.55
+2021-02-01,GJ_AHM,Ahmedabad,Gujarat,10.309,7.93,0.55
+2021-03-01,GJ_AHM,Ahmedabad,Gujarat,10.532,6.14,0.55
+2021-04-01,GJ_AHM,Ahmedabad,Gujarat,11.869,6.44,0.55
+2021-05-01,GJ_AHM,Ahmedabad,Gujarat,10.415,13.55,0.55
+2021-06-01,GJ_AHM,Ahmedabad,Gujarat,10.577,94.67,0.55
+2021-07-01,GJ_AHM,Ahmedabad,Gujarat,9.441,235.12,0.55
+2021-08-01,GJ_AHM,Ahmedabad,Gujarat,8.866,179.04,0.55
+2021-09-01,GJ_AHM,Ahmedabad,Gujarat,8.604,135.9,0.55
+2021-10-01,GJ_AHM,Ahmedabad,Gujarat,10.487,34.99,0.55
+2021-11-01,GJ_AHM,Ahmedabad,Gujarat,10.813,16.63,0.55
+2021-12-01,GJ_AHM,Ahmedabad,Gujarat,10.415,16.09,0.55
+2022-01-01,GJ_AHM,Ahmedabad,Gujarat,11.202,5.79,0.55
+2022-02-01,GJ_AHM,Ahmedabad,Gujarat,11.364,8.16,0.55
+2022-03-01,GJ_AHM,Ahmedabad,Gujarat,11.723,7.65,0.55
+2022-04-01,GJ_AHM,Ahmedabad,Gujarat,11.646,7.76,0.55
+2022-05-01,GJ_AHM,Ahmedabad,Gujarat,11.506,20.49,0.55
+2022-06-01,GJ_AHM,Ahmedabad,Gujarat,10.101,108.05,0.55
+2022-07-01,GJ_AHM,Ahmedabad,Gujarat,9.65,215.26,0.55
+2022-08-01,GJ_AHM,Ahmedabad,Gujarat,9.99,226.05,0.55
+2022-09-01,GJ_AHM,Ahmedabad,Gujarat,9.552,79.9,0.55
+2022-10-01,GJ_AHM,Ahmedabad,Gujarat,9.482,44.46,0.55
+2022-11-01,GJ_AHM,Ahmedabad,Gujarat,10.673,26.38,0.55
+2022-12-01,GJ_AHM,Ahmedabad,Gujarat,11.19,16.66,0.55
+2023-01-01,GJ_AHM,Ahmedabad,Gujarat,11.053,7.39,0.55
+2023-02-01,GJ_AHM,Ahmedabad,Gujarat,11.577,2.32,0.55
+2023-03-01,GJ_AHM,Ahmedabad,Gujarat,11.757,9.79,0.55
+2023-04-01,GJ_AHM,Ahmedabad,Gujarat,12.267,5.24,0.55
+2023-05-01,GJ_AHM,Ahmedabad,Gujarat,12.026,5.97,0.55
+2023-06-01,GJ_AHM,Ahmedabad,Gujarat,11.402,84.8,0.55
+2023-07-01,GJ_AHM,Ahmedabad,Gujarat,9.701,157.92,0.55
+2023-08-01,GJ_AHM,Ahmedabad,Gujarat,10.045,255.64,0.55
+2023-09-01,GJ_AHM,Ahmedabad,Gujarat,9.885,102.33,0.55
+2023-10-01,GJ_AHM,Ahmedabad,Gujarat,10.708,47.17,0.55
+2023-11-01,GJ_AHM,Ahmedabad,Gujarat,12.237,13.29,0.55
+2023-12-01,GJ_AHM,Ahmedabad,Gujarat,11.678,13.78,0.55
+2024-01-01,GJ_AHM,Ahmedabad,Gujarat,10.995,7.8,0.55
+2024-02-01,GJ_AHM,Ahmedabad,Gujarat,11.24,8.07,0.55
+2024-03-01,GJ_AHM,Ahmedabad,Gujarat,12.427,6.51,0.55
+2024-04-01,GJ_AHM,Ahmedabad,Gujarat,12.747,6.3,0.55
+2024-05-01,GJ_AHM,Ahmedabad,Gujarat,13.153,16.03,0.55
+2024-06-01,GJ_AHM,Ahmedabad,Gujarat,11.73,61.81,0.55
+2024-07-01,GJ_AHM,Ahmedabad,Gujarat,10.903,247.44,0.55
+2024-08-01,GJ_AHM,Ahmedabad,Gujarat,9.693,301.8,0.55
+2024-09-01,GJ_AHM,Ahmedabad,Gujarat,11.16,121.86,0.55
+2024-10-01,GJ_AHM,Ahmedabad,Gujarat,10.866,37.39,0.55
+2024-11-01,GJ_AHM,Ahmedabad,Gujarat,11.75,24.36,0.55
+2024-12-01,GJ_AHM,Ahmedabad,Gujarat,11.812,16.05,0.55
+2019-01-01,GJ_RJK,Rajkot,Gujarat,17.611,4.94,0.85
+2019-02-01,GJ_RJK,Rajkot,Gujarat,18.052,3.36,0.85
+2019-03-01,GJ_RJK,Rajkot,Gujarat,17.094,4.79,0.85
+2019-04-01,GJ_RJK,Rajkot,Gujarat,18.489,5.56,0.85
+2019-05-01,GJ_RJK,Rajkot,Gujarat,16.708,7.75,0.85
+2019-06-01,GJ_RJK,Rajkot,Gujarat,17.534,67.82,0.85
+2019-07-01,GJ_RJK,Rajkot,Gujarat,17.781,123.55,0.85
+2019-08-01,GJ_RJK,Rajkot,Gujarat,15.874,126.45,0.85
+2019-09-01,GJ_RJK,Rajkot,Gujarat,16.665,70.59,0.85
+2019-10-01,GJ_RJK,Rajkot,Gujarat,18.344,12.84,0.85
+2019-11-01,GJ_RJK,Rajkot,Gujarat,18.272,14.46,0.85
+2019-12-01,GJ_RJK,Rajkot,Gujarat,18.44,6.45,0.85
+2020-01-01,GJ_RJK,Rajkot,Gujarat,18.807,5.57,0.85
+2020-02-01,GJ_RJK,Rajkot,Gujarat,19.265,4.89,0.85
+2020-03-01,GJ_RJK,Rajkot,Gujarat,19.658,3.89,0.85
+2020-04-01,GJ_RJK,Rajkot,Gujarat,19.703,3.95,0.85
+2020-05-01,GJ_RJK,Rajkot,Gujarat,19.067,7.15,0.85
+2020-06-01,GJ_RJK,Rajkot,Gujarat,19.989,64.18,0.85
+2020-07-01,GJ_RJK,Rajkot,Gujarat,17.415,151.28,0.85
+2020-08-01,GJ_RJK,Rajkot,Gujarat,18.055,137.56,0.85
+2020-09-01,GJ_RJK,Rajkot,Gujarat,17.324,65.28,0.85
+2020-10-01,GJ_RJK,Rajkot,Gujarat,19.665,25.42,0.85
+2020-11-01,GJ_RJK,Rajkot,Gujarat,19.278,14.58,0.85
+2020-12-01,GJ_RJK,Rajkot,Gujarat,19.768,7.45,0.85
+2021-01-01,GJ_RJK,Rajkot,Gujarat,19.997,4.79,0.85
+2021-02-01,GJ_RJK,Rajkot,Gujarat,19.63,3.6,0.85
+2021-03-01,GJ_RJK,Rajkot,Gujarat,20.266,2.99,0.85
+2021-04-01,GJ_RJK,Rajkot,Gujarat,20.308,4.42,0.85
+2021-05-01,GJ_RJK,Rajkot,Gujarat,19.614,7.05,0.85
+2021-06-01,GJ_RJK,Rajkot,Gujarat,19.778,53.93,0.85
+2021-07-01,GJ_RJK,Rajkot,Gujarat,18.957,180.27,0.85
+2021-08-01,GJ_RJK,Rajkot,Gujarat,19.242,121.88,0.85
+2021-09-01,GJ_RJK,Rajkot,Gujarat,19.947,56.59,0.85
+2021-10-01,GJ_RJK,Rajkot,Gujarat,19.927,29.66,0.85
+2021-11-01,GJ_RJK,Rajkot,Gujarat,20.177,13.82,0.85
+2021-12-01,GJ_RJK,Rajkot,Gujarat,20.742,6.61,0.85
+2022-01-01,GJ_RJK,Rajkot,Gujarat,20.324,4.38,0.85
+2022-02-01,GJ_RJK,Rajkot,Gujarat,20.937,3.36,0.85
+2022-03-01,GJ_RJK,Rajkot,Gujarat,21.404,3.61,0.85
+2022-04-01,GJ_RJK,Rajkot,Gujarat,21.376,3.76,0.85
+2022-05-01,GJ_RJK,Rajkot,Gujarat,21.115,5.8,0.85
+2022-06-01,GJ_RJK,Rajkot,Gujarat,20.964,22.47,0.85
+2022-07-01,GJ_RJK,Rajkot,Gujarat,20.821,127.35,0.85
+2022-08-01,GJ_RJK,Rajkot,Gujarat,21.27,180.15,0.85
+2022-09-01,GJ_RJK,Rajkot,Gujarat,20.45,62.73,0.85
+2022-10-01,GJ_RJK,Rajkot,Gujarat,21.023,23.68,0.85
+2022-11-01,GJ_RJK,Rajkot,Gujarat,21.989,15.59,0.85
+2022-12-01,GJ_RJK,Rajkot,Gujarat,22.134,6.59,0.85
+2023-01-01,GJ_RJK,Rajkot,Gujarat,23.08,3.05,0.85
+2023-02-01,GJ_RJK,Rajkot,Gujarat,22.969,3.13,0.85
+2023-03-01,GJ_RJK,Rajkot,Gujarat,22.673,4.13,0.85
+2023-04-01,GJ_RJK,Rajkot,Gujarat,22.856,4.62,0.85
+2023-05-01,GJ_RJK,Rajkot,Gujarat,23.339,10.94,0.85
+2023-06-01,GJ_RJK,Rajkot,Gujarat,22.766,52.02,0.85
+2023-07-01,GJ_RJK,Rajkot,Gujarat,21.343,97.94,0.85
+2023-08-01,GJ_RJK,Rajkot,Gujarat,21.841,173.85,0.85
+2023-09-01,GJ_RJK,Rajkot,Gujarat,22.928,49.36,0.85
+2023-10-01,GJ_RJK,Rajkot,Gujarat,23.005,23.02,0.85
+2023-11-01,GJ_RJK,Rajkot,Gujarat,22.642,11.63,0.85
+2023-12-01,GJ_RJK,Rajkot,Gujarat,23.835,9.61,0.85
+2024-01-01,GJ_RJK,Rajkot,Gujarat,23.637,3.99,0.85
+2024-02-01,GJ_RJK,Rajkot,Gujarat,23.669,5.81,0.85
+2024-03-01,GJ_RJK,Rajkot,Gujarat,23.54,5.3,0.85
+2024-04-01,GJ_RJK,Rajkot,Gujarat,24.038,3.82,0.85
+2024-05-01,GJ_RJK,Rajkot,Gujarat,24.109,7.67,0.85
+2024-06-01,GJ_RJK,Rajkot,Gujarat,23.964,43.75,0.85
+2024-07-01,GJ_RJK,Rajkot,Gujarat,23.203,91.19,0.85
+2024-08-01,GJ_RJK,Rajkot,Gujarat,22.964,90.84,0.85
+2024-09-01,GJ_RJK,Rajkot,Gujarat,22.867,58.9,0.85
+2024-10-01,GJ_RJK,Rajkot,Gujarat,23.479,28.2,0.85
+2024-11-01,GJ_RJK,Rajkot,Gujarat,24.973,14.31,0.85
+2024-12-01,GJ_RJK,Rajkot,Gujarat,24.1,11.02,0.85
+2019-01-01,GJ_SRT,Surat,Gujarat,3.226,2.81,0.3
+2019-02-01,GJ_SRT,Surat,Gujarat,4.292,10.48,0.3
+2019-03-01,GJ_SRT,Surat,Gujarat,4.733,12.65,0.3
+2019-04-01,GJ_SRT,Surat,Gujarat,4.969,8.95,0.3
+2019-05-01,GJ_SRT,Surat,Gujarat,4.637,13.19,0.3
+2019-06-01,GJ_SRT,Surat,Gujarat,3.571,122.2,0.3
+2019-07-01,GJ_SRT,Surat,Gujarat,2.262,402.99,0.3
+2019-08-01,GJ_SRT,Surat,Gujarat,1.366,354.73,0.3
+2019-09-01,GJ_SRT,Surat,Gujarat,1.829,111.51,0.3
+2019-10-01,GJ_SRT,Surat,Gujarat,3.124,48.08,0.3
+2019-11-01,GJ_SRT,Surat,Gujarat,3.197,26.13,0.3
+2019-12-01,GJ_SRT,Surat,Gujarat,3.733,21.63,0.3
+2020-01-01,GJ_SRT,Surat,Gujarat,3.842,15.92,0.3
+2020-02-01,GJ_SRT,Surat,Gujarat,3.955,12.44,0.3
+2020-03-01,GJ_SRT,Surat,Gujarat,4.409,11.89,0.3
+2020-04-01,GJ_SRT,Surat,Gujarat,4.752,9.87,0.3
+2020-05-01,GJ_SRT,Surat,Gujarat,4.015,20.74,0.3
+2020-06-01,GJ_SRT,Surat,Gujarat,3.795,164.57,0.3
+2020-07-01,GJ_SRT,Surat,Gujarat,1.651,294.07,0.3
+2020-08-01,GJ_SRT,Surat,Gujarat,1.391,427.99,0.3
+2020-09-01,GJ_SRT,Surat,Gujarat,1.805,180.78,0.3
+2020-10-01,GJ_SRT,Surat,Gujarat,2.211,33.64,0.3
+2020-11-01,GJ_SRT,Surat,Gujarat,3.818,21.32,0.3
+2020-12-01,GJ_SRT,Surat,Gujarat,4.108,21.71,0.3
+2021-01-01,GJ_SRT,Surat,Gujarat,3.396,8.45,0.3
+2021-02-01,GJ_SRT,Surat,Gujarat,4.321,12.4,0.3
+2021-03-01,GJ_SRT,Surat,Gujarat,4.984,11.48,0.3
+2021-04-01,GJ_SRT,Surat,Gujarat,4.83,11.66,0.3
+2021-05-01,GJ_SRT,Surat,Gujarat,4.498,12.72,0.3
+2021-06-01,GJ_SRT,Surat,Gujarat,3.105,133.73,0.3
+2021-07-01,GJ_SRT,Surat,Gujarat,2.02,163.59,0.3
+2021-08-01,GJ_SRT,Surat,Gujarat,1.347,158.63,0.3
+2021-09-01,GJ_SRT,Surat,Gujarat,1.672,98.66,0.3
+2021-10-01,GJ_SRT,Surat,Gujarat,2.933,65.52,0.3
+2021-11-01,GJ_SRT,Surat,Gujarat,3.655,21.42,0.3
+2021-12-01,GJ_SRT,Surat,Gujarat,3.781,19.88,0.3
+2022-01-01,GJ_SRT,Surat,Gujarat,4.05,10.9,0.3
+2022-02-01,GJ_SRT,Surat,Gujarat,3.617,7.26,0.3
+2022-03-01,GJ_SRT,Surat,Gujarat,4.53,12.23,0.3
+2022-04-01,GJ_SRT,Surat,Gujarat,4.37,6.54,0.3
+2022-05-01,GJ_SRT,Surat,Gujarat,4.53,21.7,0.3
+2022-06-01,GJ_SRT,Surat,Gujarat,2.828,123.68,0.3
+2022-07-01,GJ_SRT,Surat,Gujarat,2.153,359.06,0.3
+2022-08-01,GJ_SRT,Surat,Gujarat,1.049,316.8,0.3
+2022-09-01,GJ_SRT,Surat,Gujarat,1.0,164.1,0.3
+2022-10-01,GJ_SRT,Surat,Gujarat,2.475,53.89,0.3
+2022-11-01,GJ_SRT,Surat,Gujarat,3.684,40.62,0.3
+2022-12-01,GJ_SRT,Surat,Gujarat,3.912,19.09,0.3
+2023-01-01,GJ_SRT,Surat,Gujarat,3.521,12.32,0.3
+2023-02-01,GJ_SRT,Surat,Gujarat,3.468,6.3,0.3
+2023-03-01,GJ_SRT,Surat,Gujarat,4.383,12.99,0.3
+2023-04-01,GJ_SRT,Surat,Gujarat,4.321,9.66,0.3
+2023-05-01,GJ_SRT,Surat,Gujarat,4.327,24.56,0.3
+2023-06-01,GJ_SRT,Surat,Gujarat,3.939,105.99,0.3
+2023-07-01,GJ_SRT,Surat,Gujarat,1.693,248.02,0.3
+2023-08-01,GJ_SRT,Surat,Gujarat,1.236,165.96,0.3
+2023-09-01,GJ_SRT,Surat,Gujarat,1.211,112.57,0.3
+2023-10-01,GJ_SRT,Surat,Gujarat,2.882,73.55,0.3
+2023-11-01,GJ_SRT,Surat,Gujarat,2.999,32.98,0.3
+2023-12-01,GJ_SRT,Surat,Gujarat,3.175,5.62,0.3
+2024-01-01,GJ_SRT,Surat,Gujarat,2.778,13.64,0.3
+2024-02-01,GJ_SRT,Surat,Gujarat,3.766,7.88,0.3
+2024-03-01,GJ_SRT,Surat,Gujarat,4.074,12.54,0.3
+2024-04-01,GJ_SRT,Surat,Gujarat,4.243,6.31,0.3
+2024-05-01,GJ_SRT,Surat,Gujarat,4.678,30.76,0.3
+2024-06-01,GJ_SRT,Surat,Gujarat,2.884,133.46,0.3
+2024-07-01,GJ_SRT,Surat,Gujarat,1.0,426.79,0.3
+2024-08-01,GJ_SRT,Surat,Gujarat,1.0,220.46,0.3
+2024-09-01,GJ_SRT,Surat,Gujarat,1.671,121.04,0.3
+2024-10-01,GJ_SRT,Surat,Gujarat,2.438,59.37,0.3
+2024-11-01,GJ_SRT,Surat,Gujarat,2.477,32.58,0.3
+2024-12-01,GJ_SRT,Surat,Gujarat,3.218,14.65,0.3
+2019-01-01,GJ_BVN,Banaskantha,Gujarat,17.49,3.02,0.85
+2019-02-01,GJ_BVN,Banaskantha,Gujarat,17.888,4.62,0.85
+2019-03-01,GJ_BVN,Banaskantha,Gujarat,18.084,5.57,0.85
+2019-04-01,GJ_BVN,Banaskantha,Gujarat,18.663,3.85,0.85
+2019-05-01,GJ_BVN,Banaskantha,Gujarat,18.348,12.91,0.85
+2019-06-01,GJ_BVN,Banaskantha,Gujarat,17.635,44.95,0.85
+2019-07-01,GJ_BVN,Banaskantha,Gujarat,16.191,160.34,0.85
+2019-08-01,GJ_BVN,Banaskantha,Gujarat,17.441,131.06,0.85
+2019-09-01,GJ_BVN,Banaskantha,Gujarat,16.803,40.03,0.85
+2019-10-01,GJ_BVN,Banaskantha,Gujarat,18.339,26.11,0.85
+2019-11-01,GJ_BVN,Banaskantha,Gujarat,17.854,21.03,0.85
+2019-12-01,GJ_BVN,Banaskantha,Gujarat,17.734,7.27,0.85
+2020-01-01,GJ_BVN,Banaskantha,Gujarat,19.148,2.99,0.85
+2020-02-01,GJ_BVN,Banaskantha,Gujarat,18.975,4.66,0.85
+2020-03-01,GJ_BVN,Banaskantha,Gujarat,19.384,5.84,0.85
+2020-04-01,GJ_BVN,Banaskantha,Gujarat,20.039,4.13,0.85
+2020-05-01,GJ_BVN,Banaskantha,Gujarat,20.447,5.76,0.85
+2020-06-01,GJ_BVN,Banaskantha,Gujarat,19.219,50.87,0.85
+2020-07-01,GJ_BVN,Banaskantha,Gujarat,18.379,136.76,0.85
+2020-08-01,GJ_BVN,Banaskantha,Gujarat,17.157,151.18,0.85
+2020-09-01,GJ_BVN,Banaskantha,Gujarat,17.346,72.75,0.85
+2020-10-01,GJ_BVN,Banaskantha,Gujarat,19.385,21.95,0.85
+2020-11-01,GJ_BVN,Banaskantha,Gujarat,18.681,13.52,0.85
+2020-12-01,GJ_BVN,Banaskantha,Gujarat,19.131,6.83,0.85
+2021-01-01,GJ_BVN,Banaskantha,Gujarat,18.981,3.58,0.85
+2021-02-01,GJ_BVN,Banaskantha,Gujarat,20.166,3.67,0.85
+2021-03-01,GJ_BVN,Banaskantha,Gujarat,20.343,4.34,0.85
+2021-04-01,GJ_BVN,Banaskantha,Gujarat,20.843,4.0,0.85
+2021-05-01,GJ_BVN,Banaskantha,Gujarat,20.388,10.96,0.85
+2021-06-01,GJ_BVN,Banaskantha,Gujarat,20.763,63.02,0.85
+2021-07-01,GJ_BVN,Banaskantha,Gujarat,19.717,103.6,0.85
+2021-08-01,GJ_BVN,Banaskantha,Gujarat,19.06,172.38,0.85
+2021-09-01,GJ_BVN,Banaskantha,Gujarat,19.332,31.4,0.85
+2021-10-01,GJ_BVN,Banaskantha,Gujarat,19.266,34.34,0.85
+2021-11-01,GJ_BVN,Banaskantha,Gujarat,20.219,12.81,0.85
+2021-12-01,GJ_BVN,Banaskantha,Gujarat,20.871,5.51,0.85
+2022-01-01,GJ_BVN,Banaskantha,Gujarat,21.479,2.75,0.85
+2022-02-01,GJ_BVN,Banaskantha,Gujarat,21.541,4.31,0.85
+2022-03-01,GJ_BVN,Banaskantha,Gujarat,21.487,3.92,0.85
+2022-04-01,GJ_BVN,Banaskantha,Gujarat,22.339,5.28,0.85
+2022-05-01,GJ_BVN,Banaskantha,Gujarat,21.92,11.3,0.85
+2022-06-01,GJ_BVN,Banaskantha,Gujarat,21.465,51.7,0.85
+2022-07-01,GJ_BVN,Banaskantha,Gujarat,20.393,98.83,0.85
+2022-08-01,GJ_BVN,Banaskantha,Gujarat,21.174,104.59,0.85
+2022-09-01,GJ_BVN,Banaskantha,Gujarat,21.461,91.94,0.85
+2022-10-01,GJ_BVN,Banaskantha,Gujarat,21.805,25.7,0.85
+2022-11-01,GJ_BVN,Banaskantha,Gujarat,20.71,13.24,0.85
+2022-12-01,GJ_BVN,Banaskantha,Gujarat,22.067,8.01,0.85
+2023-01-01,GJ_BVN,Banaskantha,Gujarat,22.234,5.05,0.85
+2023-02-01,GJ_BVN,Banaskantha,Gujarat,22.127,3.65,0.85
+2023-03-01,GJ_BVN,Banaskantha,Gujarat,22.899,3.59,0.85
+2023-04-01,GJ_BVN,Banaskantha,Gujarat,23.599,4.19,0.85
+2023-05-01,GJ_BVN,Banaskantha,Gujarat,23.525,9.38,0.85
+2023-06-01,GJ_BVN,Banaskantha,Gujarat,22.877,20.28,0.85
+2023-07-01,GJ_BVN,Banaskantha,Gujarat,21.795,117.09,0.85
+2023-08-01,GJ_BVN,Banaskantha,Gujarat,21.218,159.44,0.85
+2023-09-01,GJ_BVN,Banaskantha,Gujarat,21.852,62.79,0.85
+2023-10-01,GJ_BVN,Banaskantha,Gujarat,22.424,14.5,0.85
+2023-11-01,GJ_BVN,Banaskantha,Gujarat,22.7,14.37,0.85
+2023-12-01,GJ_BVN,Banaskantha,Gujarat,23.037,6.57,0.85
+2024-01-01,GJ_BVN,Banaskantha,Gujarat,23.42,3.76,0.85
+2024-02-01,GJ_BVN,Banaskantha,Gujarat,23.86,4.66,0.85
+2024-03-01,GJ_BVN,Banaskantha,Gujarat,24.743,3.58,0.85
+2024-04-01,GJ_BVN,Banaskantha,Gujarat,24.944,6.24,0.85
+2024-05-01,GJ_BVN,Banaskantha,Gujarat,23.418,10.67,0.85
+2024-06-01,GJ_BVN,Banaskantha,Gujarat,24.591,57.1,0.85
+2024-07-01,GJ_BVN,Banaskantha,Gujarat,23.06,117.52,0.85
+2024-08-01,GJ_BVN,Banaskantha,Gujarat,23.074,140.69,0.85
+2024-09-01,GJ_BVN,Banaskantha,Gujarat,23.241,62.3,0.85
+2024-10-01,GJ_BVN,Banaskantha,Gujarat,24.249,22.12,0.85
+2024-11-01,GJ_BVN,Banaskantha,Gujarat,23.546,18.1,0.85
+2024-12-01,GJ_BVN,Banaskantha,Gujarat,23.791,9.12,0.85
+2019-01-01,GJ_AND,Anand,Gujarat,8.943,6.72,0.55
+2019-02-01,GJ_AND,Anand,Gujarat,9.026,8.29,0.55
+2019-03-01,GJ_AND,Anand,Gujarat,9.899,8.28,0.55
+2019-04-01,GJ_AND,Anand,Gujarat,10.653,6.01,0.55
+2019-05-01,GJ_AND,Anand,Gujarat,10.264,17.89,0.55
+2019-06-01,GJ_AND,Anand,Gujarat,9.759,120.73,0.55
+2019-07-01,GJ_AND,Anand,Gujarat,8.073,148.5,0.55
+2019-08-01,GJ_AND,Anand,Gujarat,7.648,235.41,0.55
+2019-09-01,GJ_AND,Anand,Gujarat,7.89,105.38,0.55
+2019-10-01,GJ_AND,Anand,Gujarat,9.249,43.47,0.55
+2019-11-01,GJ_AND,Anand,Gujarat,10.022,26.37,0.55
+2019-12-01,GJ_AND,Anand,Gujarat,10.043,18.02,0.55
+2020-01-01,GJ_AND,Anand,Gujarat,10.048,5.23,0.55
+2020-02-01,GJ_AND,Anand,Gujarat,10.142,4.92,0.55
+2020-03-01,GJ_AND,Anand,Gujarat,10.34,5.82,0.55
+2020-04-01,GJ_AND,Anand,Gujarat,10.554,9.61,0.55
+2020-05-01,GJ_AND,Anand,Gujarat,10.055,13.87,0.55
+2020-06-01,GJ_AND,Anand,Gujarat,9.239,107.35,0.55
+2020-07-01,GJ_AND,Anand,Gujarat,8.643,282.83,0.55
+2020-08-01,GJ_AND,Anand,Gujarat,8.183,202.74,0.55
+2020-09-01,GJ_AND,Anand,Gujarat,8.347,86.64,0.55
+2020-10-01,GJ_AND,Anand,Gujarat,9.896,25.08,0.55
+2020-11-01,GJ_AND,Anand,Gujarat,10.375,16.19,0.55
+2020-12-01,GJ_AND,Anand,Gujarat,9.666,13.37,0.55
+2021-01-01,GJ_AND,Anand,Gujarat,10.411,4.52,0.55
+2021-02-01,GJ_AND,Anand,Gujarat,11.366,7.39,0.55
+2021-03-01,GJ_AND,Anand,Gujarat,12.002,5.45,0.55
+2021-04-01,GJ_AND,Anand,Gujarat,10.935,6.38,0.55
+2021-05-01,GJ_AND,Anand,Gujarat,10.784,14.36,0.55
+2021-06-01,GJ_AND,Anand,Gujarat,9.825,62.6,0.55
+2021-07-01,GJ_AND,Anand,Gujarat,9.754,199.64,0.55
+2021-08-01,GJ_AND,Anand,Gujarat,8.317,201.78,0.55
+2021-09-01,GJ_AND,Anand,Gujarat,9.004,101.26,0.55
+2021-10-01,GJ_AND,Anand,Gujarat,9.559,28.89,0.55
+2021-11-01,GJ_AND,Anand,Gujarat,10.371,18.6,0.55
+2021-12-01,GJ_AND,Anand,Gujarat,11.304,13.25,0.55
+2022-01-01,GJ_AND,Anand,Gujarat,10.429,6.21,0.55
+2022-02-01,GJ_AND,Anand,Gujarat,11.216,5.5,0.55
+2022-03-01,GJ_AND,Anand,Gujarat,10.706,5.12,0.55
+2022-04-01,GJ_AND,Anand,Gujarat,11.513,6.89,0.55
+2022-05-01,GJ_AND,Anand,Gujarat,11.778,10.48,0.55
+2022-06-01,GJ_AND,Anand,Gujarat,10.631,33.22,0.55
+2022-07-01,GJ_AND,Anand,Gujarat,9.936,177.08,0.55
+2022-08-01,GJ_AND,Anand,Gujarat,9.743,222.07,0.55
+2022-09-01,GJ_AND,Anand,Gujarat,9.449,68.74,0.55
+2022-10-01,GJ_AND,Anand,Gujarat,10.219,50.9,0.55
+2022-11-01,GJ_AND,Anand,Gujarat,11.206,23.64,0.55
+2022-12-01,GJ_AND,Anand,Gujarat,11.379,21.47,0.55
+2023-01-01,GJ_AND,Anand,Gujarat,10.926,8.67,0.55
+2023-02-01,GJ_AND,Anand,Gujarat,12.052,8.44,0.55
+2023-03-01,GJ_AND,Anand,Gujarat,11.92,9.52,0.55
+2023-04-01,GJ_AND,Anand,Gujarat,12.499,6.53,0.55
+2023-05-01,GJ_AND,Anand,Gujarat,11.934,14.7,0.55
+2023-06-01,GJ_AND,Anand,Gujarat,11.452,76.3,0.55
+2023-07-01,GJ_AND,Anand,Gujarat,10.401,196.16,0.55
+2023-08-01,GJ_AND,Anand,Gujarat,10.314,252.35,0.55
+2023-09-01,GJ_AND,Anand,Gujarat,10.392,86.3,0.55
+2023-10-01,GJ_AND,Anand,Gujarat,11.037,36.55,0.55
+2023-11-01,GJ_AND,Anand,Gujarat,11.453,20.73,0.55
+2023-12-01,GJ_AND,Anand,Gujarat,11.398,11.25,0.55
+2024-01-01,GJ_AND,Anand,Gujarat,12.016,4.31,0.55
+2024-02-01,GJ_AND,Anand,Gujarat,11.36,8.29,0.55
+2024-03-01,GJ_AND,Anand,Gujarat,11.725,6.2,0.55
+2024-04-01,GJ_AND,Anand,Gujarat,12.299,9.76,0.55
+2024-05-01,GJ_AND,Anand,Gujarat,12.508,11.13,0.55
+2024-06-01,GJ_AND,Anand,Gujarat,11.352,68.51,0.55
+2024-07-01,GJ_AND,Anand,Gujarat,10.688,260.22,0.55
+2024-08-01,GJ_AND,Anand,Gujarat,10.547,219.12,0.55
+2024-09-01,GJ_AND,Anand,Gujarat,11.403,120.57,0.55
+2024-10-01,GJ_AND,Anand,Gujarat,11.556,34.84,0.55
+2024-11-01,GJ_AND,Anand,Gujarat,11.689,18.83,0.55
+2024-12-01,GJ_AND,Anand,Gujarat,12.67,17.96,0.55
+2019-01-01,UP_LKO,Lucknow,Uttar Pradesh,9.994,6.14,0.55
+2019-02-01,UP_LKO,Lucknow,Uttar Pradesh,8.871,6.08,0.55
+2019-03-01,UP_LKO,Lucknow,Uttar Pradesh,9.857,5.29,0.55
+2019-04-01,UP_LKO,Lucknow,Uttar Pradesh,10.085,7.88,0.55
+2019-05-01,UP_LKO,Lucknow,Uttar Pradesh,9.235,11.99,0.55
+2019-06-01,UP_LKO,Lucknow,Uttar Pradesh,9.676,105.7,0.55
+2019-07-01,UP_LKO,Lucknow,Uttar Pradesh,8.008,178.41,0.55
+2019-08-01,UP_LKO,Lucknow,Uttar Pradesh,7.947,246.28,0.55
+2019-09-01,UP_LKO,Lucknow,Uttar Pradesh,7.903,133.1,0.55
+2019-10-01,UP_LKO,Lucknow,Uttar Pradesh,8.292,43.29,0.55
+2019-11-01,UP_LKO,Lucknow,Uttar Pradesh,9.551,28.71,0.55
+2019-12-01,UP_LKO,Lucknow,Uttar Pradesh,9.624,15.94,0.55
+2020-01-01,UP_LKO,Lucknow,Uttar Pradesh,9.165,5.48,0.55
+2020-02-01,UP_LKO,Lucknow,Uttar Pradesh,10.515,5.38,0.55
+2020-03-01,UP_LKO,Lucknow,Uttar Pradesh,10.566,8.46,0.55
+2020-04-01,UP_LKO,Lucknow,Uttar Pradesh,10.992,8.13,0.55
+2020-05-01,UP_LKO,Lucknow,Uttar Pradesh,11.122,16.2,0.55
+2020-06-01,UP_LKO,Lucknow,Uttar Pradesh,9.273,78.52,0.55
+2020-07-01,UP_LKO,Lucknow,Uttar Pradesh,8.066,160.3,0.55
+2020-08-01,UP_LKO,Lucknow,Uttar Pradesh,8.342,262.33,0.55
+2020-09-01,UP_LKO,Lucknow,Uttar Pradesh,8.708,70.24,0.55
+2020-10-01,UP_LKO,Lucknow,Uttar Pradesh,9.259,37.2,0.55
+2020-11-01,UP_LKO,Lucknow,Uttar Pradesh,10.175,28.45,0.55
+2020-12-01,UP_LKO,Lucknow,Uttar Pradesh,10.84,8.91,0.55
+2021-01-01,UP_LKO,Lucknow,Uttar Pradesh,9.335,9.39,0.55
+2021-02-01,UP_LKO,Lucknow,Uttar Pradesh,10.547,7.11,0.55
+2021-03-01,UP_LKO,Lucknow,Uttar Pradesh,10.872,8.58,0.55
+2021-04-01,UP_LKO,Lucknow,Uttar Pradesh,10.89,6.64,0.55
+2021-05-01,UP_LKO,Lucknow,Uttar Pradesh,10.797,10.84,0.55
+2021-06-01,UP_LKO,Lucknow,Uttar Pradesh,10.243,74.61,0.55
+2021-07-01,UP_LKO,Lucknow,Uttar Pradesh,9.267,167.16,0.55
+2021-08-01,UP_LKO,Lucknow,Uttar Pradesh,9.126,93.07,0.55
+2021-09-01,UP_LKO,Lucknow,Uttar Pradesh,9.163,100.65,0.55
+2021-10-01,UP_LKO,Lucknow,Uttar Pradesh,9.434,35.49,0.55
+2021-11-01,UP_LKO,Lucknow,Uttar Pradesh,10.897,23.94,0.55
+2021-12-01,UP_LKO,Lucknow,Uttar Pradesh,10.962,10.41,0.55
+2022-01-01,UP_LKO,Lucknow,Uttar Pradesh,10.862,8.25,0.55
+2022-02-01,UP_LKO,Lucknow,Uttar Pradesh,10.775,4.63,0.55
+2022-03-01,UP_LKO,Lucknow,Uttar Pradesh,11.4,6.92,0.55
+2022-04-01,UP_LKO,Lucknow,Uttar Pradesh,11.462,7.47,0.55
+2022-05-01,UP_LKO,Lucknow,Uttar Pradesh,11.32,16.29,0.55
+2022-06-01,UP_LKO,Lucknow,Uttar Pradesh,10.285,104.63,0.55
+2022-07-01,UP_LKO,Lucknow,Uttar Pradesh,9.312,158.78,0.55
+2022-08-01,UP_LKO,Lucknow,Uttar Pradesh,9.032,167.07,0.55
+2022-09-01,UP_LKO,Lucknow,Uttar Pradesh,8.737,79.0,0.55
+2022-10-01,UP_LKO,Lucknow,Uttar Pradesh,11.144,31.31,0.55
+2022-11-01,UP_LKO,Lucknow,Uttar Pradesh,10.62,18.74,0.55
+2022-12-01,UP_LKO,Lucknow,Uttar Pradesh,11.48,18.11,0.55
+2023-01-01,UP_LKO,Lucknow,Uttar Pradesh,10.692,6.64,0.55
+2023-02-01,UP_LKO,Lucknow,Uttar Pradesh,12.114,8.06,0.55
+2023-03-01,UP_LKO,Lucknow,Uttar Pradesh,11.992,7.04,0.55
+2023-04-01,UP_LKO,Lucknow,Uttar Pradesh,11.986,9.09,0.55
+2023-05-01,UP_LKO,Lucknow,Uttar Pradesh,12.227,8.82,0.55
+2023-06-01,UP_LKO,Lucknow,Uttar Pradesh,10.592,86.42,0.55
+2023-07-01,UP_LKO,Lucknow,Uttar Pradesh,9.973,269.1,0.55
+2023-08-01,UP_LKO,Lucknow,Uttar Pradesh,9.544,223.2,0.55
+2023-09-01,UP_LKO,Lucknow,Uttar Pradesh,10.111,106.89,0.55
+2023-10-01,UP_LKO,Lucknow,Uttar Pradesh,11.44,31.64,0.55
+2023-11-01,UP_LKO,Lucknow,Uttar Pradesh,11.705,24.07,0.55
+2023-12-01,UP_LKO,Lucknow,Uttar Pradesh,11.786,17.32,0.55
+2024-01-01,UP_LKO,Lucknow,Uttar Pradesh,11.428,5.87,0.55
+2024-02-01,UP_LKO,Lucknow,Uttar Pradesh,11.467,7.39,0.55
+2024-03-01,UP_LKO,Lucknow,Uttar Pradesh,12.249,7.6,0.55
+2024-04-01,UP_LKO,Lucknow,Uttar Pradesh,12.637,7.46,0.55
+2024-05-01,UP_LKO,Lucknow,Uttar Pradesh,12.783,11.34,0.55
+2024-06-01,UP_LKO,Lucknow,Uttar Pradesh,11.978,55.97,0.55
+2024-07-01,UP_LKO,Lucknow,Uttar Pradesh,9.926,208.31,0.55
+2024-08-01,UP_LKO,Lucknow,Uttar Pradesh,10.15,200.8,0.55
+2024-09-01,UP_LKO,Lucknow,Uttar Pradesh,10.351,105.2,0.55
+2024-10-01,UP_LKO,Lucknow,Uttar Pradesh,10.974,39.84,0.55
+2024-11-01,UP_LKO,Lucknow,Uttar Pradesh,11.038,29.5,0.55
+2024-12-01,UP_LKO,Lucknow,Uttar Pradesh,12.917,18.22,0.55
+2019-01-01,UP_AGR,Agra,Uttar Pradesh,16.301,4.92,0.85
+2019-02-01,UP_AGR,Agra,Uttar Pradesh,17.463,3.47,0.85
+2019-03-01,UP_AGR,Agra,Uttar Pradesh,18.063,5.74,0.85
+2019-04-01,UP_AGR,Agra,Uttar Pradesh,18.456,4.93,0.85
+2019-05-01,UP_AGR,Agra,Uttar Pradesh,18.237,8.17,0.85
+2019-06-01,UP_AGR,Agra,Uttar Pradesh,17.732,56.07,0.85
+2019-07-01,UP_AGR,Agra,Uttar Pradesh,17.418,147.92,0.85
+2019-08-01,UP_AGR,Agra,Uttar Pradesh,18.04,157.75,0.85
+2019-09-01,UP_AGR,Agra,Uttar Pradesh,16.811,80.25,0.85
+2019-10-01,UP_AGR,Agra,Uttar Pradesh,17.192,18.18,0.85
+2019-11-01,UP_AGR,Agra,Uttar Pradesh,18.301,16.52,0.85
+2019-12-01,UP_AGR,Agra,Uttar Pradesh,18.268,7.49,0.85
+2020-01-01,UP_AGR,Agra,Uttar Pradesh,17.991,5.94,0.85
+2020-02-01,UP_AGR,Agra,Uttar Pradesh,19.553,3.44,0.85
+2020-03-01,UP_AGR,Agra,Uttar Pradesh,18.828,6.27,0.85
+2020-04-01,UP_AGR,Agra,Uttar Pradesh,19.523,2.9,0.85
+2020-05-01,UP_AGR,Agra,Uttar Pradesh,19.877,5.46,0.85
+2020-06-01,UP_AGR,Agra,Uttar Pradesh,19.94,54.31,0.85
+2020-07-01,UP_AGR,Agra,Uttar Pradesh,17.185,172.05,0.85
+2020-08-01,UP_AGR,Agra,Uttar Pradesh,17.766,180.42,0.85
+2020-09-01,UP_AGR,Agra,Uttar Pradesh,18.665,90.46,0.85
+2020-10-01,UP_AGR,Agra,Uttar Pradesh,18.504,38.97,0.85
+2020-11-01,UP_AGR,Agra,Uttar Pradesh,18.946,15.22,0.85
+2020-12-01,UP_AGR,Agra,Uttar Pradesh,20.768,9.89,0.85
+2021-01-01,UP_AGR,Agra,Uttar Pradesh,19.978,4.29,0.85
+2021-02-01,UP_AGR,Agra,Uttar Pradesh,19.777,4.58,0.85
+2021-03-01,UP_AGR,Agra,Uttar Pradesh,20.575,2.86,0.85
+2021-04-01,UP_AGR,Agra,Uttar Pradesh,20.684,5.81,0.85
+2021-05-01,UP_AGR,Agra,Uttar Pradesh,20.279,7.1,0.85
+2021-06-01,UP_AGR,Agra,Uttar Pradesh,21.048,70.72,0.85
+2021-07-01,UP_AGR,Agra,Uttar Pradesh,19.437,88.96,0.85
+2021-08-01,UP_AGR,Agra,Uttar Pradesh,18.608,91.07,0.85
+2021-09-01,UP_AGR,Agra,Uttar Pradesh,20.042,53.23,0.85
+2021-10-01,UP_AGR,Agra,Uttar Pradesh,19.868,29.4,0.85
+2021-11-01,UP_AGR,Agra,Uttar Pradesh,20.514,14.04,0.85
+2021-12-01,UP_AGR,Agra,Uttar Pradesh,21.81,10.52,0.85
+2022-01-01,UP_AGR,Agra,Uttar Pradesh,21.221,5.27,0.85
+2022-02-01,UP_AGR,Agra,Uttar Pradesh,21.053,4.5,0.85
+2022-03-01,UP_AGR,Agra,Uttar Pradesh,22.047,3.76,0.85
+2022-04-01,UP_AGR,Agra,Uttar Pradesh,21.417,3.64,0.85
+2022-05-01,UP_AGR,Agra,Uttar Pradesh,21.315,10.14,0.85
+2022-06-01,UP_AGR,Agra,Uttar Pradesh,22.219,32.58,0.85
+2022-07-01,UP_AGR,Agra,Uttar Pradesh,20.25,152.04,0.85
+2022-08-01,UP_AGR,Agra,Uttar Pradesh,20.201,159.83,0.85
+2022-09-01,UP_AGR,Agra,Uttar Pradesh,20.79,62.9,0.85
+2022-10-01,UP_AGR,Agra,Uttar Pradesh,21.635,17.37,0.85
+2022-11-01,UP_AGR,Agra,Uttar Pradesh,21.648,16.22,0.85
+2022-12-01,UP_AGR,Agra,Uttar Pradesh,22.654,9.88,0.85
+2023-01-01,UP_AGR,Agra,Uttar Pradesh,22.239,5.66,0.85
+2023-02-01,UP_AGR,Agra,Uttar Pradesh,23.209,6.74,0.85
+2023-03-01,UP_AGR,Agra,Uttar Pradesh,24.235,3.52,0.85
+2023-04-01,UP_AGR,Agra,Uttar Pradesh,23.37,5.51,0.85
+2023-05-01,UP_AGR,Agra,Uttar Pradesh,22.0,13.38,0.85
+2023-06-01,UP_AGR,Agra,Uttar Pradesh,22.356,55.79,0.85
+2023-07-01,UP_AGR,Agra,Uttar Pradesh,22.315,141.02,0.85
+2023-08-01,UP_AGR,Agra,Uttar Pradesh,21.657,152.68,0.85
+2023-09-01,UP_AGR,Agra,Uttar Pradesh,21.078,76.91,0.85
+2023-10-01,UP_AGR,Agra,Uttar Pradesh,22.071,11.8,0.85
+2023-11-01,UP_AGR,Agra,Uttar Pradesh,22.906,14.49,0.85
+2023-12-01,UP_AGR,Agra,Uttar Pradesh,23.191,13.48,0.85
+2024-01-01,UP_AGR,Agra,Uttar Pradesh,22.337,2.98,0.85
+2024-02-01,UP_AGR,Agra,Uttar Pradesh,23.2,3.69,0.85
+2024-03-01,UP_AGR,Agra,Uttar Pradesh,24.205,6.11,0.85
+2024-04-01,UP_AGR,Agra,Uttar Pradesh,23.952,4.46,0.85
+2024-05-01,UP_AGR,Agra,Uttar Pradesh,25.128,9.48,0.85
+2024-06-01,UP_AGR,Agra,Uttar Pradesh,23.048,42.84,0.85
+2024-07-01,UP_AGR,Agra,Uttar Pradesh,23.174,119.16,0.85
+2024-08-01,UP_AGR,Agra,Uttar Pradesh,23.505,198.06,0.85
+2024-09-01,UP_AGR,Agra,Uttar Pradesh,23.074,49.36,0.85
+2024-10-01,UP_AGR,Agra,Uttar Pradesh,23.038,30.41,0.85
+2024-11-01,UP_AGR,Agra,Uttar Pradesh,24.035,14.65,0.85
+2024-12-01,UP_AGR,Agra,Uttar Pradesh,25.023,10.27,0.85
+2019-01-01,UP_MRT,Meerut,Uttar Pradesh,17.363,3.79,0.85
+2019-02-01,UP_MRT,Meerut,Uttar Pradesh,16.975,3.44,0.85
+2019-03-01,UP_MRT,Meerut,Uttar Pradesh,17.564,5.57,0.85
+2019-04-01,UP_MRT,Meerut,Uttar Pradesh,17.067,5.27,0.85
+2019-05-01,UP_MRT,Meerut,Uttar Pradesh,18.343,6.96,0.85
+2019-06-01,UP_MRT,Meerut,Uttar Pradesh,17.487,45.51,0.85
+2019-07-01,UP_MRT,Meerut,Uttar Pradesh,17.032,162.78,0.85
+2019-08-01,UP_MRT,Meerut,Uttar Pradesh,15.712,93.97,0.85
+2019-09-01,UP_MRT,Meerut,Uttar Pradesh,17.616,48.69,0.85
+2019-10-01,UP_MRT,Meerut,Uttar Pradesh,17.633,13.01,0.85
+2019-11-01,UP_MRT,Meerut,Uttar Pradesh,18.427,10.08,0.85
+2019-12-01,UP_MRT,Meerut,Uttar Pradesh,18.885,10.21,0.85
+2020-01-01,UP_MRT,Meerut,Uttar Pradesh,18.073,3.37,0.85
+2020-02-01,UP_MRT,Meerut,Uttar Pradesh,18.346,3.85,0.85
+2020-03-01,UP_MRT,Meerut,Uttar Pradesh,19.101,3.71,0.85
+2020-04-01,UP_MRT,Meerut,Uttar Pradesh,20.172,5.87,0.85
+2020-05-01,UP_MRT,Meerut,Uttar Pradesh,19.822,9.17,0.85
+2020-06-01,UP_MRT,Meerut,Uttar Pradesh,18.455,46.49,0.85
+2020-07-01,UP_MRT,Meerut,Uttar Pradesh,18.486,130.43,0.85
+2020-08-01,UP_MRT,Meerut,Uttar Pradesh,17.667,119.55,0.85
+2020-09-01,UP_MRT,Meerut,Uttar Pradesh,17.689,91.09,0.85
+2020-10-01,UP_MRT,Meerut,Uttar Pradesh,18.699,31.81,0.85
+2020-11-01,UP_MRT,Meerut,Uttar Pradesh,19.259,15.36,0.85
+2020-12-01,UP_MRT,Meerut,Uttar Pradesh,20.25,6.23,0.85
+2021-01-01,UP_MRT,Meerut,Uttar Pradesh,19.912,4.38,0.85
+2021-02-01,UP_MRT,Meerut,Uttar Pradesh,19.622,5.41,0.85
+2021-03-01,UP_MRT,Meerut,Uttar Pradesh,19.932,4.43,0.85
+2021-04-01,UP_MRT,Meerut,Uttar Pradesh,21.075,5.93,0.85
+2021-05-01,UP_MRT,Meerut,Uttar Pradesh,20.407,5.71,0.85
+2021-06-01,UP_MRT,Meerut,Uttar Pradesh,20.06,56.36,0.85
+2021-07-01,UP_MRT,Meerut,Uttar Pradesh,19.112,74.61,0.85
+2021-08-01,UP_MRT,Meerut,Uttar Pradesh,19.04,125.83,0.85
+2021-09-01,UP_MRT,Meerut,Uttar Pradesh,19.889,75.78,0.85
+2021-10-01,UP_MRT,Meerut,Uttar Pradesh,19.985,37.46,0.85
+2021-11-01,UP_MRT,Meerut,Uttar Pradesh,20.151,8.56,0.85
+2021-12-01,UP_MRT,Meerut,Uttar Pradesh,20.844,10.61,0.85
+2022-01-01,UP_MRT,Meerut,Uttar Pradesh,21.9,4.17,0.85
+2022-02-01,UP_MRT,Meerut,Uttar Pradesh,21.35,4.26,0.85
+2022-03-01,UP_MRT,Meerut,Uttar Pradesh,21.274,6.19,0.85
+2022-04-01,UP_MRT,Meerut,Uttar Pradesh,22.124,4.76,0.85
+2022-05-01,UP_MRT,Meerut,Uttar Pradesh,21.27,7.85,0.85
+2022-06-01,UP_MRT,Meerut,Uttar Pradesh,21.481,66.22,0.85
+2022-07-01,UP_MRT,Meerut,Uttar Pradesh,20.375,159.96,0.85
+2022-08-01,UP_MRT,Meerut,Uttar Pradesh,20.596,111.47,0.85
+2022-09-01,UP_MRT,Meerut,Uttar Pradesh,21.302,79.06,0.85
+2022-10-01,UP_MRT,Meerut,Uttar Pradesh,21.711,18.33,0.85
+2022-11-01,UP_MRT,Meerut,Uttar Pradesh,21.235,18.03,0.85
+2022-12-01,UP_MRT,Meerut,Uttar Pradesh,22.185,12.51,0.85
+2023-01-01,UP_MRT,Meerut,Uttar Pradesh,22.767,5.34,0.85
+2023-02-01,UP_MRT,Meerut,Uttar Pradesh,22.335,5.05,0.85
+2023-03-01,UP_MRT,Meerut,Uttar Pradesh,22.609,4.14,0.85
+2023-04-01,UP_MRT,Meerut,Uttar Pradesh,23.772,3.33,0.85
+2023-05-01,UP_MRT,Meerut,Uttar Pradesh,23.43,11.01,0.85
+2023-06-01,UP_MRT,Meerut,Uttar Pradesh,22.955,43.55,0.85
+2023-07-01,UP_MRT,Meerut,Uttar Pradesh,20.995,80.03,0.85
+2023-08-01,UP_MRT,Meerut,Uttar Pradesh,21.518,87.09,0.85
+2023-09-01,UP_MRT,Meerut,Uttar Pradesh,22.496,71.13,0.85
+2023-10-01,UP_MRT,Meerut,Uttar Pradesh,22.857,20.28,0.85
+2023-11-01,UP_MRT,Meerut,Uttar Pradesh,22.984,10.28,0.85
+2023-12-01,UP_MRT,Meerut,Uttar Pradesh,23.397,9.91,0.85
+2024-01-01,UP_MRT,Meerut,Uttar Pradesh,23.307,4.3,0.85
+2024-02-01,UP_MRT,Meerut,Uttar Pradesh,22.494,5.48,0.85
+2024-03-01,UP_MRT,Meerut,Uttar Pradesh,24.203,4.31,0.85
+2024-04-01,UP_MRT,Meerut,Uttar Pradesh,25.157,3.93,0.85
+2024-05-01,UP_MRT,Meerut,Uttar Pradesh,24.82,9.17,0.85
+2024-06-01,UP_MRT,Meerut,Uttar Pradesh,23.692,42.16,0.85
+2024-07-01,UP_MRT,Meerut,Uttar Pradesh,23.75,153.77,0.85
+2024-08-01,UP_MRT,Meerut,Uttar Pradesh,22.882,176.32,0.85
+2024-09-01,UP_MRT,Meerut,Uttar Pradesh,23.297,58.41,0.85
+2024-10-01,UP_MRT,Meerut,Uttar Pradesh,23.903,20.78,0.85
+2024-11-01,UP_MRT,Meerut,Uttar Pradesh,24.801,10.65,0.85
+2024-12-01,UP_MRT,Meerut,Uttar Pradesh,24.644,12.13,0.85
+2019-01-01,UP_VNS,Varanasi,Uttar Pradesh,4.618,8.74,0.3
+2019-02-01,UP_VNS,Varanasi,Uttar Pradesh,4.21,9.74,0.3
+2019-03-01,UP_VNS,Varanasi,Uttar Pradesh,4.918,7.43,0.3
+2019-04-01,UP_VNS,Varanasi,Uttar Pradesh,5.312,9.29,0.3
+2019-05-01,UP_VNS,Varanasi,Uttar Pradesh,5.081,18.0,0.3
+2019-06-01,UP_VNS,Varanasi,Uttar Pradesh,3.566,128.56,0.3
+2019-07-01,UP_VNS,Varanasi,Uttar Pradesh,1.768,375.56,0.3
+2019-08-01,UP_VNS,Varanasi,Uttar Pradesh,1.317,127.31,0.3
+2019-09-01,UP_VNS,Varanasi,Uttar Pradesh,1.237,159.26,0.3
+2019-10-01,UP_VNS,Varanasi,Uttar Pradesh,2.679,35.78,0.3
+2019-11-01,UP_VNS,Varanasi,Uttar Pradesh,3.406,32.22,0.3
+2019-12-01,UP_VNS,Varanasi,Uttar Pradesh,3.377,11.05,0.3
+2020-01-01,UP_VNS,Varanasi,Uttar Pradesh,3.836,10.31,0.3
+2020-02-01,UP_VNS,Varanasi,Uttar Pradesh,4.127,7.35,0.3
+2020-03-01,UP_VNS,Varanasi,Uttar Pradesh,4.25,6.64,0.3
+2020-04-01,UP_VNS,Varanasi,Uttar Pradesh,4.308,15.78,0.3
+2020-05-01,UP_VNS,Varanasi,Uttar Pradesh,4.756,27.07,0.3
+2020-06-01,UP_VNS,Varanasi,Uttar Pradesh,3.636,119.22,0.3
+2020-07-01,UP_VNS,Varanasi,Uttar Pradesh,1.973,256.57,0.3
+2020-08-01,UP_VNS,Varanasi,Uttar Pradesh,1.556,340.14,0.3
+2020-09-01,UP_VNS,Varanasi,Uttar Pradesh,1.587,202.61,0.3
+2020-10-01,UP_VNS,Varanasi,Uttar Pradesh,2.834,69.25,0.3
+2020-11-01,UP_VNS,Varanasi,Uttar Pradesh,3.337,34.95,0.3
+2020-12-01,UP_VNS,Varanasi,Uttar Pradesh,4.118,20.51,0.3
+2021-01-01,UP_VNS,Varanasi,Uttar Pradesh,3.835,6.59,0.3
+2021-02-01,UP_VNS,Varanasi,Uttar Pradesh,4.123,8.59,0.3
+2021-03-01,UP_VNS,Varanasi,Uttar Pradesh,4.361,8.7,0.3
+2021-04-01,UP_VNS,Varanasi,Uttar Pradesh,5.211,9.7,0.3
+2021-05-01,UP_VNS,Varanasi,Uttar Pradesh,4.59,28.09,0.3
+2021-06-01,UP_VNS,Varanasi,Uttar Pradesh,3.093,149.46,0.3
+2021-07-01,UP_VNS,Varanasi,Uttar Pradesh,2.038,319.59,0.3
+2021-08-01,UP_VNS,Varanasi,Uttar Pradesh,1.568,438.51,0.3
+2021-09-01,UP_VNS,Varanasi,Uttar Pradesh,1.478,114.46,0.3
+2021-10-01,UP_VNS,Varanasi,Uttar Pradesh,2.557,45.36,0.3
+2021-11-01,UP_VNS,Varanasi,Uttar Pradesh,3.621,22.84,0.3
+2021-12-01,UP_VNS,Varanasi,Uttar Pradesh,3.328,24.55,0.3
+2022-01-01,UP_VNS,Varanasi,Uttar Pradesh,4.255,8.35,0.3
+2022-02-01,UP_VNS,Varanasi,Uttar Pradesh,4.077,6.18,0.3
+2022-03-01,UP_VNS,Varanasi,Uttar Pradesh,4.03,13.19,0.3
+2022-04-01,UP_VNS,Varanasi,Uttar Pradesh,5.007,8.83,0.3
+2022-05-01,UP_VNS,Varanasi,Uttar Pradesh,4.928,14.76,0.3
+2022-06-01,UP_VNS,Varanasi,Uttar Pradesh,3.204,132.01,0.3
+2022-07-01,UP_VNS,Varanasi,Uttar Pradesh,1.402,286.84,0.3
+2022-08-01,UP_VNS,Varanasi,Uttar Pradesh,1.544,348.84,0.3
+2022-09-01,UP_VNS,Varanasi,Uttar Pradesh,1.076,129.1,0.3
+2022-10-01,UP_VNS,Varanasi,Uttar Pradesh,2.014,56.33,0.3
+2022-11-01,UP_VNS,Varanasi,Uttar Pradesh,4.074,27.05,0.3
+2022-12-01,UP_VNS,Varanasi,Uttar Pradesh,3.318,26.48,0.3
+2023-01-01,UP_VNS,Varanasi,Uttar Pradesh,4.271,11.38,0.3
+2023-02-01,UP_VNS,Varanasi,Uttar Pradesh,3.959,8.53,0.3
+2023-03-01,UP_VNS,Varanasi,Uttar Pradesh,4.31,7.69,0.3
+2023-04-01,UP_VNS,Varanasi,Uttar Pradesh,4.145,9.99,0.3
+2023-05-01,UP_VNS,Varanasi,Uttar Pradesh,4.374,35.71,0.3
+2023-06-01,UP_VNS,Varanasi,Uttar Pradesh,3.222,155.98,0.3
+2023-07-01,UP_VNS,Varanasi,Uttar Pradesh,1.323,308.0,0.3
+2023-08-01,UP_VNS,Varanasi,Uttar Pradesh,1.037,305.06,0.3
+2023-09-01,UP_VNS,Varanasi,Uttar Pradesh,1.086,102.94,0.3
+2023-10-01,UP_VNS,Varanasi,Uttar Pradesh,2.64,49.48,0.3
+2023-11-01,UP_VNS,Varanasi,Uttar Pradesh,3.769,28.2,0.3
+2023-12-01,UP_VNS,Varanasi,Uttar Pradesh,3.209,11.38,0.3
+2024-01-01,UP_VNS,Varanasi,Uttar Pradesh,2.967,5.0,0.3
+2024-02-01,UP_VNS,Varanasi,Uttar Pradesh,4.218,7.6,0.3
+2024-03-01,UP_VNS,Varanasi,Uttar Pradesh,4.098,10.31,0.3
+2024-04-01,UP_VNS,Varanasi,Uttar Pradesh,4.548,5.36,0.3
+2024-05-01,UP_VNS,Varanasi,Uttar Pradesh,3.874,21.52,0.3
+2024-06-01,UP_VNS,Varanasi,Uttar Pradesh,3.194,124.68,0.3
+2024-07-01,UP_VNS,Varanasi,Uttar Pradesh,1.234,306.31,0.3
+2024-08-01,UP_VNS,Varanasi,Uttar Pradesh,1.0,374.91,0.3
+2024-09-01,UP_VNS,Varanasi,Uttar Pradesh,1.569,56.58,0.3
+2024-10-01,UP_VNS,Varanasi,Uttar Pradesh,2.94,48.31,0.3
+2024-11-01,UP_VNS,Varanasi,Uttar Pradesh,3.016,36.87,0.3
+2024-12-01,UP_VNS,Varanasi,Uttar Pradesh,3.263,19.06,0.3
+2019-01-01,UP_GZB,Ghaziabad,Uttar Pradesh,9.226,11.36,0.55
+2019-02-01,UP_GZB,Ghaziabad,Uttar Pradesh,9.871,5.48,0.55
+2019-03-01,UP_GZB,Ghaziabad,Uttar Pradesh,9.61,8.07,0.55
+2019-04-01,UP_GZB,Ghaziabad,Uttar Pradesh,8.879,7.51,0.55
+2019-05-01,UP_GZB,Ghaziabad,Uttar Pradesh,9.518,9.79,0.55
+2019-06-01,UP_GZB,Ghaziabad,Uttar Pradesh,9.107,77.92,0.55
+2019-07-01,UP_GZB,Ghaziabad,Uttar Pradesh,9.167,185.43,0.55
+2019-08-01,UP_GZB,Ghaziabad,Uttar Pradesh,7.055,199.46,0.55
+2019-09-01,UP_GZB,Ghaziabad,Uttar Pradesh,7.463,101.78,0.55
+2019-10-01,UP_GZB,Ghaziabad,Uttar Pradesh,9.343,41.14,0.55
+2019-11-01,UP_GZB,Ghaziabad,Uttar Pradesh,10.076,12.21,0.55
+2019-12-01,UP_GZB,Ghaziabad,Uttar Pradesh,9.368,18.27,0.55
+2020-01-01,UP_GZB,Ghaziabad,Uttar Pradesh,9.595,7.6,0.55
+2020-02-01,UP_GZB,Ghaziabad,Uttar Pradesh,10.645,5.06,0.55
+2020-03-01,UP_GZB,Ghaziabad,Uttar Pradesh,9.859,7.51,0.55
+2020-04-01,UP_GZB,Ghaziabad,Uttar Pradesh,10.213,8.05,0.55
+2020-05-01,UP_GZB,Ghaziabad,Uttar Pradesh,10.523,13.54,0.55
+2020-06-01,UP_GZB,Ghaziabad,Uttar Pradesh,9.964,93.88,0.55
+2020-07-01,UP_GZB,Ghaziabad,Uttar Pradesh,8.016,212.87,0.55
+2020-08-01,UP_GZB,Ghaziabad,Uttar Pradesh,8.735,224.23,0.55
+2020-09-01,UP_GZB,Ghaziabad,Uttar Pradesh,8.265,129.81,0.55
+2020-10-01,UP_GZB,Ghaziabad,Uttar Pradesh,9.759,46.09,0.55
+2020-11-01,UP_GZB,Ghaziabad,Uttar Pradesh,10.273,20.23,0.55
+2020-12-01,UP_GZB,Ghaziabad,Uttar Pradesh,10.503,17.26,0.55
+2021-01-01,UP_GZB,Ghaziabad,Uttar Pradesh,10.631,7.35,0.55
+2021-02-01,UP_GZB,Ghaziabad,Uttar Pradesh,10.416,6.81,0.55
+2021-03-01,UP_GZB,Ghaziabad,Uttar Pradesh,11.48,7.69,0.55
+2021-04-01,UP_GZB,Ghaziabad,Uttar Pradesh,11.267,5.48,0.55
+2021-05-01,UP_GZB,Ghaziabad,Uttar Pradesh,11.37,12.91,0.55
+2021-06-01,UP_GZB,Ghaziabad,Uttar Pradesh,10.82,74.69,0.55
+2021-07-01,UP_GZB,Ghaziabad,Uttar Pradesh,9.592,127.28,0.55
+2021-08-01,UP_GZB,Ghaziabad,Uttar Pradesh,8.549,207.66,0.55
+2021-09-01,UP_GZB,Ghaziabad,Uttar Pradesh,9.025,119.09,0.55
+2021-10-01,UP_GZB,Ghaziabad,Uttar Pradesh,9.938,34.3,0.55
+2021-11-01,UP_GZB,Ghaziabad,Uttar Pradesh,10.445,24.07,0.55
+2021-12-01,UP_GZB,Ghaziabad,Uttar Pradesh,10.517,18.19,0.55
+2022-01-01,UP_GZB,Ghaziabad,Uttar Pradesh,11.18,7.22,0.55
+2022-02-01,UP_GZB,Ghaziabad,Uttar Pradesh,11.337,8.24,0.55
+2022-03-01,UP_GZB,Ghaziabad,Uttar Pradesh,11.197,7.97,0.55
+2022-04-01,UP_GZB,Ghaziabad,Uttar Pradesh,11.264,7.79,0.55
+2022-05-01,UP_GZB,Ghaziabad,Uttar Pradesh,11.734,5.98,0.55
+2022-06-01,UP_GZB,Ghaziabad,Uttar Pradesh,10.499,73.81,0.55
+2022-07-01,UP_GZB,Ghaziabad,Uttar Pradesh,10.42,225.62,0.55
+2022-08-01,UP_GZB,Ghaziabad,Uttar Pradesh,9.19,170.83,0.55
+2022-09-01,UP_GZB,Ghaziabad,Uttar Pradesh,9.513,115.36,0.55
+2022-10-01,UP_GZB,Ghaziabad,Uttar Pradesh,10.576,26.99,0.55
+2022-11-01,UP_GZB,Ghaziabad,Uttar Pradesh,11.172,21.78,0.55
+2022-12-01,UP_GZB,Ghaziabad,Uttar Pradesh,11.851,17.57,0.55
+2023-01-01,UP_GZB,Ghaziabad,Uttar Pradesh,11.187,6.4,0.55
+2023-02-01,UP_GZB,Ghaziabad,Uttar Pradesh,10.865,8.7,0.55
+2023-03-01,UP_GZB,Ghaziabad,Uttar Pradesh,12.045,8.35,0.55
+2023-04-01,UP_GZB,Ghaziabad,Uttar Pradesh,12.481,5.54,0.55
+2023-05-01,UP_GZB,Ghaziabad,Uttar Pradesh,12.557,9.22,0.55
+2023-06-01,UP_GZB,Ghaziabad,Uttar Pradesh,11.552,48.93,0.55
+2023-07-01,UP_GZB,Ghaziabad,Uttar Pradesh,9.815,266.86,0.55
+2023-08-01,UP_GZB,Ghaziabad,Uttar Pradesh,9.613,346.34,0.55
+2023-09-01,UP_GZB,Ghaziabad,Uttar Pradesh,9.856,99.33,0.55
+2023-10-01,UP_GZB,Ghaziabad,Uttar Pradesh,11.602,18.6,0.55
+2023-11-01,UP_GZB,Ghaziabad,Uttar Pradesh,11.824,18.07,0.55
+2023-12-01,UP_GZB,Ghaziabad,Uttar Pradesh,11.923,8.67,0.55
+2024-01-01,UP_GZB,Ghaziabad,Uttar Pradesh,11.317,6.3,0.55
+2024-02-01,UP_GZB,Ghaziabad,Uttar Pradesh,12.117,8.11,0.55
+2024-03-01,UP_GZB,Ghaziabad,Uttar Pradesh,12.308,6.68,0.55
+2024-04-01,UP_GZB,Ghaziabad,Uttar Pradesh,12.815,6.22,0.55
+2024-05-01,UP_GZB,Ghaziabad,Uttar Pradesh,11.789,19.91,0.55
+2024-06-01,UP_GZB,Ghaziabad,Uttar Pradesh,10.858,83.22,0.55
+2024-07-01,UP_GZB,Ghaziabad,Uttar Pradesh,10.684,195.88,0.55
+2024-08-01,UP_GZB,Ghaziabad,Uttar Pradesh,10.101,160.58,0.55
+2024-09-01,UP_GZB,Ghaziabad,Uttar Pradesh,11.435,90.82,0.55
+2024-10-01,UP_GZB,Ghaziabad,Uttar Pradesh,11.383,32.85,0.55
+2024-11-01,UP_GZB,Ghaziabad,Uttar Pradesh,11.982,21.19,0.55
+2024-12-01,UP_GZB,Ghaziabad,Uttar Pradesh,11.93,13.54,0.55

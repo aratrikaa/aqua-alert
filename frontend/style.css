@@ -698,3 +698,112 @@ code {
   0% { background-position: -200% 0; }
   100% { background-position: 200% 0; }
 }
+
+/* ── Search input ──────────────────────────────────────────── */
+.search-wrap { padding: 0 0 10px; }
+.search-input {
+  width: 100%; padding: 8px 12px;
+  background: var(--bg-base);
+  border: 1px solid var(--border-bright);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-family: inherit; font-size: 0.8rem;
+  outline: none; transition: border-color 0.2s;
+}
+.search-input::placeholder { color: var(--text-muted); }
+.search-input:focus { border-color: var(--teal-400); }
+
+/* ── Export button ─────────────────────────────────────────── */
+.export-btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 7px 14px;
+  background: var(--teal-glow);
+  border: 1px solid rgba(43,191,164,0.3);
+  border-radius: 8px;
+  color: var(--teal-300);
+  font-size: 0.78rem; font-weight: 600; font-family: inherit;
+  cursor: pointer; transition: all 0.15s; white-space: nowrap;
+}
+.export-btn:hover { background: rgba(43,191,164,0.25); transform: translateY(-1px); }
+
+/* ── Feature importance chart ──────────────────────────────── */
+.fi-chart { display: flex; flex-direction: column; gap: 8px; margin-top: 8px; }
+.fi-row {
+  display: grid;
+  grid-template-columns: 180px 1fr 40px;
+  align-items: center; gap: 10px;
+  opacity: 0; animation: fadeSlideIn 0.4s forwards;
+}
+.fi-label { font-size: 0.75rem; color: var(--text-secondary); text-align: right; }
+.fi-bar-wrap {
+  height: 8px; background: var(--bg-base);
+  border-radius: 4px; overflow: hidden;
+}
+.fi-bar {
+  height: 100%; border-radius: 4px;
+  background: linear-gradient(90deg, var(--teal-500), var(--teal-300));
+  transition: width 0.8s cubic-bezier(0.23,1,0.32,1);
+}
+.fi-pct { font-size: 0.72rem; color: var(--teal-300); font-weight: 600; }
+@keyframes fadeSlideIn {
+  from { opacity: 0; transform: translateX(-8px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+/* ── Wide about card ───────────────────────────────────────── */
+.about-card-wide { grid-column: 1 / -1; }
+
+/* ── Mobile responsiveness ─────────────────────────────────── */
+@media (max-width: 900px) {
+  :root {
+    --sidebar-w: 220px;
+    --detail-w:  280px;
+  }
+  .navbar-tabs .tab-btn span { display: none; }
+}
+
+@media (max-width: 700px) {
+  body { overflow: auto; }
+
+  .navbar { flex-wrap: wrap; height: auto; padding: 10px; gap: 8px; }
+  .navbar-brand { flex: 1; }
+  .navbar-tabs { order: 3; width: 100%; justify-content: center; }
+  .navbar-status { order: 2; }
+
+  .main-content { padding-top: 0; }
+
+  .map-layout {
+    flex-direction: column;
+    height: auto;
+    min-height: calc(100vh - 120px);
+  }
+
+  .sidebar {
+    width: 100% !important;
+    max-height: 220px;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+
+  #map { height: 45vh; min-height: 280px; }
+
+  .detail-panel {
+    width: 100% !important;
+    max-height: 50vh;
+    border-left: none;
+    border-top: 1px solid var(--border);
+  }
+
+  .map-stats { flex-wrap: wrap; gap: 6px; }
+  .map-legend { bottom: 8px; left: 8px; }
+
+  .alerts-layout { padding: 16px; }
+  .alerts-header { flex-direction: column; align-items: flex-start; gap: 10px; }
+  .alerts-grid { grid-template-columns: 1fr; }
+
+  .about-grid { grid-template-columns: 1fr; }
+  .about-card-wide { grid-column: 1; }
+
+  .fi-row { grid-template-columns: 120px 1fr 36px; }
+  .fi-label { font-size: 0.68rem; }
+}

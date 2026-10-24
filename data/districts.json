@@ -32,6 +32,54 @@
     "risk_profile": "critical"
   },
   {
+    "id": "PB_FZR",
+    "name": "Fazilka",
+    "state": "Punjab",
+    "lat": 30.4024,
+    "lon": 74.0296,
+    "risk_profile": "critical"
+  },
+  {
+    "id": "HR_KRN",
+    "name": "Karnal",
+    "state": "Haryana",
+    "lat": 29.6857,
+    "lon": 76.9905,
+    "risk_profile": "critical"
+  },
+  {
+    "id": "HR_KTL",
+    "name": "Kaithal",
+    "state": "Haryana",
+    "lat": 29.801,
+    "lon": 76.3986,
+    "risk_profile": "critical"
+  },
+  {
+    "id": "HR_AMB",
+    "name": "Ambala",
+    "state": "Haryana",
+    "lat": 30.3782,
+    "lon": 76.7767,
+    "risk_profile": "moderate"
+  },
+  {
+    "id": "HR_FRD",
+    "name": "Faridabad",
+    "state": "Haryana",
+    "lat": 28.4089,
+    "lon": 77.3178,
+    "risk_profile": "moderate"
+  },
+  {
+    "id": "HR_MEW",
+    "name": "Mewat",
+    "state": "Haryana",
+    "lat": 28.1,
+    "lon": 77.0,
+    "risk_profile": "safe"
+  },
+  {
     "id": "RJ_JPR",
     "name": "Jaipur",
     "state": "Rajasthan",
@@ -64,6 +112,14 @@
     "risk_profile": "critical"
   },
   {
+    "id": "RJ_ALW",
+    "name": "Alwar",
+    "state": "Rajasthan",
+    "lat": 27.553,
+    "lon": 76.6346,
+    "risk_profile": "moderate"
+  },
+  {
     "id": "MH_PNE",
     "name": "Pune",
     "state": "Maharashtra",
@@ -93,6 +149,94 @@
     "state": "Maharashtra",
     "lat": 19.0952,
     "lon": 74.7496,
+    "risk_profile": "moderate"
+  },
+  {
+    "id": "MH_OSM",
+    "name": "Osmanabad",
+    "state": "Maharashtra",
+    "lat": 18.186,
+    "lon": 76.039,
+    "risk_profile": "critical"
+  },
+  {
+    "id": "GJ_AHM",
+    "name": "Ahmedabad",
+    "state": "Gujarat",
+    "lat": 23.0225,
+    "lon": 72.5714,
+    "risk_profile": "moderate"
+  },
+  {
+    "id": "GJ_RJK",
+    "name": "Rajkot",
+    "state": "Gujarat",
+    "lat": 22.3039,
+    "lon": 70.8022,
+    "risk_profile": "critical"
+  },
+  {
+    "id": "GJ_SRT",
+    "name": "Surat",
+    "state": "Gujarat",
+    "lat": 21.1702,
+    "lon": 72.8311,
+    "risk_profile": "safe"
+  },
+  {
+    "id": "GJ_BVN",
+    "name": "Banaskantha",
+    "state": "Gujarat",
+    "lat": 24.1743,
+    "lon": 72.4381,
+    "risk_profile": "critical"
+  },
+  {
+    "id": "GJ_AND",
+    "name": "Anand",
+    "state": "Gujarat",
+    "lat": 22.5645,
+    "lon": 72.9289,
+    "risk_profile": "moderate"
+  },
+  {
+    "id": "UP_LKO",
+    "name": "Lucknow",
+    "state": "Uttar Pradesh",
+    "lat": 26.8467,
+    "lon": 80.9462,
+    "risk_profile": "moderate"
+  },
+  {
+    "id": "UP_AGR",
+    "name": "Agra",
+    "state": "Uttar Pradesh",
+    "lat": 27.1767,
+    "lon": 78.0081,
+    "risk_profile": "critical"
+  },
+  {
+    "id": "UP_MRT",
+    "name": "Meerut",
+    "state": "Uttar Pradesh",
+    "lat": 28.9845,
+    "lon": 77.7064,
+    "risk_profile": "critical"
+  },
+  {
+    "id": "UP_VNS",
+    "name": "Varanasi",
+    "state": "Uttar Pradesh",
+    "lat": 25.3176,
+    "lon": 82.9739,
+    "risk_profile": "safe"
+  },
+  {
+    "id": "UP_GZB",
+    "name": "Ghaziabad",
+    "state": "Uttar Pradesh",
+    "lat": 28.6692,
+    "lon": 77.4538,
     "risk_profile": "moderate"
   }
 ]

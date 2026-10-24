@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   await waitForBackend();
   hideLoadingOverlay();
   await loadDistricts();
-  setStatus('online', 'Live \u2014 12 districts');
+  setStatus('online', `Live \u2014 ${allDistricts.length} districts`);
 });
 
 /**
@@ -147,6 +147,8 @@ async function loadDistricts() {
     buildMapMarkers(allDistricts);
     updateStats(allDistricts);
     loadAlerts();
+    applyURLState();        // deep-link: auto-open ?district=ID if present
+    loadFeatureImportance(); // about tab SHAP chart
   } catch (err) {
     console.error('Failed to load districts:', err);
     setStatus('error', 'API error');
@@ -655,7 +657,120 @@ function switchTab(name) {
 }
 
 // ── Expose to global scope (used by onclick= attributes) ───────────────────────
-window.switchTab      = switchTab;
-window.filterMarkers  = filterMarkers;
-window.selectDistrict = selectDistrict;
-window.openFromAlert  = openFromAlert;
+window.switchTab        = switchTab;
+window.filterMarkers    = filterMarkers;
+window.selectDistrict   = selectDistrict;
+window.openFromAlert    = openFromAlert;
+window.searchDistricts  = searchDistricts;
+window.exportCSV        = exportCSV;
+
+// ── Search ─────────────────────────────────────────────────────────────────────
+
+function searchDistricts(query) {
+  const q = query.trim().toLowerCase();
+  document.querySelectorAll('.district-item').forEach(el => {
+    const name  = el.querySelector('.di-name')?.textContent.toLowerCase()  || '';
+    const state = el.querySelector('.di-state')?.textContent.toLowerCase() || '';
+    const show  = !q || name.includes(q) || state.includes(q);
+    el.classList.toggle('hidden', !show);
+  });
+}
+
+// ── URL Deep-Linking ────────────────────────────────────────────────────────────
+
+/**
+ * On load: check ?district=DIST_ID in URL and auto-open that district.
+ * On select: push the district ID into the URL so the link is shareable.
+ */
+function applyURLState() {
+  const params = new URLSearchParams(window.location.search);
+  const distId = params.get('district');
+  if (distId && allDistricts.find(d => d.district_id === distId)) {
+    const d = allDistricts.find(x => x.district_id === distId);
+    leafletMap.flyTo([d.lat, d.lon], 8, { duration: 1.0 });
+    setTimeout(() => {
+      const marker = markerMap[distId];
+      if (marker) marker.openPopup();
+      loadDetailPanel(distId);
+    }, 1200);
+  }
+}
+
+function pushDistrictURL(distId) {
+  const url = new URL(window.location);
+  url.searchParams.set('district', distId);
+  window.history.pushState({}, '', url);
+}
+
+// Patch selectDistrict to also push URL state
+const _origSelectDistrict = selectDistrict;
+window.selectDistrict = async function(distId) {
+  pushDistrictURL(distId);
+  await _origSelectDistrict(distId);
+};
+
+// ── Export CSV ─────────────────────────────────────────────────────────────────
+
+function exportCSV() {
+  if (!allDistricts.length) return;
+
+  const headers = [
+    'District', 'State', 'Risk Level', 'Confidence (%)', 'Risk Score',
+    'Depth (mbgl)', 'Annual Trend (m/yr)', 'Extraction Rate',
+    '90d Rainfall (mm)', 'Pre-Monsoon Depth', 'Post-Monsoon Depth', 'Monsoon Recovery'
+  ];
+
+  const rows = allDistricts.map(d => [
+    d.district_name,
+    d.state,
+    d.risk_label,
+    d.confidence,
+    (d.risk_score * 100).toFixed(1),
+    d.features.current_depth.toFixed(2),
+    d.features.annual_trend.toFixed(3),
+    (d.features.extraction_rate * 100).toFixed(0) + '%',
+    d.features.rainfall_lag_90d.toFixed(1),
+    d.features.premonsoon_depth.toFixed(2),
+    d.features.postmonsoon_depth.toFixed(2),
+    d.features.monsoon_recovery.toFixed(3),
+  ]);
+
+  const csv = [headers, ...rows]
+    .map(r => r.map(v => `"${v}"`).join(','))
+    .join('\n');
+
+  const blob = new Blob([csv], { type: 'text/csv' });
+  const a    = document.createElement('a');
+  a.href     = URL.createObjectURL(blob);
+  a.download = `aquaalert_districts_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+// ── Global Feature Importance Chart ────────────────────────────────────────────
+
+async function loadFeatureImportance() {
+  try {
+    const res   = await fetch('/api/feature-importance');
+    if (!res.ok) return;
+    const items = await res.json();
+    renderFeatureImportance(items);
+  } catch (err) {
+    console.warn('Feature importance not available:', err);
+  }
+}
+
+function renderFeatureImportance(items) {
+  const container = document.getElementById('fi-chart');
+  if (!container) return;
+
+  container.innerHTML = items.map((item, i) => `
+    <div class="fi-row" style="animation-delay:${i * 0.06}s">
+      <div class="fi-label">${item.label}</div>
+      <div class="fi-bar-wrap">
+        <div class="fi-bar" style="width:${item.pct}%"></div>
+      </div>
+      <div class="fi-pct">${item.pct}%</div>
+    </div>
+  `).join('');
+}

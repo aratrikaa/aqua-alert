@@ -4,11 +4,12 @@ api/routes.py
 Flask blueprint that exposes the AquaAlert REST API.
 
 Endpoints:
-  GET /api/health             → readiness probe (200 = ready, 503 = warming up)
-  GET /api/districts          → list of all districts with risk classification
-  GET /api/district/<id>      → detailed info + SHAP explanation for one district
-  GET /api/alerts             → Critical-tier districts sorted by risk score
-  GET /api/chart/<id>         → time-series data for a district (for mini chart)
+  GET /api/health              → readiness probe (200 = ready, 503 = warming up)
+  GET /api/districts           → list of all districts with risk classification
+  GET /api/district/<id>       → detailed info + SHAP explanation for one district
+  GET /api/alerts              → Critical-tier districts sorted by risk score
+  GET /api/chart/<id>          → time-series data for a district (for mini chart)
+  GET /api/feature-importance  → global SHAP feature importance across all districts
 """
 
 from flask import Blueprint, jsonify, current_app
@@ -69,3 +70,39 @@ def get_chart(dist_id: str):
         "depth":       df["water_depth_mbgl"].round(2).tolist(),
         "rainfall":    df["rainfall_mm"].round(1).tolist(),
     })
+
+
+@api_bp.route("/feature-importance")
+def get_feature_importance():
+    """
+    Return mean absolute SHAP values across all districts
+    (global feature importance for the About tab chart).
+    """
+    results = current_app.config.get("AQUA_RESULTS", [])
+    if not results:
+        return jsonify({"error": "Not ready"}), 503
+
+    from features.engineering import FEATURE_COLS, FEATURE_LABELS
+    import numpy as np
+
+    # Sum absolute SHAP values per feature across all districts
+    totals = {col: 0.0 for col in FEATURE_COLS}
+    for r in results:
+        for feat in r.get("explanation", {}).get("top_features", []):
+            if feat["name"] in totals:
+                totals[feat["name"]] += abs(feat["shap_value"])
+
+    max_val = max(totals.values()) or 1.0
+    items = [
+        {
+            "name":    col,
+            "label":   FEATURE_LABELS[col],
+            "value":   round(totals[col], 4),
+            "pct":     round(totals[col] / max_val * 100, 1),
+        }
+        for col in FEATURE_COLS
+    ]
+    items.sort(key=lambda x: x["value"], reverse=True)
+    return jsonify(items)
+
+

@@ -68,6 +68,16 @@
       <aside class="sidebar" id="sidebar">
         <div class="sidebar-header">
           <h2 class="sidebar-title">Districts</h2>
+          <div class="search-wrap">
+            <input
+              type="text"
+              id="district-search"
+              class="search-input"
+              placeholder="Search district..."
+              oninput="searchDistricts(this.value)"
+              autocomplete="off"
+            />
+          </div>
           <div class="filter-row">
             <button class="filter-btn active" data-filter="all"      onclick="filterMarkers('all')">All</button>
             <button class="filter-btn"        data-filter="Critical"  onclick="filterMarkers('Critical')">Critical</button>
@@ -126,6 +136,10 @@
           <p class="alerts-subtitle">Districts at highest groundwater depletion risk, sorted by severity</p>
         </div>
         <div class="alerts-meta" id="alerts-meta">–</div>
+        <button class="export-btn" id="export-btn" onclick="exportCSV()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          Export CSV
+        </button>
       </div>
       <div class="alerts-grid" id="alerts-grid">
         <!-- Populated by JS -->
@@ -202,6 +216,17 @@
             <li>Charts: Chart.js</li>
             <li>Fonts: Inter (Google Fonts)</li>
           </ul>
+        </div>
+
+        <div class="about-card about-card-wide">
+          <div class="about-icon" style="background:var(--teal-glow)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+          </div>
+          <h3>Global Feature Importance (SHAP)</h3>
+          <p style="margin-bottom:12px">Average contribution of each feature to risk predictions across all districts.</p>
+          <div class="fi-chart" id="fi-chart">
+            <!-- Populated by JS -->
+          </div>
         </div>
 
       </div>

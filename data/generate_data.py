@@ -16,23 +16,47 @@ import os
 
 # ── District Metadata ──────────────────────────────────────────────────────────
 DISTRICTS = [
-    # Punjab (high extraction, declining)
-    {"id": "PB_LDH", "name": "Ludhiana",    "state": "Punjab",     "lat": 30.9010, "lon": 75.8573, "risk_profile": "critical"},
-    {"id": "PB_BTD", "name": "Bathinda",     "state": "Punjab",     "lat": 30.2110, "lon": 74.9455, "risk_profile": "critical"},
-    {"id": "PB_SAS", "name": "SAS Nagar",    "state": "Punjab",     "lat": 30.7046, "lon": 76.7179, "risk_profile": "moderate"},
-    {"id": "PB_AMR", "name": "Amritsar",     "state": "Punjab",     "lat": 31.6340, "lon": 74.8723, "risk_profile": "critical"},
+    # Punjab (high extraction, critical groundwater stress)
+    {"id": "PB_LDH", "name": "Ludhiana",      "state": "Punjab",       "lat": 30.9010, "lon": 75.8573, "risk_profile": "critical"},
+    {"id": "PB_BTD", "name": "Bathinda",       "state": "Punjab",       "lat": 30.2110, "lon": 74.9455, "risk_profile": "critical"},
+    {"id": "PB_SAS", "name": "SAS Nagar",      "state": "Punjab",       "lat": 30.7046, "lon": 76.7179, "risk_profile": "moderate"},
+    {"id": "PB_AMR", "name": "Amritsar",       "state": "Punjab",       "lat": 31.6340, "lon": 74.8723, "risk_profile": "critical"},
+    {"id": "PB_FZR", "name": "Fazilka",        "state": "Punjab",       "lat": 30.4024, "lon": 74.0296, "risk_profile": "critical"},
+
+    # Haryana (over-exploited aquifers, dark zones)
+    {"id": "HR_KRN", "name": "Karnal",         "state": "Haryana",      "lat": 29.6857, "lon": 76.9905, "risk_profile": "critical"},
+    {"id": "HR_KTL", "name": "Kaithal",        "state": "Haryana",      "lat": 29.8010, "lon": 76.3986, "risk_profile": "critical"},
+    {"id": "HR_AMB", "name": "Ambala",         "state": "Haryana",      "lat": 30.3782, "lon": 76.7767, "risk_profile": "moderate"},
+    {"id": "HR_FRD", "name": "Faridabad",      "state": "Haryana",      "lat": 28.4089, "lon": 77.3178, "risk_profile": "moderate"},
+    {"id": "HR_MEW", "name": "Mewat",          "state": "Haryana",      "lat": 28.1000, "lon": 77.0000, "risk_profile": "safe"},
 
     # Rajasthan (arid, low recharge)
-    {"id": "RJ_JPR", "name": "Jaipur",       "state": "Rajasthan",  "lat": 26.9124, "lon": 75.7873, "risk_profile": "moderate"},
-    {"id": "RJ_JDH", "name": "Jodhpur",      "state": "Rajasthan",  "lat": 26.2389, "lon": 73.0243, "risk_profile": "critical"},
-    {"id": "RJ_AJM", "name": "Ajmer",        "state": "Rajasthan",  "lat": 26.4499, "lon": 74.6399, "risk_profile": "moderate"},
-    {"id": "RJ_BKN", "name": "Bikaner",      "state": "Rajasthan",  "lat": 28.0229, "lon": 73.3119, "risk_profile": "critical"},
+    {"id": "RJ_JPR", "name": "Jaipur",         "state": "Rajasthan",    "lat": 26.9124, "lon": 75.7873, "risk_profile": "moderate"},
+    {"id": "RJ_JDH", "name": "Jodhpur",        "state": "Rajasthan",    "lat": 26.2389, "lon": 73.0243, "risk_profile": "critical"},
+    {"id": "RJ_AJM", "name": "Ajmer",          "state": "Rajasthan",    "lat": 26.4499, "lon": 74.6399, "risk_profile": "moderate"},
+    {"id": "RJ_BKN", "name": "Bikaner",        "state": "Rajasthan",    "lat": 28.0229, "lon": 73.3119, "risk_profile": "critical"},
+    {"id": "RJ_ALW", "name": "Alwar",          "state": "Rajasthan",    "lat": 27.5530, "lon": 76.6346, "risk_profile": "moderate"},
 
-    # Maharashtra (mixed, improving in some areas)
-    {"id": "MH_PNE", "name": "Pune",         "state": "Maharashtra","lat": 18.5204, "lon": 73.8567, "risk_profile": "safe"},
-    {"id": "MH_NGP", "name": "Nagpur",       "state": "Maharashtra","lat": 21.1458, "lon": 79.0882, "risk_profile": "safe"},
-    {"id": "MH_LTR", "name": "Latur",        "state": "Maharashtra","lat": 18.4088, "lon": 76.5604, "risk_profile": "moderate"},
-    {"id": "MH_AHM", "name": "Ahmednagar",   "state": "Maharashtra","lat": 19.0952, "lon": 74.7496, "risk_profile": "moderate"},
+    # Maharashtra (mixed — drought-prone interior vs. wetter coast)
+    {"id": "MH_PNE", "name": "Pune",           "state": "Maharashtra",  "lat": 18.5204, "lon": 73.8567, "risk_profile": "safe"},
+    {"id": "MH_NGP", "name": "Nagpur",         "state": "Maharashtra",  "lat": 21.1458, "lon": 79.0882, "risk_profile": "safe"},
+    {"id": "MH_LTR", "name": "Latur",          "state": "Maharashtra",  "lat": 18.4088, "lon": 76.5604, "risk_profile": "moderate"},
+    {"id": "MH_AHM", "name": "Ahmednagar",     "state": "Maharashtra",  "lat": 19.0952, "lon": 74.7496, "risk_profile": "moderate"},
+    {"id": "MH_OSM", "name": "Osmanabad",      "state": "Maharashtra",  "lat": 18.1860, "lon": 76.0390, "risk_profile": "critical"},
+
+    # Gujarat (coastal and semi-arid stress)
+    {"id": "GJ_AHM", "name": "Ahmedabad",      "state": "Gujarat",      "lat": 23.0225, "lon": 72.5714, "risk_profile": "moderate"},
+    {"id": "GJ_RJK", "name": "Rajkot",         "state": "Gujarat",      "lat": 22.3039, "lon": 70.8022, "risk_profile": "critical"},
+    {"id": "GJ_SRT", "name": "Surat",          "state": "Gujarat",      "lat": 21.1702, "lon": 72.8311, "risk_profile": "safe"},
+    {"id": "GJ_BVN", "name": "Banaskantha",    "state": "Gujarat",      "lat": 24.1743, "lon": 72.4381, "risk_profile": "critical"},
+    {"id": "GJ_AND", "name": "Anand",          "state": "Gujarat",      "lat": 22.5645, "lon": 72.9289, "risk_profile": "moderate"},
+
+    # Uttar Pradesh (Indo-Gangetic plain, mixed)
+    {"id": "UP_LKO", "name": "Lucknow",        "state": "Uttar Pradesh","lat": 26.8467, "lon": 80.9462, "risk_profile": "moderate"},
+    {"id": "UP_AGR", "name": "Agra",           "state": "Uttar Pradesh","lat": 27.1767, "lon": 78.0081, "risk_profile": "critical"},
+    {"id": "UP_MRT", "name": "Meerut",         "state": "Uttar Pradesh","lat": 28.9845, "lon": 77.7064, "risk_profile": "critical"},
+    {"id": "UP_VNS", "name": "Varanasi",       "state": "Uttar Pradesh","lat": 25.3176, "lon": 82.9739, "risk_profile": "safe"},
+    {"id": "UP_GZB", "name": "Ghaziabad",      "state": "Uttar Pradesh","lat": 28.6692, "lon": 77.4538, "risk_profile": "moderate"},
 ]
 
 # Profile parameters: (base_depth_m, trend_m_per_yr, monsoon_recovery_m, noise_std)

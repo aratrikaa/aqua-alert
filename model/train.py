@@ -93,8 +93,8 @@ def train(feature_df: pd.DataFrame) -> tuple:
     os.makedirs(os.path.dirname(MODEL_PATH), exist_ok=True)
     joblib.dump(best, MODEL_PATH)
     joblib.dump(le,   ENCODER_PATH)
-    print(f"[model] Saved model  → {MODEL_PATH}")
-    print(f"[model] Saved encoder → {ENCODER_PATH}")
+    print(f"[model] Saved model   -> {MODEL_PATH}")
+    print(f"[model] Saved encoder -> {ENCODER_PATH}")
 
     return best, le
 

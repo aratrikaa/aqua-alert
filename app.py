@@ -135,7 +135,7 @@ def startup():
     critical_count = sum(1 for r in results if r["risk_label"] == "Critical")
     print(f"\n[startup] Ready -- {len(results)} districts classified "
           f"({critical_count} Critical)")
-    print("[startup] Dashboard -> http://localhost:5000\n")
+    print(f"[startup] Dashboard -> http://localhost:5000\n")
 
 
 # -- Static file serving ----------------------------------------------------

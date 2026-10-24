@@ -1,125 +1,35 @@
 {
   "type": "FeatureCollection",
   "features": [
-    {
-      "type": "Feature",
-      "properties": { "district_id": "PB_LDH", "name": "Ludhiana", "state": "Punjab" },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [[
-          [75.55, 30.65], [76.15, 30.65], [76.15, 31.15], [75.55, 31.15], [75.55, 30.65]
-        ]]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": { "district_id": "PB_BTD", "name": "Bathinda", "state": "Punjab" },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [[
-          [74.50, 29.90], [75.40, 29.90], [75.40, 30.55], [74.50, 30.55], [74.50, 29.90]
-        ]]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": { "district_id": "PB_SAS", "name": "SAS Nagar", "state": "Punjab" },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [[
-          [76.55, 30.50], [76.95, 30.50], [76.95, 30.90], [76.55, 30.90], [76.55, 30.50]
-        ]]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": { "district_id": "PB_AMR", "name": "Amritsar", "state": "Punjab" },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [[
-          [74.55, 31.45], [75.10, 31.45], [75.10, 31.85], [74.55, 31.85], [74.55, 31.45]
-        ]]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": { "district_id": "RJ_JPR", "name": "Jaipur", "state": "Rajasthan" },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [[
-          [75.45, 26.55], [76.20, 26.55], [76.20, 27.25], [75.45, 27.25], [75.45, 26.55]
-        ]]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": { "district_id": "RJ_JDH", "name": "Jodhpur", "state": "Rajasthan" },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [[
-          [72.75, 25.90], [73.55, 25.90], [73.55, 26.60], [72.75, 26.60], [72.75, 25.90]
-        ]]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": { "district_id": "RJ_AJM", "name": "Ajmer", "state": "Rajasthan" },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [[
-          [74.35, 26.15], [75.05, 26.15], [75.05, 26.75], [74.35, 26.75], [74.35, 26.15]
-        ]]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": { "district_id": "RJ_BKN", "name": "Bikaner", "state": "Rajasthan" },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [[
-          [72.85, 27.60], [73.80, 27.60], [73.80, 28.45], [72.85, 28.45], [72.85, 27.60]
-        ]]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": { "district_id": "MH_PNE", "name": "Pune", "state": "Maharashtra" },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [[
-          [73.55, 18.20], [74.25, 18.20], [74.25, 18.80], [73.55, 18.80], [73.55, 18.20]
-        ]]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": { "district_id": "MH_NGP", "name": "Nagpur", "state": "Maharashtra" },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [[
-          [78.75, 20.85], [79.40, 20.85], [79.40, 21.40], [78.75, 21.40], [78.75, 20.85]
-        ]]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": { "district_id": "MH_LTR", "name": "Latur", "state": "Maharashtra" },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [[
-          [76.30, 17.85], [76.95, 17.85], [76.95, 18.40], [76.30, 18.40], [76.30, 17.85]
-        ]]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": { "district_id": "MH_AHM", "name": "Ahmednagar", "state": "Maharashtra" },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [[
-          [74.35, 18.75], [75.25, 18.75], [75.25, 19.45], [74.35, 19.45], [74.35, 18.75]
-        ]]
-      }
-    }
+    {"type":"Feature","properties":{"district_id":"PB_LDH","name":"Ludhiana","state":"Punjab"},"geometry":{"type":"Polygon","coordinates":[[[75.55,30.65],[76.15,30.65],[76.15,31.15],[75.55,31.15],[75.55,30.65]]]}},
+    {"type":"Feature","properties":{"district_id":"PB_BTD","name":"Bathinda","state":"Punjab"},"geometry":{"type":"Polygon","coordinates":[[[74.50,29.90],[75.40,29.90],[75.40,30.55],[74.50,30.55],[74.50,29.90]]]}},
+    {"type":"Feature","properties":{"district_id":"PB_SAS","name":"SAS Nagar","state":"Punjab"},"geometry":{"type":"Polygon","coordinates":[[[76.55,30.50],[76.95,30.50],[76.95,30.90],[76.55,30.90],[76.55,30.50]]]}},
+    {"type":"Feature","properties":{"district_id":"PB_AMR","name":"Amritsar","state":"Punjab"},"geometry":{"type":"Polygon","coordinates":[[[74.55,31.45],[75.10,31.45],[75.10,31.85],[74.55,31.85],[74.55,31.45]]]}},
+    {"type":"Feature","properties":{"district_id":"PB_FZR","name":"Fazilka","state":"Punjab"},"geometry":{"type":"Polygon","coordinates":[[[73.70,30.15],[74.35,30.15],[74.35,30.65],[73.70,30.65],[73.70,30.15]]]}},
+    {"type":"Feature","properties":{"district_id":"HR_KRN","name":"Karnal","state":"Haryana"},"geometry":{"type":"Polygon","coordinates":[[[76.75,29.45],[77.25,29.45],[77.25,29.95],[76.75,29.95],[76.75,29.45]]]}},
+    {"type":"Feature","properties":{"district_id":"HR_KTL","name":"Kaithal","state":"Haryana"},"geometry":{"type":"Polygon","coordinates":[[[76.15,29.55],[76.75,29.55],[76.75,30.05],[76.15,30.05],[76.15,29.55]]]}},
+    {"type":"Feature","properties":{"district_id":"HR_AMB","name":"Ambala","state":"Haryana"},"geometry":{"type":"Polygon","coordinates":[[[76.55,30.20],[77.05,30.20],[77.05,30.60],[76.55,30.60],[76.55,30.20]]]}},
+    {"type":"Feature","properties":{"district_id":"HR_FRD","name":"Faridabad","state":"Haryana"},"geometry":{"type":"Polygon","coordinates":[[[77.15,28.25],[77.55,28.25],[77.55,28.60],[77.15,28.60],[77.15,28.25]]]}},
+    {"type":"Feature","properties":{"district_id":"HR_MEW","name":"Mewat","state":"Haryana"},"geometry":{"type":"Polygon","coordinates":[[[76.80,27.85],[77.30,27.85],[77.30,28.30],[76.80,28.30],[76.80,27.85]]]}},
+    {"type":"Feature","properties":{"district_id":"RJ_JPR","name":"Jaipur","state":"Rajasthan"},"geometry":{"type":"Polygon","coordinates":[[[75.45,26.55],[76.20,26.55],[76.20,27.25],[75.45,27.25],[75.45,26.55]]]}},
+    {"type":"Feature","properties":{"district_id":"RJ_JDH","name":"Jodhpur","state":"Rajasthan"},"geometry":{"type":"Polygon","coordinates":[[[72.75,25.90],[73.55,25.90],[73.55,26.60],[72.75,26.60],[72.75,25.90]]]}},
+    {"type":"Feature","properties":{"district_id":"RJ_AJM","name":"Ajmer","state":"Rajasthan"},"geometry":{"type":"Polygon","coordinates":[[[74.35,26.15],[75.05,26.15],[75.05,26.75],[74.35,26.75],[74.35,26.15]]]}},
+    {"type":"Feature","properties":{"district_id":"RJ_BKN","name":"Bikaner","state":"Rajasthan"},"geometry":{"type":"Polygon","coordinates":[[[72.85,27.60],[73.80,27.60],[73.80,28.45],[72.85,28.45],[72.85,27.60]]]}},
+    {"type":"Feature","properties":{"district_id":"RJ_ALW","name":"Alwar","state":"Rajasthan"},"geometry":{"type":"Polygon","coordinates":[[[76.25,27.25],[77.10,27.25],[77.10,27.95],[76.25,27.95],[76.25,27.25]]]}},
+    {"type":"Feature","properties":{"district_id":"MH_PNE","name":"Pune","state":"Maharashtra"},"geometry":{"type":"Polygon","coordinates":[[[73.55,18.20],[74.25,18.20],[74.25,18.80],[73.55,18.80],[73.55,18.20]]]}},
+    {"type":"Feature","properties":{"district_id":"MH_NGP","name":"Nagpur","state":"Maharashtra"},"geometry":{"type":"Polygon","coordinates":[[[78.75,20.85],[79.40,20.85],[79.40,21.40],[78.75,21.40],[78.75,20.85]]]}},
+    {"type":"Feature","properties":{"district_id":"MH_LTR","name":"Latur","state":"Maharashtra"},"geometry":{"type":"Polygon","coordinates":[[[76.30,17.85],[76.95,17.85],[76.95,18.40],[76.30,18.40],[76.30,17.85]]]}},
+    {"type":"Feature","properties":{"district_id":"MH_AHM","name":"Ahmednagar","state":"Maharashtra"},"geometry":{"type":"Polygon","coordinates":[[[74.35,18.75],[75.25,18.75],[75.25,19.45],[74.35,19.45],[74.35,18.75]]]}},
+    {"type":"Feature","properties":{"district_id":"MH_OSM","name":"Osmanabad","state":"Maharashtra"},"geometry":{"type":"Polygon","coordinates":[[[75.75,17.85],[76.40,17.85],[76.40,18.55],[75.75,18.55],[75.75,17.85]]]}},
+    {"type":"Feature","properties":{"district_id":"GJ_AHM","name":"Ahmedabad","state":"Gujarat"},"geometry":{"type":"Polygon","coordinates":[[[72.25,22.75],[73.00,22.75],[73.00,23.30],[72.25,23.30],[72.25,22.75]]]}},
+    {"type":"Feature","properties":{"district_id":"GJ_RJK","name":"Rajkot","state":"Gujarat"},"geometry":{"type":"Polygon","coordinates":[[[70.50,22.00],[71.20,22.00],[71.20,22.65],[70.50,22.65],[70.50,22.00]]]}},
+    {"type":"Feature","properties":{"district_id":"GJ_SRT","name":"Surat","state":"Gujarat"},"geometry":{"type":"Polygon","coordinates":[[[72.65,20.90],[73.30,20.90],[73.30,21.50],[72.65,21.50],[72.65,20.90]]]}},
+    {"type":"Feature","properties":{"district_id":"GJ_BVN","name":"Banaskantha","state":"Gujarat"},"geometry":{"type":"Polygon","coordinates":[[[71.85,23.75],[72.95,23.75],[72.95,24.55],[71.85,24.55],[71.85,23.75]]]}},
+    {"type":"Feature","properties":{"district_id":"GJ_AND","name":"Anand","state":"Gujarat"},"geometry":{"type":"Polygon","coordinates":[[[72.65,22.35],[73.25,22.35],[73.25,22.80],[72.65,22.80],[72.65,22.35]]]}},
+    {"type":"Feature","properties":{"district_id":"UP_LKO","name":"Lucknow","state":"Uttar Pradesh"},"geometry":{"type":"Polygon","coordinates":[[[80.60,26.60],[81.35,26.60],[81.35,27.15],[80.60,27.15],[80.60,26.60]]]}},
+    {"type":"Feature","properties":{"district_id":"UP_AGR","name":"Agra","state":"Uttar Pradesh"},"geometry":{"type":"Polygon","coordinates":[[[77.65,26.85],[78.45,26.85],[78.45,27.50],[77.65,27.50],[77.65,26.85]]]}},
+    {"type":"Feature","properties":{"district_id":"UP_MRT","name":"Meerut","state":"Uttar Pradesh"},"geometry":{"type":"Polygon","coordinates":[[[77.45,28.70],[78.15,28.70],[78.15,29.25],[77.45,29.25],[77.45,28.70]]]}},
+    {"type":"Feature","properties":{"district_id":"UP_VNS","name":"Varanasi","state":"Uttar Pradesh"},"geometry":{"type":"Polygon","coordinates":[[[82.65,25.10],[83.35,25.10],[83.35,25.60],[82.65,25.60],[82.65,25.10]]]}},
+    {"type":"Feature","properties":{"district_id":"UP_GZB","name":"Ghaziabad","state":"Uttar Pradesh"},"geometry":{"type":"Polygon","coordinates":[[[77.25,28.45],[77.80,28.45],[77.80,28.90],[77.25,28.90],[77.25,28.45]]]}}
   ]
 }
