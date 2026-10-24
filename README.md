@@ -2,6 +2,13 @@
 
 > An AI-powered dashboard that classifies groundwater depletion risk across Indian districts into **Safe / Moderate / Critical** tiers, explains *why* each district was classified that way using SHAP, and presents everything on an interactive Leaflet.js map.
 
+[![Deploy on Render](https://img.shields.io/badge/Deploy-Render-46e3b7?logo=render&logoColor=white)](https://render.com)
+[![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://python.org)
+[![Flask](https://img.shields.io/badge/Flask-3.x-000000?logo=flask)](https://flask.palletsprojects.com)
+[![XGBoost](https://img.shields.io/badge/XGBoost-2.x-FF6600)](https://xgboost.readthedocs.io)
+
+> **🌐 Live Demo:** *(Add your Render URL here after deploying)*
+
 ---
 
 ## 🚀 Quick Start
@@ -43,6 +50,8 @@ Subsequent runs reuse cached files — startup takes < 3 seconds.
 aqua-alert/
 ├── app.py                         # Main entry point  (python app.py)
 ├── requirements.txt
+├── Procfile                       # Render/Heroku start command
+├── render.yaml                    # Render deploy blueprint
 ├── README.md
 │
 ├── data/
@@ -56,8 +65,8 @@ aqua-alert/
 ├── model/
 │   ├── train.py                   # RF + XGBoost training & selection
 │   ├── explain.py                 # SHAP value computation + plain-English text
-│   ├── aqua_model.joblib          # Saved model (auto-generated)
-│   └── label_encoder.joblib       # Saved encoder (auto-generated)
+│   ├── aqua_model.joblib          # Saved model (committed for fast cold-start)
+│   └── label_encoder.joblib       # Saved encoder
 │
 ├── api/
 │   └── routes.py                  # Flask Blueprint — REST endpoints
@@ -65,12 +74,29 @@ aqua-alert/
 └── frontend/
     ├── index.html                  # Dashboard HTML
     ├── style.css                   # Teal/dark design system
-    └── app.js                      # Leaflet map, SHAP panel, Chart.js
+    ├── app.js                      # Leaflet map, SHAP panel, Chart.js
+    ├── districts.geojson           # District boundary polygons for choropleth
+    └── favicon.jpg                 # App icon
 ```
 
 ---
 
-## 🌐 API Endpoints
+## 🚀 Deploy on Render (3 minutes)
+
+1. Push this repo to GitHub
+2. Go to [render.com](https://render.com) → **New +** → **Web Service**
+3. Connect `aratrikaa/aqua-alert` (or your fork)
+4. Render auto-detects `render.yaml` — confirm settings:
+   - Build: `pip install -r requirements.txt`
+   - Start: `gunicorn app:app --bind 0.0.0.0:$PORT --workers 1 --timeout 120 --preload`
+5. Add env var: `PYTHONUTF8 = 1`
+6. Click **Create Web Service**
+
+> **Cold-start note**: Free tier sleeps after 15 min of inactivity. The frontend shows a warm-up countdown while the model loads (~30–60s on first wake).
+
+---
+
+
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|

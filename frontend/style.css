@@ -678,7 +678,11 @@ code {
   background: linear-gradient(135deg, var(--teal-300), #67e8f9);
   -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
 }
-.loader-sub { font-size: 0.85rem; color: var(--text-muted); }
+.loader-sub  { font-size: 0.85rem; color: var(--text-muted); }
+.loader-hint {
+  font-size: 0.72rem; color: var(--text-muted); opacity: 0.6;
+  max-width: 340px; text-align: center; line-height: 1.6;
+}
 
 .spinner {
   width: 40px; height: 40px;

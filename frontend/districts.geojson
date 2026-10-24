@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "district_id": "PB_LDH", "name": "Ludhiana", "state": "Punjab" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [75.55, 30.65], [76.15, 30.65], [76.15, 31.15], [75.55, 31.15], [75.55, 30.65]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district_id": "PB_BTD", "name": "Bathinda", "state": "Punjab" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [74.50, 29.90], [75.40, 29.90], [75.40, 30.55], [74.50, 30.55], [74.50, 29.90]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district_id": "PB_SAS", "name": "SAS Nagar", "state": "Punjab" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [76.55, 30.50], [76.95, 30.50], [76.95, 30.90], [76.55, 30.90], [76.55, 30.50]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district_id": "PB_AMR", "name": "Amritsar", "state": "Punjab" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [74.55, 31.45], [75.10, 31.45], [75.10, 31.85], [74.55, 31.85], [74.55, 31.45]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district_id": "RJ_JPR", "name": "Jaipur", "state": "Rajasthan" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [75.45, 26.55], [76.20, 26.55], [76.20, 27.25], [75.45, 27.25], [75.45, 26.55]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district_id": "RJ_JDH", "name": "Jodhpur", "state": "Rajasthan" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [72.75, 25.90], [73.55, 25.90], [73.55, 26.60], [72.75, 26.60], [72.75, 25.90]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district_id": "RJ_AJM", "name": "Ajmer", "state": "Rajasthan" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [74.35, 26.15], [75.05, 26.15], [75.05, 26.75], [74.35, 26.75], [74.35, 26.15]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district_id": "RJ_BKN", "name": "Bikaner", "state": "Rajasthan" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [72.85, 27.60], [73.80, 27.60], [73.80, 28.45], [72.85, 28.45], [72.85, 27.60]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district_id": "MH_PNE", "name": "Pune", "state": "Maharashtra" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [73.55, 18.20], [74.25, 18.20], [74.25, 18.80], [73.55, 18.80], [73.55, 18.20]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district_id": "MH_NGP", "name": "Nagpur", "state": "Maharashtra" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [78.75, 20.85], [79.40, 20.85], [79.40, 21.40], [78.75, 21.40], [78.75, 20.85]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district_id": "MH_LTR", "name": "Latur", "state": "Maharashtra" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [76.30, 17.85], [76.95, 17.85], [76.95, 18.40], [76.30, 18.40], [76.30, 17.85]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district_id": "MH_AHM", "name": "Ahmednagar", "state": "Maharashtra" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [74.35, 18.75], [75.25, 18.75], [75.25, 19.45], [74.35, 19.45], [74.35, 18.75]
+        ]]
+      }
+    }
+  ]
+}

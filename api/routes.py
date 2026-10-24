@@ -4,6 +4,7 @@ api/routes.py
 Flask blueprint that exposes the AquaAlert REST API.
 
 Endpoints:
+  GET /api/health             → readiness probe (200 = ready, 503 = warming up)
   GET /api/districts          → list of all districts with risk classification
   GET /api/district/<id>      → detailed info + SHAP explanation for one district
   GET /api/alerts             → Critical-tier districts sorted by risk score
@@ -13,6 +14,15 @@ Endpoints:
 from flask import Blueprint, jsonify, current_app
 
 api_bp = Blueprint("api", __name__, url_prefix="/api")
+
+
+@api_bp.route("/health")
+def health():
+    """Readiness probe — returns 200 when the model pipeline is loaded."""
+    results = current_app.config.get("AQUA_RESULTS")
+    if results is None:
+        return jsonify({"status": "warming_up"}), 503
+    return jsonify({"status": "ok", "districts": len(results)}), 200
 
 
 @api_bp.route("/districts")

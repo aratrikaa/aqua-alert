@@ -26,24 +26,7 @@ let activeDistId   = null;
 let leafletMap     = null;
 let depthChart     = null;
 let currentFilter  = 'all';
-
-// Approximate bounding boxes for our 12 districts (used to draw coloured rects
-// on the map when full GeoJSON isn't available -- gives a choropleth feel).
-// Format: [southLat, westLon, northLat, eastLon]
-const DISTRICT_BOUNDS = {
-  PB_LDH: [30.65, 75.55, 31.15, 76.15],   // Ludhiana
-  PB_BTD: [29.90, 74.50, 30.55, 75.40],   // Bathinda
-  PB_SAS: [30.50, 76.55, 30.90, 76.95],   // SAS Nagar
-  PB_AMR: [31.45, 74.55, 31.85, 75.10],   // Amritsar
-  RJ_JPR: [26.55, 75.45, 27.25, 76.20],   // Jaipur
-  RJ_JDH: [25.90, 72.75, 26.60, 73.55],   // Jodhpur
-  RJ_AJM: [26.15, 74.35, 26.75, 75.05],   // Ajmer
-  RJ_BKN: [27.60, 72.85, 28.45, 73.80],   // Bikaner
-  MH_PNE: [18.20, 73.55, 18.80, 74.25],   // Pune
-  MH_NGP: [20.85, 78.75, 21.40, 79.40],   // Nagpur
-  MH_LTR: [17.85, 76.30, 18.40, 76.95],   // Latur
-  MH_AHM: [18.75, 74.35, 19.45, 75.25],   // Ahmednagar
-};
+let districtGeoJSON = null;  // raw GeoJSON FeatureCollection
 
 // ── Colour helpers ─────────────────────────────────────────────────────────────
 const RISK_COLOR = {
@@ -65,28 +48,59 @@ function riskClass(label) {
 // ── Initialisation ─────────────────────────────────────────────────────────────
 
 document.addEventListener('DOMContentLoaded', async () => {
-  showLoading(true);
   initMap();
+  showLoadingOverlay('Warming up AI pipeline\u2026', true);
+  await waitForBackend();
+  hideLoadingOverlay();
   await loadDistricts();
-  showLoading(false);
-  setStatus('online', 'Live -- 12 districts');
+  setStatus('online', 'Live \u2014 12 districts');
 });
 
-function showLoading(show) {
+/**
+ * Poll /api/health until the backend is ready (model loaded).
+ * Shows a warm-up message with elapsed seconds so the user
+ * knows the app is working, not broken.
+ */
+async function waitForBackend(maxWaitMs = 120_000, intervalMs = 2000) {
+  const start = Date.now();
+  while (Date.now() - start < maxWaitMs) {
+    try {
+      const res = await fetch('/api/health');
+      if (res.ok) return;   // 200 = ready
+      const elapsed = Math.round((Date.now() - start) / 1000);
+      showLoadingOverlay(
+        `Warming up AI pipeline\u2026 (${elapsed}s)\n` +
+        'Model loading on Render free tier \u2014 this takes ~30\u201360s on a cold start.',
+        true
+      );
+    } catch (_) {
+      // network not ready yet
+    }
+    await new Promise(r => setTimeout(r, intervalMs));
+  }
+  // Timed out — try anyway
+}
+
+function showLoadingOverlay(message, show) {
   let overlay = document.getElementById('loading-overlay');
   if (!overlay) {
     overlay = document.createElement('div');
     overlay.id = 'loading-overlay';
-    overlay.innerHTML = `
-      <div class="loader-logo">AquaAlert</div>
-      <div class="loader-sub">Initialising AI pipeline...</div>
-      <div class="spinner"></div>
-    `;
     document.body.appendChild(overlay);
   }
-  if (show) {
-    overlay.classList.remove('hidden');
-  } else {
+  const [line1, line2] = message.split('\n');
+  overlay.innerHTML = `
+    <div class="loader-logo">AquaAlert</div>
+    <div class="loader-sub">${line1}</div>
+    ${line2 ? `<div class="loader-hint">${line2}</div>` : ''}
+    <div class="spinner"></div>
+  `;
+  overlay.classList.toggle('hidden', !show);
+}
+
+function hideLoadingOverlay() {
+  const overlay = document.getElementById('loading-overlay');
+  if (overlay) {
     overlay.classList.add('hidden');
     setTimeout(() => overlay.remove(), 600);
   }
@@ -128,7 +142,7 @@ async function loadDistricts() {
     const res    = await fetch('/api/districts');
     allDistricts = await res.json();
 
-    buildDistrictLayers(allDistricts);   // GeoJSON bounding-box choropleth
+    await buildDistrictLayers(allDistricts);   // GeoJSON choropleth
     buildSidebarList(allDistricts);
     buildMapMarkers(allDistricts);
     updateStats(allDistricts);
@@ -139,28 +153,42 @@ async function loadDistricts() {
   }
 }
 
-// ── GeoJSON / choropleth district boundary layer ───────────────────────────────
+// ── GeoJSON choropleth district boundary layer ────────────────────────────────
 
 /**
- * Draw a filled rectangle for each district using its approximate bounding box.
- * This gives the choropleth look without needing a full India district GeoJSON.
- * Replace with real district polygons for production.
+ * Load districts.geojson and draw filled polygons on the map,
+ * coloured by risk level. Falls back gracefully if the file fails to load.
  */
-function buildDistrictLayers(districts) {
+async function buildDistrictLayers(districts) {
   // Remove old layers
   Object.values(geoLayerMap).forEach(l => l.remove());
   geoLayerMap = {};
 
-  districts.forEach(d => {
-    const bounds = DISTRICT_BOUNDS[d.district_id];
-    if (!bounds) return;
+  // Build a risk lookup
+  const riskMap = {};
+  districts.forEach(d => { riskMap[d.district_id] = d; });
+
+  // Fetch GeoJSON (only once)
+  if (!districtGeoJSON) {
+    try {
+      const res = await fetch('/districts.geojson');
+      districtGeoJSON = await res.json();
+    } catch (err) {
+      console.warn('Could not load districts.geojson, skipping choropleth.', err);
+      return;
+    }
+  }
+
+  districtGeoJSON.features.forEach(feature => {
+    const distId = feature.properties.district_id;
+    const d      = riskMap[distId];
+    if (!d) return;
 
     const color   = RISK_COLOR[d.risk_label]   || '#888';
     const opacity = RISK_FILL_OPACITY[d.risk_label] || 0.2;
 
-    const rect = L.rectangle(
-      [[bounds[0], bounds[1]], [bounds[2], bounds[3]]],
-      {
+    const layer = L.geoJSON(feature, {
+      style: {
         color:       color,
         weight:      1.5,
         opacity:     0.7,
@@ -168,20 +196,20 @@ function buildDistrictLayers(districts) {
         fillOpacity: opacity,
         dashArray:   '4 3',
       }
-    ).addTo(leafletMap);
+    }).addTo(leafletMap);
 
-    // Clicking the rectangle also opens the popup (same as the pin marker)
-    rect.on('click', (e) => {
+    // Clicking the polygon opens the marker popup
+    layer.on('click', (e) => {
       L.DomEvent.stopPropagation(e);
-      const marker = markerMap[d.district_id];
+      const marker = markerMap[distId];
       if (marker) marker.openPopup();
     });
 
     // Hover highlight
-    rect.on('mouseover', () => rect.setStyle({ fillOpacity: opacity + 0.2, weight: 2.5 }));
-    rect.on('mouseout',  () => rect.setStyle({ fillOpacity: opacity,       weight: 1.5 }));
+    layer.on('mouseover', () => layer.setStyle({ fillOpacity: opacity + 0.2, weight: 2.5 }));
+    layer.on('mouseout',  () => layer.setStyle({ fillOpacity: opacity,       weight: 1.5 }));
 
-    geoLayerMap[d.district_id] = rect;
+    geoLayerMap[distId] = layer;
   });
 }
 
