@@ -156,7 +156,11 @@ def _ensure_init_files():
 
 # -- Entry point ------------------------------------------------------------
 
+# -- Initialise on import (needed when gunicorn loads this module) ----------
+_ensure_init_files()
+startup()
+
+
 if __name__ == "__main__":
-    _ensure_init_files()
-    startup()
-    app.run(debug=False, port=5000, use_reloader=False)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(debug=False, host="0.0.0.0", port=port, use_reloader=False)

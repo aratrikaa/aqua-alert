@@ -14,9 +14,11 @@ venv/
 env/
 .env/
 
-# ── Trained model binaries (auto-regenerated on first run) ──────
-model/aqua_model.joblib
-model/label_encoder.joblib
+# ── Trained model binaries ──────────────────────────────────────
+# NOTE: these ARE committed so Render can load them on cold start
+# without retraining. Regenerate locally with: python model/train.py
+# model/aqua_model.joblib
+# model/label_encoder.joblib
 
 # ── Auto-generated data (also regenerated on first run) ─────────
 # Uncomment the lines below if you want a truly clean repo.
